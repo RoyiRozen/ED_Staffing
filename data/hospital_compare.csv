@@ -1,0 +1,501 @@
+provider_id,hospital_name,address,city,state,zip_code,hospital_type,hospital_ownership,emergency_services,beds,accreditation
+H0001,Community Health System,7033 Park Ave,Fairview,CA,11257,Critical Access,Government,No,859,CIHQ
+H0002,County Hospital,9232 Washington Blvd,Bristol,IA,13208,Children's,Nonprofit,No,864,Joint Commission
+H0003,Holy Cross Healthcare,3850 Cedar Ln,Bristol,MD,63755,Acute Care,Nonprofit,Yes,941,DNV GL
+H0004,Memorial Health System,576 Lake Dr,Salem,DE,70087,Children's,Nonprofit,No,363,DNV GL
+H0005,Community Healthcare,2799 Washington Blvd,Georgetown,FL,39675,Children's,Physician,Yes,975,CIHQ
+H0006,Providence Memorial Hospital,3544 Main St,Georgetown,MN,88977,Psychiatric,Nonprofit,No,715,DNV GL
+H0007,Holy Cross Health,4607 Maple Rd,Franklin,IN,15921,Critical Access,Government,No,713,Joint Commission
+H0008,Metro Care Center,2503 Lake Dr,Georgetown,AZ,48280,Acute Care,Physician,Yes,601,Joint Commission
+H0009,Valley Medical Center,7192 Washington Blvd,Georgetown,MA,20959,Psychiatric,Nonprofit,No,691,DNV GL
+H0010,Mercy Hospital,5090 Lake Dr,Salem,IL,96131,Acute Care,Government,Yes,373,Joint Commission
+H0011,General Health System,3561 Washington Blvd,Springfield,KY,95394,Critical Access,Government,No,699,Joint Commission
+H0012,St. Memorial Hospital,9217 Washington Blvd,Bristol,AZ,47454,Acute Care,For Profit,No,902,CIHQ
+H0013,Metro Medical Center,8784 River Rd,Georgetown,GA,82233,Children's,Physician,Yes,579,CIHQ
+H0014,Mercy Health,1519 Washington Blvd,Greenville,MA,41422,Psychiatric,Physician,No,37,DNV GL
+H0015,St. Medical Center,9173 River Rd,Salem,IA,80671,Children's,Nonprofit,Yes,266,CIHQ
+H0016,Mercy Health System,9479 Lake Dr,Greenville,IN,32459,Psychiatric,Government,Yes,156,None
+H0017,Regional Health,7312 Oak Ave,Fairview,IA,61813,Critical Access,Nonprofit,Yes,299,DNV GL
+H0018,Sacred Heart Memorial Hospital,3673 Lake Dr,Riverside,ID,51855,Acute Care,Physician,Yes,204,Joint Commission
+H0019,Holy Cross Hospital,8328 Main St,Greenville,IN,47633,Critical Access,For Profit,No,560,Joint Commission
+H0020,County Care Center,4682 Park Ave,Salem,AZ,22350,Children's,Nonprofit,Yes,892,None
+H0021,Providence Hospital,3314 Elm St,Fairview,CA,83174,Critical Access,Physician,Yes,385,Joint Commission
+H0022,County Hospital,4022 Elm St,Georgetown,MA,13036,Critical Access,Physician,Yes,803,None
+H0023,Holy Cross Memorial Hospital,6772 Lake Dr,Greenville,CA,43798,Psychiatric,Nonprofit,Yes,845,None
+H0024,Sacred Heart Healthcare,926 Highland Ave,Franklin,ME,92339,Children's,For Profit,No,153,None
+H0025,County Hospital,2001 River Rd,Georgetown,KS,33571,Acute Care,Government,No,153,CIHQ
+H0026,St. Medical Center,8939 Washington Blvd,Springfield,KY,36871,Critical Access,Nonprofit,Yes,854,None
+H0027,Valley Medical Center,7775 Main St,Clinton,AR,95682,Acute Care,Nonprofit,Yes,17,DNV GL
+H0028,Providence Care Center,8115 River Rd,Georgetown,GA,31566,Psychiatric,Government,No,368,DNV GL
+H0029,Community Clinic,285 Elm St,Springfield,AR,44738,Psychiatric,Government,Yes,629,Joint Commission
+H0030,Mercy Memorial Hospital,4603 Maple Rd,Georgetown,AR,13070,Children's,Nonprofit,No,57,Joint Commission
+H0031,General Care Center,9002 Oak Ave,Salem,CO,83053,Children's,Physician,Yes,735,CIHQ
+H0032,Providence Memorial Hospital,7128 Washington Blvd,Bristol,KY,64116,Acute Care,Physician,Yes,234,None
+H0033,Sacred Heart Care Center,8996 Elm St,Salem,MI,53711,Acute Care,Physician,No,172,None
+H0034,Regional Healthcare,9690 Maple Rd,Clinton,ME,93206,Psychiatric,Government,No,838,Joint Commission
+H0035,Holy Cross Medical Center,4340 Cedar Ln,Salem,GA,50979,Critical Access,Nonprofit,No,414,DNV GL
+H0036,Providence Healthcare,8715 River Rd,Clinton,IA,55873,Acute Care,Physician,No,189,None
+H0037,Memorial Clinic,5916 Maple Rd,Springfield,AZ,47807,Acute Care,For Profit,No,926,None
+H0038,University Memorial Hospital,6165 Cedar Ln,Clinton,KY,98242,Children's,Government,No,708,Joint Commission
+H0039,Sacred Heart Health System,7740 Cedar Ln,Georgetown,MA,46815,Children's,Nonprofit,Yes,805,DNV GL
+H0040,Valley Health,7702 Main St,Greenville,CT,42922,Children's,Nonprofit,Yes,478,Joint Commission
+H0041,County Medical Center,1404 Washington Blvd,Madison,IL,42477,Critical Access,Physician,Yes,236,CIHQ
+H0042,Community Health,6429 Washington Blvd,Greenville,AK,13653,Acute Care,Nonprofit,Yes,486,Joint Commission
+H0043,Memorial Medical Center,9583 Park Ave,Madison,IL,18129,Psychiatric,For Profit,No,128,CIHQ
+H0044,Valley Care Center,8548 Elm St,Franklin,AL,43065,Psychiatric,Physician,No,224,DNV GL
+H0045,Mercy Care Center,1575 River Rd,Franklin,FL,85286,Psychiatric,For Profit,No,296,Joint Commission
+H0046,Holy Cross Clinic,1296 Cedar Ln,Springfield,ME,82229,Acute Care,Government,Yes,871,Joint Commission
+H0047,University Health,5155 Lake Dr,Greenville,MI,22785,Children's,For Profit,No,376,CIHQ
+H0048,Mercy Care Center,8714 Elm St,Greenville,HI,31123,Children's,For Profit,No,633,CIHQ
+H0049,St. Care Center,7360 Cedar Ln,Greenville,MA,11580,Acute Care,Physician,Yes,74,CIHQ
+H0050,Mercy Health,1564 Park Ave,Riverside,MA,80748,Psychiatric,For Profit,No,657,CIHQ
+H0051,Providence Clinic,5151 Lake Dr,Riverside,AL,53629,Acute Care,Nonprofit,No,728,Joint Commission
+H0052,Regional Healthcare,3699 Elm St,Greenville,AZ,48740,Psychiatric,Nonprofit,Yes,785,DNV GL
+H0053,St. Health,3693 Main St,Franklin,IL,93105,Acute Care,Physician,Yes,273,None
+H0054,Community Clinic,7591 Cedar Ln,Greenville,AR,97211,Acute Care,Physician,No,773,None
+H0055,Community Clinic,1539 Lake Dr,Madison,KY,77022,Psychiatric,Nonprofit,No,806,CIHQ
+H0056,Mercy Memorial Hospital,5917 Oak Ave,Fairview,MS,87378,Critical Access,Physician,Yes,208,DNV GL
+H0057,St. Clinic,5369 Oak Ave,Salem,CA,87642,Acute Care,Physician,Yes,833,DNV GL
+H0058,Providence Health System,1201 Highland Ave,Greenville,MN,72132,Children's,Physician,Yes,727,DNV GL
+H0059,Providence Care Center,4105 Washington Blvd,Springfield,HI,87031,Critical Access,Nonprofit,Yes,468,DNV GL
+H0060,St. Clinic,9725 Park Ave,Franklin,MN,40677,Acute Care,Government,Yes,296,Joint Commission
+H0061,Valley Health System,4048 Main St,Georgetown,MN,31589,Critical Access,Physician,Yes,952,None
+H0062,Sacred Heart Health System,5924 Washington Blvd,Greenville,IA,99358,Psychiatric,Nonprofit,No,676,Joint Commission
+H0063,Regional Care Center,9405 Oak Ave,Franklin,MD,45379,Acute Care,Nonprofit,No,993,Joint Commission
+H0064,Mercy Hospital,4173 Maple Rd,Salem,IA,12020,Critical Access,Physician,Yes,170,Joint Commission
+H0065,Valley Healthcare,6613 River Rd,Georgetown,IN,16098,Children's,Physician,No,842,Joint Commission
+H0066,General Medical Center,2143 Park Ave,Greenville,DE,18481,Children's,For Profit,No,464,None
+H0067,Holy Cross Care Center,6360 Maple Rd,Salem,HI,44154,Critical Access,Physician,No,41,Joint Commission
+H0068,County Memorial Hospital,3742 Elm St,Georgetown,FL,35079,Acute Care,Government,No,53,DNV GL
+H0069,Providence Medical Center,4609 Maple Rd,Franklin,FL,43518,Critical Access,Nonprofit,Yes,207,None
+H0070,Metro Health System,3665 Maple Rd,Franklin,IA,54821,Acute Care,Physician,No,194,CIHQ
+H0071,University Healthcare,5883 Washington Blvd,Bristol,IA,39508,Acute Care,Nonprofit,Yes,904,None
+H0072,Providence Medical Center,6371 Maple Rd,Madison,MS,55784,Psychiatric,Physician,Yes,482,CIHQ
+H0073,St. Hospital,1069 Maple Rd,Greenville,IL,71217,Acute Care,For Profit,Yes,73,DNV GL
+H0074,Holy Cross Clinic,5038 Oak Ave,Franklin,CA,66177,Children's,Physician,Yes,37,Joint Commission
+H0075,University Healthcare,4851 Cedar Ln,Greenville,KS,53133,Acute Care,Government,Yes,194,None
+H0076,Regional Clinic,8042 Oak Ave,Georgetown,MI,50725,Acute Care,For Profit,Yes,372,None
+H0077,Valley Medical Center,3658 Elm St,Salem,MS,39165,Critical Access,Nonprofit,Yes,664,Joint Commission
+H0078,General Health System,4874 Cedar Ln,Riverside,IL,57190,Children's,For Profit,Yes,181,CIHQ
+H0079,Providence Health,269 Oak Ave,Madison,MS,47187,Children's,Government,Yes,453,Joint Commission
+H0080,County Medical Center,977 Elm St,Bristol,AR,69950,Children's,Government,Yes,975,DNV GL
+H0081,St. Care Center,6140 Oak Ave,Madison,IN,57180,Psychiatric,Physician,No,131,DNV GL
+H0082,Regional Medical Center,4618 Washington Blvd,Riverside,LA,81712,Children's,For Profit,No,21,CIHQ
+H0083,Community Memorial Hospital,7920 Lake Dr,Springfield,DE,59926,Psychiatric,Physician,Yes,977,DNV GL
+H0084,Mercy Hospital,268 Lake Dr,Franklin,AR,44808,Acute Care,Nonprofit,Yes,508,Joint Commission
+H0085,Valley Clinic,5505 Cedar Ln,Springfield,MA,41707,Acute Care,Government,Yes,79,Joint Commission
+H0086,Providence Health,4585 Main St,Georgetown,GA,22970,Psychiatric,Nonprofit,Yes,310,DNV GL
+H0087,Sacred Heart Health,3131 Park Ave,Madison,MN,17372,Psychiatric,For Profit,Yes,906,DNV GL
+H0088,Mercy Clinic,442 Oak Ave,Georgetown,AL,65375,Critical Access,Government,No,886,None
+H0089,Regional Memorial Hospital,2911 Washington Blvd,Bristol,IL,65208,Psychiatric,Nonprofit,Yes,181,DNV GL
+H0090,Sacred Heart Health System,6793 River Rd,Franklin,IL,87962,Critical Access,For Profit,Yes,375,CIHQ
+H0091,Mercy Hospital,4887 Washington Blvd,Riverside,LA,62595,Children's,Government,No,577,DNV GL
+H0092,Valley Medical Center,4246 Washington Blvd,Riverside,CA,26458,Critical Access,Physician,Yes,159,Joint Commission
+H0093,Providence Memorial Hospital,8641 Maple Rd,Salem,DE,31342,Children's,Physician,Yes,173,None
+H0094,Mercy Healthcare,6781 Cedar Ln,Springfield,CT,66654,Acute Care,Nonprofit,No,925,DNV GL
+H0095,Regional Healthcare,3979 Elm St,Madison,GA,97809,Psychiatric,Nonprofit,Yes,365,None
+H0096,Metro Health System,7869 Maple Rd,Franklin,MN,18078,Psychiatric,Physician,Yes,491,DNV GL
+H0097,General Health,5083 Washington Blvd,Georgetown,DE,44336,Psychiatric,Physician,No,721,DNV GL
+H0098,General Medical Center,7149 Highland Ave,Madison,CT,13735,Children's,For Profit,No,94,DNV GL
+H0099,University Health,9092 Elm St,Springfield,AL,77432,Acute Care,Nonprofit,No,623,Joint Commission
+H0100,Metro Health System,5206 Main St,Georgetown,DE,25405,Children's,Nonprofit,No,133,DNV GL
+H0101,Community Memorial Hospital,4683 River Rd,Springfield,CT,76609,Children's,Nonprofit,No,314,Joint Commission
+H0102,Providence Clinic,2758 River Rd,Madison,MA,67390,Acute Care,Physician,Yes,787,CIHQ
+H0103,Mercy Clinic,4533 Maple Rd,Riverside,KS,27477,Children's,Physician,Yes,175,CIHQ
+H0104,Regional Hospital,2041 Lake Dr,Franklin,LA,45854,Critical Access,Physician,No,457,DNV GL
+H0105,Regional Memorial Hospital,177 River Rd,Salem,ME,63148,Psychiatric,For Profit,Yes,815,CIHQ
+H0106,Holy Cross Medical Center,1727 River Rd,Greenville,FL,40035,Acute Care,Physician,Yes,552,Joint Commission
+H0107,Memorial Memorial Hospital,6269 Cedar Ln,Riverside,CT,48981,Critical Access,Physician,No,467,None
+H0108,Providence Hospital,5141 Oak Ave,Salem,HI,22765,Critical Access,For Profit,Yes,104,None
+H0109,Sacred Heart Clinic,4952 Park Ave,Fairview,IL,33335,Critical Access,Government,Yes,828,CIHQ
+H0110,General Medical Center,3798 Washington Blvd,Clinton,CO,34032,Acute Care,Physician,No,175,DNV GL
+H0111,County Health,1931 Park Ave,Bristol,HI,87904,Children's,Physician,No,643,DNV GL
+H0112,Providence Hospital,4996 River Rd,Franklin,FL,64604,Acute Care,For Profit,No,120,DNV GL
+H0113,Providence Health,1313 Cedar Ln,Georgetown,FL,82913,Critical Access,Nonprofit,No,689,Joint Commission
+H0114,Providence Care Center,1892 Elm St,Riverside,LA,70787,Critical Access,Government,No,301,Joint Commission
+H0115,Metro Care Center,6205 Highland Ave,Greenville,CA,85847,Critical Access,Government,Yes,847,CIHQ
+H0116,Memorial Healthcare,8636 Lake Dr,Franklin,KS,84690,Acute Care,For Profit,Yes,600,DNV GL
+H0117,Memorial Healthcare,103 Maple Rd,Riverside,AR,21671,Children's,Nonprofit,No,981,CIHQ
+H0118,Regional Clinic,4900 Cedar Ln,Bristol,KS,30222,Children's,Nonprofit,Yes,912,Joint Commission
+H0119,Valley Hospital,9594 Cedar Ln,Clinton,ME,42864,Acute Care,Physician,No,956,CIHQ
+H0120,Sacred Heart Hospital,5425 Maple Rd,Fairview,IA,21978,Critical Access,Physician,Yes,515,DNV GL
+H0121,Community Memorial Hospital,4224 Washington Blvd,Franklin,KS,23974,Critical Access,For Profit,No,487,None
+H0122,Memorial Memorial Hospital,1191 River Rd,Madison,MD,69536,Acute Care,Physician,Yes,881,DNV GL
+H0123,Providence Memorial Hospital,4029 Cedar Ln,Fairview,ME,41389,Children's,Physician,Yes,943,CIHQ
+H0124,St. Health System,535 Washington Blvd,Georgetown,IA,34591,Psychiatric,Government,Yes,386,DNV GL
+H0125,Valley Medical Center,933 Maple Rd,Georgetown,DE,98135,Psychiatric,Government,Yes,263,Joint Commission
+H0126,Holy Cross Health System,5717 Oak Ave,Salem,CT,21359,Psychiatric,For Profit,Yes,330,None
+H0127,County Memorial Hospital,1236 Highland Ave,Riverside,CA,89655,Critical Access,Government,No,587,DNV GL
+H0128,Memorial Healthcare,7626 River Rd,Springfield,ME,68352,Critical Access,Nonprofit,No,187,CIHQ
+H0129,Mercy Hospital,8115 Oak Ave,Fairview,AK,70653,Acute Care,Physician,Yes,972,DNV GL
+H0130,Holy Cross Medical Center,5846 Oak Ave,Franklin,IL,76459,Psychiatric,Physician,Yes,557,Joint Commission
+H0131,University Hospital,7080 Cedar Ln,Riverside,GA,96800,Children's,Nonprofit,Yes,379,None
+H0132,Sacred Heart Hospital,5343 Washington Blvd,Greenville,AR,49832,Children's,For Profit,No,278,DNV GL
+H0133,Providence Memorial Hospital,2307 Lake Dr,Riverside,MN,13144,Critical Access,Government,No,819,DNV GL
+H0134,County Health System,2716 River Rd,Springfield,AR,67035,Psychiatric,Government,No,787,DNV GL
+H0135,Providence Medical Center,5155 Washington Blvd,Madison,IA,19771,Children's,Government,No,630,Joint Commission
+H0136,St. Hospital,3863 Main St,Madison,IN,26069,Critical Access,Nonprofit,No,957,DNV GL
+H0137,Community Care Center,7604 Cedar Ln,Bristol,FL,48477,Psychiatric,Physician,Yes,898,CIHQ
+H0138,Providence Medical Center,5642 Washington Blvd,Riverside,AL,81941,Acute Care,Nonprofit,No,680,Joint Commission
+H0139,Valley Memorial Hospital,1669 Washington Blvd,Georgetown,MN,32651,Psychiatric,Nonprofit,Yes,404,None
+H0140,County Care Center,113 Highland Ave,Bristol,MI,27018,Acute Care,Nonprofit,No,291,None
+H0141,Sacred Heart Healthcare,601 Park Ave,Madison,HI,67383,Children's,Physician,No,292,None
+H0142,Metro Hospital,4927 Maple Rd,Madison,MD,13020,Critical Access,Government,Yes,944,None
+H0143,Providence Health System,8344 Lake Dr,Salem,IL,94251,Children's,Government,Yes,105,Joint Commission
+H0144,St. Health,5648 River Rd,Springfield,KS,37921,Acute Care,Nonprofit,Yes,53,None
+H0145,General Care Center,7949 Park Ave,Salem,CT,44958,Critical Access,Nonprofit,No,702,CIHQ
+H0146,Providence Hospital,9924 Maple Rd,Clinton,MS,67194,Children's,For Profit,No,571,Joint Commission
+H0147,University Memorial Hospital,9139 Oak Ave,Fairview,IL,17637,Critical Access,For Profit,Yes,152,CIHQ
+H0148,Holy Cross Healthcare,2475 Maple Rd,Georgetown,MA,94895,Critical Access,Government,Yes,785,CIHQ
+H0149,University Clinic,4534 Main St,Fairview,FL,94343,Critical Access,Physician,Yes,752,Joint Commission
+H0150,General Health,9295 Washington Blvd,Greenville,MN,64335,Critical Access,Nonprofit,No,517,Joint Commission
+H0151,Mercy Health System,4700 Cedar Ln,Springfield,AK,67101,Acute Care,Government,No,584,Joint Commission
+H0152,St. Health,1356 Maple Rd,Bristol,AZ,11396,Acute Care,Government,Yes,389,DNV GL
+H0153,Mercy Health System,2235 Maple Rd,Salem,MS,88124,Acute Care,Nonprofit,No,325,Joint Commission
+H0154,Mercy Clinic,417 Maple Rd,Georgetown,AL,94848,Children's,Physician,No,238,None
+H0155,Regional Clinic,4413 River Rd,Riverside,AL,16865,Acute Care,Physician,No,448,Joint Commission
+H0156,Holy Cross Health System,7619 Lake Dr,Franklin,MS,87650,Critical Access,Physician,Yes,874,CIHQ
+H0157,Mercy Medical Center,8858 Park Ave,Georgetown,GA,92361,Acute Care,For Profit,No,554,None
+H0158,County Medical Center,9184 Oak Ave,Franklin,AR,45651,Critical Access,Government,No,685,Joint Commission
+H0159,Providence Health System,7462 Park Ave,Bristol,CA,28142,Critical Access,Physician,No,320,None
+H0160,Regional Care Center,3002 Oak Ave,Georgetown,ID,51569,Critical Access,Nonprofit,No,921,Joint Commission
+H0161,St. Care Center,4647 Highland Ave,Clinton,DE,87185,Critical Access,Physician,No,560,None
+H0162,Sacred Heart Healthcare,9018 Oak Ave,Fairview,ME,55564,Psychiatric,Nonprofit,Yes,217,DNV GL
+H0163,Valley Memorial Hospital,3080 Cedar Ln,Clinton,ME,54971,Psychiatric,Physician,No,568,None
+H0164,Metro Hospital,5932 Cedar Ln,Franklin,ID,97098,Psychiatric,Nonprofit,No,722,DNV GL
+H0165,Memorial Healthcare,1228 Elm St,Bristol,MI,76284,Acute Care,Physician,Yes,16,None
+H0166,Metro Memorial Hospital,1475 Highland Ave,Georgetown,GA,50156,Acute Care,For Profit,Yes,425,Joint Commission
+H0167,Memorial Care Center,7952 Cedar Ln,Bristol,ID,74199,Acute Care,Government,No,229,CIHQ
+H0168,Memorial Healthcare,849 Cedar Ln,Riverside,IL,39492,Children's,For Profit,Yes,775,DNV GL
+H0169,Community Hospital,2635 Highland Ave,Clinton,AL,91763,Critical Access,Government,Yes,598,DNV GL
+H0170,Memorial Hospital,584 Highland Ave,Salem,MA,92742,Psychiatric,Nonprofit,Yes,44,DNV GL
+H0171,University Health System,4812 Park Ave,Fairview,CT,60739,Acute Care,For Profit,No,447,CIHQ
+H0172,Holy Cross Care Center,615 Cedar Ln,Riverside,AR,45660,Acute Care,Government,Yes,321,DNV GL
+H0173,Memorial Health System,2674 River Rd,Georgetown,AR,47116,Acute Care,Nonprofit,Yes,454,None
+H0174,Regional Hospital,6518 Main St,Clinton,MD,50820,Children's,Nonprofit,No,648,DNV GL
+H0175,University Memorial Hospital,3965 River Rd,Franklin,MS,87027,Acute Care,Nonprofit,Yes,321,CIHQ
+H0176,Metro Health System,6368 Lake Dr,Bristol,KY,92338,Psychiatric,For Profit,No,777,None
+H0177,Metro Care Center,8792 Elm St,Salem,LA,20168,Psychiatric,Nonprofit,Yes,893,DNV GL
+H0178,Sacred Heart Clinic,8675 Highland Ave,Franklin,MA,46919,Psychiatric,Physician,Yes,812,DNV GL
+H0179,Community Health System,3323 Oak Ave,Salem,MN,53915,Acute Care,Government,Yes,554,Joint Commission
+H0180,Metro Clinic,9004 Elm St,Fairview,CO,80363,Psychiatric,Nonprofit,No,633,CIHQ
+H0181,Sacred Heart Clinic,5170 Highland Ave,Bristol,CT,43009,Children's,For Profit,No,438,DNV GL
+H0182,Sacred Heart Clinic,4809 Main St,Georgetown,AK,48125,Psychiatric,Nonprofit,Yes,110,CIHQ
+H0183,Valley Healthcare,1328 Cedar Ln,Franklin,MN,48054,Acute Care,Nonprofit,No,324,CIHQ
+H0184,Regional Healthcare,520 Main St,Franklin,IN,29987,Psychiatric,For Profit,No,489,Joint Commission
+H0185,University Care Center,6921 Cedar Ln,Madison,IN,27682,Psychiatric,Nonprofit,No,476,Joint Commission
+H0186,Sacred Heart Healthcare,9315 River Rd,Springfield,LA,19213,Psychiatric,For Profit,No,281,None
+H0187,County Hospital,7243 Main St,Salem,AZ,52779,Children's,Nonprofit,Yes,287,CIHQ
+H0188,County Clinic,3832 Lake Dr,Fairview,KS,22073,Acute Care,Government,Yes,72,CIHQ
+H0189,Mercy Medical Center,8115 Main St,Bristol,MI,65427,Critical Access,Nonprofit,Yes,417,DNV GL
+H0190,University Memorial Hospital,7374 Cedar Ln,Georgetown,ID,78642,Children's,Government,Yes,215,DNV GL
+H0191,Holy Cross Health,2504 Maple Rd,Clinton,AR,17013,Children's,Nonprofit,Yes,295,Joint Commission
+H0192,Metro Memorial Hospital,4699 Washington Blvd,Greenville,CT,75777,Critical Access,Nonprofit,Yes,199,CIHQ
+H0193,Community Care Center,4645 Washington Blvd,Riverside,AR,40987,Acute Care,Government,No,304,Joint Commission
+H0194,County Hospital,5613 Highland Ave,Salem,MI,58702,Psychiatric,Government,Yes,816,None
+H0195,St. Healthcare,7085 River Rd,Riverside,ME,90854,Critical Access,For Profit,No,761,None
+H0196,Metro Hospital,679 River Rd,Fairview,CT,16749,Children's,Nonprofit,Yes,827,Joint Commission
+H0197,Mercy Health,8224 Cedar Ln,Franklin,MD,50938,Critical Access,For Profit,Yes,294,CIHQ
+H0198,University Care Center,1220 Oak Ave,Madison,AL,61519,Children's,Government,Yes,980,None
+H0199,Valley Care Center,9400 Lake Dr,Greenville,GA,46805,Psychiatric,Government,Yes,171,DNV GL
+H0200,Metro Memorial Hospital,8792 Elm St,Fairview,KY,24463,Acute Care,Nonprofit,No,246,None
+H0201,General Health,3337 Lake Dr,Riverside,DE,82133,Critical Access,Physician,No,951,None
+H0202,Providence Health System,6463 Cedar Ln,Riverside,KY,74292,Critical Access,For Profit,Yes,737,None
+H0203,Providence Health System,7893 River Rd,Madison,IN,56349,Acute Care,Nonprofit,No,174,Joint Commission
+H0204,Mercy Medical Center,2416 Washington Blvd,Georgetown,KY,74162,Acute Care,Nonprofit,No,136,DNV GL
+H0205,Holy Cross Medical Center,553 River Rd,Salem,MD,44915,Psychiatric,For Profit,Yes,19,Joint Commission
+H0206,Mercy Memorial Hospital,270 Elm St,Georgetown,AR,47153,Acute Care,For Profit,Yes,340,Joint Commission
+H0207,Regional Clinic,7830 River Rd,Fairview,AL,72813,Acute Care,Physician,Yes,200,Joint Commission
+H0208,Mercy Memorial Hospital,8399 Maple Rd,Salem,IN,29661,Psychiatric,Nonprofit,No,326,Joint Commission
+H0209,Regional Medical Center,634 River Rd,Clinton,AZ,26589,Psychiatric,Physician,No,288,DNV GL
+H0210,General Healthcare,6850 Lake Dr,Greenville,GA,41452,Critical Access,Government,No,117,CIHQ
+H0211,Metro Clinic,8591 Elm St,Greenville,HI,53226,Acute Care,Nonprofit,No,323,None
+H0212,Valley Care Center,9360 Main St,Madison,KY,83337,Psychiatric,Government,Yes,576,None
+H0213,Memorial Memorial Hospital,9879 Washington Blvd,Riverside,ME,98733,Children's,For Profit,No,252,CIHQ
+H0214,St. Medical Center,2170 Elm St,Riverside,KS,69136,Psychiatric,For Profit,No,107,CIHQ
+H0215,Valley Medical Center,5222 Highland Ave,Greenville,AR,88203,Acute Care,Government,No,75,None
+H0216,Holy Cross Health System,6451 River Rd,Riverside,FL,71322,Psychiatric,For Profit,Yes,572,Joint Commission
+H0217,Mercy Care Center,9416 Elm St,Clinton,FL,92313,Critical Access,Physician,Yes,686,CIHQ
+H0218,University Healthcare,705 Maple Rd,Fairview,MD,51399,Psychiatric,Physician,Yes,65,DNV GL
+H0219,Sacred Heart Health,2899 Park Ave,Greenville,KY,11663,Children's,Physician,Yes,605,CIHQ
+H0220,Holy Cross Medical Center,2981 Cedar Ln,Greenville,AZ,55513,Acute Care,Physician,No,153,Joint Commission
+H0221,Mercy Clinic,555 Maple Rd,Salem,IN,16726,Critical Access,Government,No,395,None
+H0222,Providence Healthcare,4979 Elm St,Franklin,AK,51044,Children's,Government,No,679,Joint Commission
+H0223,General Memorial Hospital,5372 Highland Ave,Riverside,IA,97302,Acute Care,Government,Yes,940,None
+H0224,Holy Cross Memorial Hospital,2222 Cedar Ln,Greenville,AZ,74395,Acute Care,Nonprofit,No,27,DNV GL
+H0225,University Hospital,8794 Maple Rd,Franklin,IL,38603,Children's,Government,Yes,212,CIHQ
+H0226,University Care Center,7635 Maple Rd,Georgetown,CO,90512,Acute Care,For Profit,Yes,464,Joint Commission
+H0227,Regional Memorial Hospital,1307 Main St,Springfield,CO,33367,Psychiatric,Nonprofit,No,822,Joint Commission
+H0228,Holy Cross Health,1755 Lake Dr,Springfield,CO,65516,Acute Care,Government,Yes,51,CIHQ
+H0229,Valley Clinic,6653 Maple Rd,Bristol,IL,80995,Children's,Physician,Yes,222,DNV GL
+H0230,St. Health,1042 Lake Dr,Franklin,MD,16132,Psychiatric,Nonprofit,Yes,791,Joint Commission
+H0231,University Care Center,6072 Lake Dr,Greenville,IN,77163,Acute Care,Government,No,636,Joint Commission
+H0232,Holy Cross Health,4690 Maple Rd,Bristol,LA,19358,Psychiatric,Nonprofit,No,209,Joint Commission
+H0233,Holy Cross Memorial Hospital,8471 Maple Rd,Greenville,AL,52629,Acute Care,For Profit,No,805,None
+H0234,Valley Clinic,5052 Cedar Ln,Springfield,MI,18236,Psychiatric,For Profit,No,341,None
+H0235,Sacred Heart Medical Center,6990 Main St,Greenville,IL,19858,Critical Access,Government,No,445,Joint Commission
+H0236,Metro Hospital,4411 Elm St,Riverside,IA,47889,Acute Care,Physician,Yes,40,CIHQ
+H0237,Mercy Memorial Hospital,9817 Main St,Springfield,LA,19487,Children's,Nonprofit,No,437,Joint Commission
+H0238,Regional Hospital,6820 Elm St,Bristol,MD,32695,Children's,Nonprofit,No,344,None
+H0239,University Health,675 Highland Ave,Georgetown,AK,65108,Children's,Nonprofit,Yes,415,CIHQ
+H0240,Metro Memorial Hospital,9116 Lake Dr,Fairview,AL,34671,Psychiatric,Physician,No,495,Joint Commission
+H0241,Metro Memorial Hospital,1403 Cedar Ln,Riverside,AL,74554,Critical Access,Government,No,532,DNV GL
+H0242,County Hospital,4268 Maple Rd,Greenville,IA,85250,Critical Access,Physician,No,875,CIHQ
+H0243,Metro Healthcare,5545 Main St,Greenville,HI,61027,Acute Care,Physician,No,500,DNV GL
+H0244,Memorial Clinic,2384 Elm St,Riverside,ID,60730,Children's,Government,Yes,768,Joint Commission
+H0245,Holy Cross Clinic,6331 Elm St,Fairview,CT,86641,Acute Care,Nonprofit,Yes,627,CIHQ
+H0246,Regional Care Center,701 River Rd,Bristol,AK,70212,Critical Access,Nonprofit,Yes,62,CIHQ
+H0247,Metro Care Center,4860 Elm St,Georgetown,IL,35705,Acute Care,Physician,Yes,704,CIHQ
+H0248,General Clinic,6511 Main St,Springfield,MD,86758,Children's,Physician,Yes,984,Joint Commission
+H0249,St. Healthcare,7941 Main St,Bristol,KS,38278,Children's,Government,Yes,744,Joint Commission
+H0250,University Health,8317 Maple Rd,Madison,MI,53588,Critical Access,Nonprofit,Yes,228,Joint Commission
+H0251,Regional Clinic,8151 Elm St,Salem,GA,28124,Acute Care,Government,Yes,728,CIHQ
+H0252,Memorial Medical Center,7870 Park Ave,Greenville,GA,63411,Acute Care,Physician,Yes,105,CIHQ
+H0253,University Memorial Hospital,1955 Cedar Ln,Riverside,KS,79880,Children's,For Profit,No,382,DNV GL
+H0254,Valley Health System,3616 Elm St,Fairview,IA,60607,Psychiatric,Physician,Yes,61,None
+H0255,St. Medical Center,8053 Highland Ave,Clinton,DE,84789,Children's,Nonprofit,No,823,CIHQ
+H0256,General Memorial Hospital,5249 Main St,Clinton,AK,41290,Acute Care,Nonprofit,No,472,DNV GL
+H0257,Mercy Healthcare,5606 Cedar Ln,Springfield,FL,75207,Critical Access,Nonprofit,Yes,605,None
+H0258,Community Medical Center,3982 Main St,Madison,MD,81122,Children's,For Profit,Yes,390,None
+H0259,Metro Healthcare,2841 Lake Dr,Clinton,AL,55336,Children's,For Profit,No,493,None
+H0260,St. Healthcare,1695 Cedar Ln,Georgetown,KS,71019,Psychiatric,Nonprofit,Yes,808,Joint Commission
+H0261,Holy Cross Health System,8731 Cedar Ln,Fairview,MN,20596,Psychiatric,For Profit,Yes,946,Joint Commission
+H0262,Providence Healthcare,9063 River Rd,Clinton,ME,87143,Psychiatric,For Profit,Yes,585,CIHQ
+H0263,General Medical Center,5568 Lake Dr,Georgetown,CO,14474,Acute Care,Government,Yes,154,DNV GL
+H0264,County Healthcare,808 Main St,Riverside,AZ,89660,Critical Access,Government,Yes,758,DNV GL
+H0265,University Clinic,9591 Elm St,Fairview,IN,96048,Children's,For Profit,No,256,DNV GL
+H0266,County Memorial Hospital,1247 River Rd,Salem,FL,86659,Acute Care,Government,No,199,DNV GL
+H0267,Mercy Memorial Hospital,8405 Elm St,Springfield,LA,95050,Acute Care,Government,Yes,450,DNV GL
+H0268,Holy Cross Care Center,3258 River Rd,Greenville,IA,59855,Children's,For Profit,Yes,986,None
+H0269,Sacred Heart Health,3803 Cedar Ln,Georgetown,GA,42113,Critical Access,Government,No,882,CIHQ
+H0270,Metro Memorial Hospital,7483 Main St,Springfield,CO,16650,Psychiatric,Physician,Yes,622,DNV GL
+H0271,St. Care Center,3805 Main St,Clinton,MS,94242,Acute Care,For Profit,No,97,DNV GL
+H0272,County Memorial Hospital,3308 Main St,Bristol,IA,88480,Psychiatric,Physician,No,164,DNV GL
+H0273,Community Healthcare,967 Washington Blvd,Madison,MS,48666,Critical Access,Nonprofit,No,683,DNV GL
+H0274,Holy Cross Care Center,4949 River Rd,Fairview,AL,94877,Children's,Nonprofit,Yes,604,None
+H0275,Metro Health System,1120 Park Ave,Riverside,HI,45024,Critical Access,Government,Yes,940,DNV GL
+H0276,Holy Cross Memorial Hospital,8191 Highland Ave,Greenville,MN,11142,Psychiatric,For Profit,No,925,DNV GL
+H0277,County Care Center,936 Elm St,Springfield,AZ,23572,Psychiatric,Physician,Yes,212,Joint Commission
+H0278,Sacred Heart Health System,2930 Lake Dr,Greenville,KS,35262,Acute Care,For Profit,No,316,None
+H0279,Metro Clinic,4787 Cedar Ln,Georgetown,GA,80765,Critical Access,Government,Yes,239,DNV GL
+H0280,Providence Medical Center,6318 Washington Blvd,Fairview,MI,37625,Acute Care,For Profit,Yes,211,CIHQ
+H0281,Regional Medical Center,8425 Cedar Ln,Fairview,AK,31065,Children's,For Profit,No,121,Joint Commission
+H0282,St. Hospital,4550 Lake Dr,Salem,AL,37860,Critical Access,For Profit,Yes,793,DNV GL
+H0283,General Healthcare,3451 Washington Blvd,Bristol,IN,85235,Psychiatric,For Profit,Yes,124,Joint Commission
+H0284,Mercy Medical Center,3601 Highland Ave,Riverside,ME,93731,Critical Access,Physician,No,336,CIHQ
+H0285,Valley Hospital,4049 Oak Ave,Clinton,MS,88061,Children's,Government,Yes,749,Joint Commission
+H0286,General Clinic,1659 Washington Blvd,Madison,AR,12952,Psychiatric,Nonprofit,Yes,677,DNV GL
+H0287,Memorial Care Center,9108 River Rd,Clinton,AL,42511,Acute Care,Nonprofit,No,459,Joint Commission
+H0288,Memorial Healthcare,6502 Elm St,Madison,ME,16693,Psychiatric,Nonprofit,No,791,DNV GL
+H0289,General Healthcare,3648 Lake Dr,Franklin,CT,31880,Critical Access,Physician,Yes,201,CIHQ
+H0290,Regional Clinic,6408 Highland Ave,Madison,ME,55979,Critical Access,Government,Yes,957,Joint Commission
+H0291,Metro Memorial Hospital,3032 Oak Ave,Clinton,AL,37392,Critical Access,Nonprofit,No,295,DNV GL
+H0292,University Care Center,8913 Main St,Fairview,CA,91756,Children's,Government,No,407,None
+H0293,Holy Cross Health,939 Cedar Ln,Clinton,LA,57560,Acute Care,For Profit,No,908,CIHQ
+H0294,County Clinic,3170 River Rd,Greenville,ME,47418,Psychiatric,Nonprofit,Yes,648,None
+H0295,University Health,395 Elm St,Fairview,KY,55174,Psychiatric,Nonprofit,No,682,DNV GL
+H0296,University Healthcare,4701 Washington Blvd,Madison,CO,99236,Children's,Nonprofit,Yes,844,Joint Commission
+H0297,Valley Healthcare,8867 River Rd,Madison,CO,59987,Psychiatric,Nonprofit,Yes,120,DNV GL
+H0298,Memorial Medical Center,9958 Maple Rd,Springfield,IA,21748,Psychiatric,For Profit,Yes,749,Joint Commission
+H0299,Mercy Clinic,2553 Washington Blvd,Clinton,AL,15064,Acute Care,Physician,No,354,CIHQ
+H0300,Metro Healthcare,5921 Oak Ave,Madison,CO,11403,Children's,Nonprofit,No,293,CIHQ
+H0301,Mercy Memorial Hospital,1242 River Rd,Madison,IA,17979,Acute Care,Nonprofit,Yes,571,DNV GL
+H0302,Holy Cross Health,1378 River Rd,Georgetown,AZ,89462,Children's,For Profit,No,621,Joint Commission
+H0303,Memorial Health,1901 Elm St,Bristol,AZ,29940,Children's,Nonprofit,No,359,None
+H0304,St. Healthcare,560 Oak Ave,Clinton,CT,25955,Psychiatric,Physician,Yes,742,DNV GL
+H0305,St. Medical Center,3272 Main St,Greenville,MS,75899,Children's,Government,No,77,CIHQ
+H0306,Sacred Heart Health System,5309 Oak Ave,Fairview,HI,17215,Children's,Government,No,780,Joint Commission
+H0307,Metro Healthcare,5926 Elm St,Clinton,AL,35425,Psychiatric,Nonprofit,Yes,539,None
+H0308,St. Memorial Hospital,5817 Cedar Ln,Bristol,FL,27394,Acute Care,Government,Yes,656,None
+H0309,St. Memorial Hospital,3676 Lake Dr,Fairview,KY,42718,Acute Care,Physician,Yes,265,DNV GL
+H0310,Holy Cross Clinic,1181 Main St,Salem,HI,49610,Children's,Physician,No,319,None
+H0311,Mercy Clinic,6520 Maple Rd,Madison,DE,88924,Critical Access,Nonprofit,Yes,335,DNV GL
+H0312,County Clinic,1071 Elm St,Madison,LA,18164,Critical Access,For Profit,Yes,785,Joint Commission
+H0313,County Hospital,9010 Park Ave,Franklin,CA,17964,Critical Access,For Profit,No,985,DNV GL
+H0314,St. Clinic,4012 Cedar Ln,Georgetown,KS,68534,Children's,Physician,No,314,Joint Commission
+H0315,St. Clinic,4624 River Rd,Georgetown,MS,72622,Psychiatric,Government,No,365,CIHQ
+H0316,Valley Health,9938 Lake Dr,Springfield,CO,10213,Acute Care,Nonprofit,No,483,Joint Commission
+H0317,Holy Cross Healthcare,7980 Main St,Riverside,AL,67386,Children's,Physician,No,803,None
+H0318,Mercy Healthcare,497 Oak Ave,Georgetown,ID,65942,Acute Care,Nonprofit,Yes,547,DNV GL
+H0319,Mercy Health System,6881 Main St,Fairview,MI,13799,Children's,Nonprofit,Yes,542,None
+H0320,Sacred Heart Healthcare,3540 Park Ave,Georgetown,KS,37722,Critical Access,Government,No,905,Joint Commission
+H0321,Memorial Health,6358 River Rd,Fairview,CO,66416,Psychiatric,Physician,Yes,853,DNV GL
+H0322,Memorial Care Center,4434 Cedar Ln,Springfield,ME,84163,Acute Care,Government,Yes,882,Joint Commission
+H0323,Valley Hospital,7936 Main St,Riverside,ID,36528,Acute Care,Government,No,815,CIHQ
+H0324,Community Hospital,8985 Elm St,Greenville,HI,76791,Children's,For Profit,No,45,DNV GL
+H0325,Regional Memorial Hospital,3735 Main St,Bristol,ID,65259,Psychiatric,For Profit,Yes,656,DNV GL
+H0326,General Clinic,5015 Main St,Greenville,KS,23118,Critical Access,Physician,No,788,CIHQ
+H0327,Community Memorial Hospital,1308 Highland Ave,Greenville,KY,70458,Critical Access,Nonprofit,Yes,26,DNV GL
+H0328,County Medical Center,8679 Washington Blvd,Franklin,KY,60769,Acute Care,Physician,No,551,DNV GL
+H0329,Mercy Health System,4667 River Rd,Madison,FL,59539,Critical Access,Government,Yes,478,Joint Commission
+H0330,Memorial Health System,4935 Elm St,Georgetown,ME,42246,Acute Care,Nonprofit,No,125,DNV GL
+H0331,Community Clinic,4770 Washington Blvd,Salem,HI,89413,Psychiatric,Physician,Yes,243,DNV GL
+H0332,General Memorial Hospital,432 River Rd,Madison,HI,62180,Critical Access,Nonprofit,Yes,118,CIHQ
+H0333,Providence Memorial Hospital,3507 Lake Dr,Springfield,IN,86038,Psychiatric,Government,No,391,DNV GL
+H0334,Memorial Medical Center,4999 Maple Rd,Georgetown,CT,89494,Critical Access,Physician,No,730,None
+H0335,Regional Clinic,752 Lake Dr,Springfield,HI,21572,Critical Access,Nonprofit,No,965,Joint Commission
+H0336,Sacred Heart Medical Center,2511 Highland Ave,Bristol,ME,48746,Critical Access,For Profit,Yes,81,CIHQ
+H0337,St. Healthcare,6574 Main St,Bristol,GA,33234,Acute Care,Physician,Yes,850,DNV GL
+H0338,Metro Clinic,9586 Park Ave,Bristol,GA,56161,Children's,For Profit,No,260,DNV GL
+H0339,Memorial Hospital,6487 Park Ave,Riverside,IN,41431,Psychiatric,Nonprofit,No,390,DNV GL
+H0340,Holy Cross Memorial Hospital,6480 Elm St,Riverside,CO,78552,Psychiatric,Nonprofit,Yes,935,DNV GL
+H0341,General Healthcare,8343 Main St,Georgetown,MD,78125,Psychiatric,Physician,No,632,CIHQ
+H0342,Metro Healthcare,8184 Park Ave,Greenville,DE,25391,Children's,Physician,No,878,None
+H0343,Metro Clinic,8013 Main St,Salem,MN,69755,Psychiatric,For Profit,Yes,51,None
+H0344,Metro Care Center,2075 River Rd,Georgetown,MD,79607,Acute Care,Nonprofit,No,745,Joint Commission
+H0345,Mercy Health,657 Elm St,Salem,AR,96224,Children's,For Profit,Yes,149,Joint Commission
+H0346,Holy Cross Care Center,2672 Maple Rd,Salem,CT,92161,Children's,Nonprofit,Yes,397,DNV GL
+H0347,Valley Hospital,3063 Maple Rd,Bristol,KY,13621,Children's,Nonprofit,Yes,358,DNV GL
+H0348,Regional Healthcare,4459 Elm St,Greenville,AR,39067,Children's,Government,Yes,30,None
+H0349,Metro Hospital,7919 River Rd,Springfield,KY,84547,Critical Access,Physician,Yes,578,Joint Commission
+H0350,Holy Cross Health,4793 Maple Rd,Madison,MA,86556,Acute Care,For Profit,Yes,197,None
+H0351,University Health System,440 Maple Rd,Franklin,CT,39029,Critical Access,Nonprofit,Yes,571,CIHQ
+H0352,University Clinic,7496 Main St,Bristol,MA,63445,Psychiatric,Nonprofit,No,277,DNV GL
+H0353,St. Health System,4747 Oak Ave,Bristol,IA,69842,Children's,Physician,Yes,872,CIHQ
+H0354,Sacred Heart Care Center,3927 Oak Ave,Clinton,IN,94281,Acute Care,Nonprofit,No,560,CIHQ
+H0355,County Memorial Hospital,6781 Oak Ave,Franklin,ME,34649,Critical Access,Nonprofit,Yes,971,None
+H0356,Providence Health System,2477 Main St,Bristol,GA,72164,Children's,Physician,No,180,CIHQ
+H0357,Mercy Health,2072 Cedar Ln,Springfield,MS,30035,Children's,Government,No,614,CIHQ
+H0358,County Medical Center,7658 Cedar Ln,Bristol,FL,70277,Critical Access,Nonprofit,No,950,DNV GL
+H0359,St. Care Center,5452 Washington Blvd,Springfield,AZ,48133,Acute Care,Government,No,976,Joint Commission
+H0360,St. Memorial Hospital,5301 Park Ave,Franklin,MD,15454,Acute Care,Government,No,657,Joint Commission
+H0361,General Health,8264 Highland Ave,Franklin,MN,42723,Acute Care,Nonprofit,Yes,135,CIHQ
+H0362,Mercy Hospital,8838 Park Ave,Springfield,MI,41073,Psychiatric,Government,No,394,CIHQ
+H0363,Metro Care Center,898 Cedar Ln,Riverside,MS,28119,Acute Care,Government,Yes,540,DNV GL
+H0364,University Health System,6163 Main St,Bristol,MN,25296,Psychiatric,For Profit,Yes,519,CIHQ
+H0365,Valley Medical Center,4877 Main St,Madison,DE,32781,Psychiatric,For Profit,Yes,121,None
+H0366,Holy Cross Medical Center,7313 Elm St,Georgetown,AL,52265,Critical Access,Government,No,345,None
+H0367,St. Medical Center,8654 River Rd,Greenville,AR,10706,Acute Care,Physician,No,519,DNV GL
+H0368,County Hospital,9190 Cedar Ln,Georgetown,AL,96087,Acute Care,For Profit,Yes,347,CIHQ
+H0369,Regional Medical Center,2567 Cedar Ln,Clinton,KY,92275,Children's,For Profit,No,817,DNV GL
+H0370,Community Care Center,8419 River Rd,Salem,LA,63619,Children's,Government,Yes,292,DNV GL
+H0371,Regional Care Center,1549 Highland Ave,Springfield,IN,79701,Acute Care,For Profit,No,205,None
+H0372,Memorial Hospital,462 Lake Dr,Salem,CA,80131,Children's,Government,Yes,527,DNV GL
+H0373,County Health System,2975 Cedar Ln,Greenville,AZ,80261,Psychiatric,Physician,No,509,CIHQ
+H0374,Community Health System,8287 Cedar Ln,Greenville,ID,10531,Acute Care,Physician,No,516,CIHQ
+H0375,Metro Care Center,8257 Cedar Ln,Madison,ID,53529,Psychiatric,Government,Yes,630,Joint Commission
+H0376,Providence Memorial Hospital,6364 Washington Blvd,Bristol,MN,40553,Critical Access,Physician,Yes,778,DNV GL
+H0377,Regional Care Center,945 Main St,Bristol,MD,25233,Children's,Physician,No,783,None
+H0378,Valley Clinic,337 Cedar Ln,Greenville,IN,56295,Acute Care,For Profit,Yes,427,CIHQ
+H0379,Providence Clinic,9629 Oak Ave,Greenville,DE,14448,Critical Access,Physician,Yes,796,Joint Commission
+H0380,County Hospital,8067 Maple Rd,Georgetown,MD,59572,Acute Care,For Profit,No,656,Joint Commission
+H0381,Regional Medical Center,9394 Elm St,Georgetown,ME,68321,Psychiatric,Nonprofit,No,90,CIHQ
+H0382,County Healthcare,1958 Lake Dr,Greenville,KS,53075,Critical Access,For Profit,No,61,Joint Commission
+H0383,County Memorial Hospital,360 Highland Ave,Franklin,IA,37342,Psychiatric,For Profit,Yes,286,CIHQ
+H0384,Memorial Health System,1473 Maple Rd,Springfield,MI,42806,Children's,Nonprofit,No,774,None
+H0385,University Care Center,7911 Washington Blvd,Fairview,CA,95164,Critical Access,Physician,Yes,534,DNV GL
+H0386,Community Memorial Hospital,6614 Highland Ave,Bristol,DE,76111,Critical Access,Government,Yes,282,CIHQ
+H0387,Sacred Heart Care Center,4838 Cedar Ln,Franklin,FL,30334,Children's,Nonprofit,Yes,861,Joint Commission
+H0388,General Health,9892 Cedar Ln,Springfield,AL,63062,Critical Access,Physician,Yes,840,None
+H0389,General Health,155 Highland Ave,Fairview,AZ,82024,Psychiatric,Physician,Yes,583,None
+H0390,St. Health,5778 Oak Ave,Bristol,AL,19608,Critical Access,Nonprofit,No,876,None
+H0391,Community Health System,3006 Maple Rd,Fairview,MN,76158,Acute Care,For Profit,Yes,267,CIHQ
+H0392,University Health,5608 River Rd,Riverside,AR,61349,Critical Access,Nonprofit,Yes,915,CIHQ
+H0393,Holy Cross Clinic,8560 Park Ave,Fairview,AR,72044,Psychiatric,Nonprofit,No,165,DNV GL
+H0394,Metro Healthcare,4878 Cedar Ln,Salem,CA,59443,Children's,Government,No,559,Joint Commission
+H0395,Mercy Clinic,853 Highland Ave,Madison,CT,50254,Critical Access,Government,Yes,860,CIHQ
+H0396,Metro Healthcare,269 River Rd,Georgetown,MS,63163,Acute Care,Government,No,738,None
+H0397,Valley Memorial Hospital,9403 Highland Ave,Franklin,MN,74131,Critical Access,For Profit,Yes,731,None
+H0398,County Clinic,5455 Lake Dr,Franklin,MS,26396,Critical Access,For Profit,No,480,CIHQ
+H0399,Holy Cross Healthcare,950 Maple Rd,Riverside,AL,65173,Critical Access,Government,No,148,DNV GL
+H0400,Metro Care Center,2225 Oak Ave,Riverside,LA,24293,Critical Access,For Profit,Yes,339,CIHQ
+H0401,County Hospital,6642 Oak Ave,Georgetown,MA,25837,Psychiatric,Government,Yes,425,None
+H0402,Mercy Health,655 Maple Rd,Franklin,MD,75034,Critical Access,Physician,No,943,CIHQ
+H0403,Regional Healthcare,6483 Oak Ave,Salem,IL,88961,Acute Care,Government,Yes,441,None
+H0404,County Healthcare,107 Oak Ave,Bristol,AR,60478,Children's,For Profit,No,369,CIHQ
+H0405,Mercy Health,8794 Highland Ave,Bristol,ID,97189,Psychiatric,For Profit,Yes,793,None
+H0406,Valley Care Center,9550 River Rd,Salem,DE,32631,Acute Care,For Profit,Yes,284,None
+H0407,Metro Care Center,5156 Main St,Franklin,HI,75834,Critical Access,Nonprofit,Yes,509,Joint Commission
+H0408,Sacred Heart Medical Center,4184 Oak Ave,Greenville,LA,84222,Psychiatric,Physician,Yes,616,DNV GL
+H0409,St. Medical Center,5055 Highland Ave,Salem,AR,67805,Psychiatric,For Profit,Yes,158,CIHQ
+H0410,Holy Cross Memorial Hospital,9981 River Rd,Madison,IL,24243,Psychiatric,Government,Yes,505,CIHQ
+H0411,Metro Clinic,1192 Cedar Ln,Springfield,GA,76739,Acute Care,For Profit,Yes,412,Joint Commission
+H0412,St. Health,5994 Maple Rd,Salem,CA,68824,Acute Care,Government,Yes,206,Joint Commission
+H0413,Metro Healthcare,3403 Highland Ave,Clinton,MA,46703,Children's,For Profit,Yes,144,DNV GL
+H0414,General Medical Center,1189 River Rd,Madison,ME,28942,Children's,For Profit,Yes,283,CIHQ
+H0415,Regional Hospital,9380 Oak Ave,Madison,LA,79886,Acute Care,For Profit,Yes,69,DNV GL
+H0416,County Health,5674 Oak Ave,Greenville,MN,62280,Psychiatric,Physician,Yes,906,CIHQ
+H0417,Community Medical Center,8932 Cedar Ln,Greenville,AK,27207,Critical Access,Nonprofit,Yes,872,Joint Commission
+H0418,Valley Health,3993 Park Ave,Springfield,MA,38333,Psychiatric,Government,Yes,349,Joint Commission
+H0419,County Hospital,3422 Oak Ave,Georgetown,AK,62710,Children's,Physician,Yes,373,DNV GL
+H0420,Community Care Center,3324 Oak Ave,Fairview,MI,31814,Acute Care,For Profit,Yes,434,None
+H0421,Regional Healthcare,555 River Rd,Greenville,ID,65435,Critical Access,Physician,Yes,350,None
+H0422,Sacred Heart Health System,6059 River Rd,Georgetown,CO,65719,Psychiatric,Government,No,192,CIHQ
+H0423,St. Healthcare,9480 Oak Ave,Madison,MA,94886,Critical Access,Government,No,605,None
+H0424,Community Memorial Hospital,6888 Park Ave,Madison,CA,11576,Critical Access,For Profit,No,94,Joint Commission
+H0425,Providence Health,4477 Park Ave,Salem,IA,55664,Critical Access,Nonprofit,No,785,None
+H0426,Regional Memorial Hospital,1855 Elm St,Fairview,ID,74092,Psychiatric,Physician,No,674,DNV GL
+H0427,Mercy Hospital,5712 Elm St,Bristol,MD,96235,Critical Access,For Profit,No,375,DNV GL
+H0428,Community Memorial Hospital,4566 Main St,Georgetown,AL,65735,Acute Care,Government,No,335,CIHQ
+H0429,Regional Healthcare,2154 Main St,Riverside,LA,17592,Acute Care,Nonprofit,No,159,DNV GL
+H0430,Holy Cross Clinic,4604 Park Ave,Georgetown,HI,71825,Acute Care,Government,No,80,Joint Commission
+H0431,General Hospital,9898 Elm St,Bristol,MA,21849,Acute Care,Nonprofit,No,374,DNV GL
+H0432,Providence Clinic,8777 Oak Ave,Springfield,AK,84601,Acute Care,Nonprofit,No,150,CIHQ
+H0433,St. Memorial Hospital,2814 Highland Ave,Franklin,ME,56537,Critical Access,Physician,Yes,423,DNV GL
+H0434,Community Health System,9668 Highland Ave,Georgetown,GA,59400,Acute Care,Nonprofit,Yes,552,Joint Commission
+H0435,Community Medical Center,994 Oak Ave,Salem,ME,73729,Critical Access,For Profit,Yes,874,None
+H0436,Memorial Clinic,8354 Maple Rd,Clinton,AK,25685,Critical Access,Physician,Yes,591,DNV GL
+H0437,General Memorial Hospital,9430 Elm St,Madison,IA,70739,Acute Care,Government,Yes,881,Joint Commission
+H0438,Mercy Healthcare,8429 River Rd,Greenville,HI,94399,Critical Access,Government,Yes,220,CIHQ
+H0439,Metro Medical Center,4478 River Rd,Fairview,MD,25348,Critical Access,Government,Yes,45,DNV GL
+H0440,Valley Hospital,2090 Main St,Greenville,KY,44706,Psychiatric,Government,No,403,CIHQ
+H0441,Community Hospital,3620 Main St,Salem,IN,97565,Acute Care,For Profit,No,13,CIHQ
+H0442,Sacred Heart Hospital,6061 Park Ave,Riverside,KY,47930,Psychiatric,For Profit,Yes,734,Joint Commission
+H0443,University Memorial Hospital,2368 River Rd,Greenville,CO,50820,Acute Care,Government,No,180,CIHQ
+H0444,Mercy Health System,4009 Park Ave,Springfield,IN,93189,Acute Care,Nonprofit,No,229,None
+H0445,University Health,641 Main St,Salem,AL,94096,Critical Access,For Profit,Yes,882,CIHQ
+H0446,General Memorial Hospital,2665 Park Ave,Clinton,HI,43368,Acute Care,Government,No,447,CIHQ
+H0447,Mercy Care Center,4133 Elm St,Springfield,KY,79898,Children's,Nonprofit,No,642,None
+H0448,Sacred Heart Care Center,2788 Maple Rd,Bristol,KS,25956,Critical Access,Nonprofit,Yes,872,None
+H0449,Regional Healthcare,7992 Main St,Springfield,IL,42558,Acute Care,Nonprofit,Yes,285,None
+H0450,Valley Clinic,6849 Maple Rd,Madison,GA,45873,Acute Care,Government,Yes,157,DNV GL
+H0451,Valley Medical Center,533 Maple Rd,Greenville,DE,79423,Critical Access,For Profit,No,207,None
+H0452,Sacred Heart Care Center,8391 Highland Ave,Fairview,MA,90241,Psychiatric,Government,No,457,Joint Commission
+H0453,Metro Care Center,7574 Washington Blvd,Bristol,IN,84368,Acute Care,Government,No,311,Joint Commission
+H0454,Holy Cross Medical Center,4360 Elm St,Georgetown,AZ,12093,Psychiatric,Physician,No,995,CIHQ
+H0455,St. Health System,2138 Elm St,Riverside,ID,38045,Psychiatric,Physician,Yes,230,Joint Commission
+H0456,Metro Medical Center,7049 Highland Ave,Greenville,HI,29272,Critical Access,Government,No,47,CIHQ
+H0457,Memorial Health,6346 Washington Blvd,Franklin,KS,87221,Acute Care,Physician,Yes,988,None
+H0458,County Clinic,3410 River Rd,Fairview,LA,13471,Psychiatric,Government,No,101,Joint Commission
+H0459,Metro Health,3227 Cedar Ln,Franklin,IN,58944,Acute Care,Government,No,66,None
+H0460,Holy Cross Clinic,9480 Oak Ave,Riverside,IL,95743,Acute Care,For Profit,Yes,380,CIHQ
+H0461,Memorial Hospital,9951 Cedar Ln,Franklin,AL,85560,Critical Access,Nonprofit,No,83,Joint Commission
+H0462,Mercy Care Center,6534 Lake Dr,Madison,FL,38538,Critical Access,Nonprofit,No,708,CIHQ
+H0463,University Medical Center,2973 Washington Blvd,Franklin,CA,11405,Critical Access,Government,No,704,Joint Commission
+H0464,Holy Cross Memorial Hospital,4514 Oak Ave,Clinton,CA,97380,Critical Access,Physician,Yes,560,None
+H0465,Regional Health,4723 Park Ave,Franklin,IL,32717,Children's,For Profit,Yes,744,CIHQ
+H0466,Valley Health System,6450 Park Ave,Georgetown,ME,39132,Critical Access,Government,No,433,Joint Commission
+H0467,Metro Care Center,3077 Maple Rd,Georgetown,IA,77057,Children's,Government,Yes,403,CIHQ
+H0468,County Hospital,8158 Elm St,Clinton,MD,70431,Psychiatric,Nonprofit,Yes,684,CIHQ
+H0469,Metro Hospital,4076 River Rd,Fairview,CA,10640,Psychiatric,For Profit,No,540,Joint Commission
+H0470,Valley Clinic,300 Oak Ave,Georgetown,ME,36306,Critical Access,Physician,Yes,839,CIHQ
+H0471,Valley Clinic,7600 Oak Ave,Springfield,MA,96489,Acute Care,Nonprofit,Yes,265,None
+H0472,General Memorial Hospital,3680 Lake Dr,Georgetown,DE,30217,Psychiatric,For Profit,No,591,Joint Commission
+H0473,Providence Care Center,305 Cedar Ln,Georgetown,ID,77009,Children's,For Profit,Yes,405,CIHQ
+H0474,General Health,1682 Highland Ave,Franklin,MA,67528,Acute Care,Physician,No,567,None
+H0475,County Care Center,2270 Maple Rd,Georgetown,ID,63214,Acute Care,Government,Yes,524,Joint Commission
+H0476,Community Care Center,9174 Oak Ave,Bristol,HI,11540,Children's,Government,No,456,CIHQ
+H0477,Mercy Healthcare,5884 Cedar Ln,Madison,AZ,11265,Psychiatric,For Profit,No,937,DNV GL
+H0478,St. Healthcare,6125 Highland Ave,Madison,IN,15221,Children's,Government,Yes,798,None
+H0479,Holy Cross Care Center,3521 River Rd,Riverside,DE,39233,Critical Access,Physician,No,208,DNV GL
+H0480,Metro Health,3551 Elm St,Franklin,AR,11238,Critical Access,Government,Yes,845,Joint Commission
+H0481,Community Health System,2619 Washington Blvd,Springfield,LA,37423,Children's,Nonprofit,No,243,None
+H0482,Holy Cross Health System,4695 Park Ave,Madison,ID,66512,Psychiatric,Nonprofit,Yes,270,DNV GL
+H0483,St. Medical Center,6207 Cedar Ln,Fairview,MN,45692,Psychiatric,Government,Yes,550,Joint Commission
+H0484,St. Care Center,9828 Maple Rd,Clinton,GA,36191,Critical Access,For Profit,Yes,116,DNV GL
+H0485,Sacred Heart Memorial Hospital,2053 Cedar Ln,Springfield,AK,36152,Psychiatric,For Profit,No,698,CIHQ
+H0486,Valley Health,2419 Washington Blvd,Clinton,AK,17816,Psychiatric,For Profit,Yes,519,Joint Commission
+H0487,Holy Cross Health,5282 Lake Dr,Springfield,MD,77706,Children's,For Profit,Yes,137,DNV GL
+H0488,Mercy Hospital,7976 Highland Ave,Bristol,MI,21488,Acute Care,Government,No,338,DNV GL
+H0489,General Clinic,7566 Lake Dr,Fairview,KY,50187,Psychiatric,Nonprofit,No,177,None
+H0490,Mercy Clinic,8173 Lake Dr,Franklin,GA,55696,Psychiatric,Government,No,861,Joint Commission
+H0491,Mercy Healthcare,3992 Highland Ave,Franklin,AL,24551,Acute Care,Nonprofit,No,509,CIHQ
+H0492,Providence Clinic,298 Highland Ave,Riverside,MA,15884,Critical Access,Nonprofit,Yes,164,Joint Commission
+H0493,Providence Medical Center,2110 Main St,Bristol,CO,38386,Acute Care,Nonprofit,Yes,557,CIHQ
+H0494,Holy Cross Health,3482 Main St,Clinton,IN,81720,Acute Care,Government,No,359,CIHQ
+H0495,Metro Care Center,7156 Maple Rd,Georgetown,MN,90059,Children's,Nonprofit,Yes,121,None
+H0496,County Memorial Hospital,4363 Oak Ave,Franklin,MD,26021,Critical Access,For Profit,Yes,884,CIHQ
+H0497,General Hospital,6707 Highland Ave,Georgetown,IA,90801,Acute Care,Government,No,740,Joint Commission
+H0498,University Health,289 Lake Dr,Riverside,CA,35028,Children's,Government,Yes,341,Joint Commission
+H0499,Regional Medical Center,3900 Maple Rd,Springfield,KY,15615,Acute Care,Nonprofit,Yes,598,Joint Commission
+H0500,Mercy Care Center,4449 Main St,Clinton,KS,95975,Critical Access,Government,No,206,Joint Commission

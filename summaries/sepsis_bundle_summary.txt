@@ -1,0 +1,62 @@
+Summary for sepsis_bundle.csv
+
+Shape: (500, 10)
+
+Column info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 10 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   provider_id         500 non-null    object 
+ 1   hospital_name       500 non-null    object 
+ 2   compliance_rate     500 non-null    float64
+ 3   national_average    500 non-null    float64
+ 4   cases_reviewed      500 non-null    int64  
+ 5   compliant_cases     500 non-null    int64  
+ 6   measurement_period  500 non-null    object 
+ 7   timely_lactate      500 non-null    float64
+ 8   timely_antibiotics  500 non-null    float64
+ 9   timely_fluids       500 non-null    float64
+dtypes: float64(5), int64(2), object(3)
+memory usage: 39.2+ KB
+
+
+Missing values per column:
+provider_id           0
+hospital_name         0
+compliance_rate       0
+national_average      0
+cases_reviewed        0
+compliant_cases       0
+measurement_period    0
+timely_lactate        0
+timely_antibiotics    0
+timely_fluids         0
+dtype: int64
+
+Sample rows:
+  provider_id                 hospital_name  ...  timely_antibiotics  timely_fluids
+0       H0001   Community Memorial Hospital  ...               97.54          67.90
+1       H0002    Sacred Heart Health System  ...               55.95          91.56
+2       H0003       Sacred Heart Healthcare  ...               94.28          88.74
+3       H0004         County Medical Center  ...               85.06          88.81
+4       H0005  Holy Cross Memorial Hospital  ...               55.89          61.74
+
+[5 rows x 10 columns]
+
+Basic stats (numeric columns):
+       provider_id      hospital_name  compliance_rate  ...  timely_lactate  timely_antibiotics  timely_fluids
+count          500                500       500.000000  ...      500.000000          500.000000     500.000000
+unique         500                104              NaN  ...             NaN                 NaN            NaN
+top          H0001  County Healthcare              NaN  ...             NaN                 NaN            NaN
+freq             1                 13              NaN  ...             NaN                 NaN            NaN
+mean           NaN                NaN        66.015300  ...       69.923440           75.404020      79.245000
+std            NaN                NaN        20.008513  ...       16.924028           14.569572      11.899071
+min            NaN                NaN        30.300000  ...       40.080000           50.120000      60.020000
+25%            NaN                NaN        48.307500  ...       55.380000           63.732500      68.217500
+50%            NaN                NaN        66.400000  ...       70.070000           75.730000      78.805000
+75%            NaN                NaN        83.195000  ...       83.852500           88.797500      89.745000
+max            NaN                NaN        99.860000  ...       99.950000           99.930000      99.970000
+
+[11 rows x 10 columns]

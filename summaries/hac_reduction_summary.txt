@@ -1,0 +1,60 @@
+Summary for hac_reduction.csv
+
+Shape: (500, 9)
+
+Column info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 9 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   provider_id           500 non-null    object 
+ 1   hospital_name         500 non-null    object 
+ 2   total_hac_score       500 non-null    float64
+ 3   hai_score             500 non-null    float64
+ 4   psi_score             500 non-null    float64
+ 5   payment_reduction     500 non-null    object 
+ 6   reduction_percentage  500 non-null    int64  
+ 7   reporting_period      500 non-null    object 
+ 8   worse_than_national   500 non-null    object 
+dtypes: float64(3), int64(1), object(5)
+memory usage: 35.3+ KB
+
+
+Missing values per column:
+provider_id             0
+hospital_name           0
+total_hac_score         0
+hai_score               0
+psi_score               0
+payment_reduction       0
+reduction_percentage    0
+reporting_period        0
+worse_than_national     0
+dtype: int64
+
+Sample rows:
+  provider_id              hospital_name  ...  reporting_period  worse_than_national
+0       H0001         Valley Care Center  ...         2022-2023                   No
+1       H0002          University Health  ...         2022-2023                  Yes
+2       H0003         Community Hospital  ...         2021-2022                   No
+3       H0004  General Memorial Hospital  ...         2022-2023                 Same
+4       H0005            County Hospital  ...         2021-2022                  Yes
+
+[5 rows x 9 columns]
+
+Basic stats (numeric columns):
+       provider_id          hospital_name  ...  reporting_period  worse_than_national
+count          500                    500  ...               500                  500
+unique         500                    103  ...                 2                    3
+top          H0001  Sacred Heart Hospital  ...         2022-2023                 Same
+freq             1                     12  ...               277                  171
+mean           NaN                    NaN  ...               NaN                  NaN
+std            NaN                    NaN  ...               NaN                  NaN
+min            NaN                    NaN  ...               NaN                  NaN
+25%            NaN                    NaN  ...               NaN                  NaN
+50%            NaN                    NaN  ...               NaN                  NaN
+75%            NaN                    NaN  ...               NaN                  NaN
+max            NaN                    NaN  ...               NaN                  NaN
+
+[11 rows x 9 columns]

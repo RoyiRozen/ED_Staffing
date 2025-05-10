@@ -1,0 +1,501 @@
+provider_id,hospital_name,readmission_rate,national_readmission_avg,patient_experience_score,communication_score,cleanliness_score,recommend_hospital,survey_response_rate,survey_sample_size
+H0001,Holy Cross Medical Center,12.58,16.55,2.5,4.1,1.5,69.7,13.4,358
+H0002,Providence Health,23.04,16.55,4.6,3.0,4.9,79.0,43.2,327
+H0003,General Healthcare,16.14,16.55,3.4,1.7,2.6,98.4,36.1,158
+H0004,Metro Health,23.26,16.55,4.6,3.1,2.3,54.7,36.7,523
+H0005,Holy Cross Healthcare,5.53,16.55,3.4,3.2,2.6,53.8,54.9,166
+H0006,Mercy Health System,10.31,16.55,3.8,1.6,3.9,56.4,24.2,956
+H0007,Community Medical Center,12.72,16.55,4.2,2.0,2.2,71.1,15.5,168
+H0008,County Clinic,17.3,16.55,1.5,1.3,4.1,99.8,24.2,291
+H0009,Metro Medical Center,22.22,16.55,3.9,3.8,2.5,99.7,57.8,161
+H0010,County Health System,9.7,16.55,1.4,3.6,3.9,84.0,39.2,162
+H0011,General Healthcare,5.33,16.55,3.3,4.7,1.4,62.7,30.6,629
+H0012,Regional Memorial Hospital,16.01,16.55,2.7,1.7,1.9,83.5,56.3,853
+H0013,Metro Hospital,14.5,16.55,2.4,4.6,4.8,91.9,13.5,774
+H0014,General Healthcare,7.21,16.55,2.9,3.3,3.5,81.0,33.1,933
+H0015,Providence Care Center,13.24,16.55,1.8,4.6,1.4,75.9,15.7,144
+H0016,Community Clinic,11.39,16.55,1.3,1.3,4.3,72.7,29.9,542
+H0017,Community Care Center,10.52,16.55,3.4,4.0,1.4,71.5,10.4,303
+H0018,Providence Hospital,9.1,16.55,2.9,3.8,2.9,68.6,48.5,485
+H0019,St. Medical Center,11.99,16.55,1.2,2.9,2.8,57.3,55.5,619
+H0020,St. Clinic,14.18,16.55,2.4,2.7,2.7,80.4,27.0,570
+H0021,University Health System,6.41,16.55,3.5,4.2,2.4,53.6,30.3,909
+H0022,Metro Clinic,16.15,16.55,4.8,2.4,4.5,85.3,50.9,170
+H0023,General Healthcare,20.01,16.55,1.7,3.6,4.9,69.7,17.5,968
+H0024,Providence Medical Center,6.76,16.55,2.5,2.8,2.8,79.2,14.6,130
+H0025,County Care Center,9.73,16.55,2.5,2.3,4.5,62.7,36.5,268
+H0026,General Medical Center,24.09,16.55,1.2,1.4,4.1,52.5,23.4,576
+H0027,Holy Cross Healthcare,8.38,16.55,1.9,4.9,2.6,83.4,31.8,966
+H0028,Holy Cross Health System,9.31,16.55,1.0,4.3,1.0,68.7,18.7,264
+H0029,Regional Care Center,21.37,16.55,3.3,4.3,4.9,51.8,47.5,416
+H0030,Metro Healthcare,7.91,16.55,4.9,1.5,4.5,53.7,27.4,171
+H0031,Valley Medical Center,17.49,16.55,1.9,4.8,1.8,66.0,18.0,521
+H0032,St. Hospital,19.28,16.55,3.3,4.9,4.5,91.9,16.4,310
+H0033,Providence Health System,21.62,16.55,3.5,4.2,1.5,65.5,19.6,733
+H0034,Regional Care Center,14.57,16.55,1.2,2.0,1.2,71.6,51.6,493
+H0035,Community Health,9.17,16.55,3.2,2.9,2.4,81.6,22.8,327
+H0036,Memorial Healthcare,5.08,16.55,3.3,4.6,1.6,69.1,52.9,721
+H0037,Mercy Health System,23.8,16.55,1.8,3.3,1.7,57.1,54.7,405
+H0038,Valley Health System,9.92,16.55,2.7,3.4,2.7,96.4,19.7,966
+H0039,Metro Care Center,19.78,16.55,1.5,1.7,1.7,77.7,20.7,947
+H0040,University Clinic,19.86,16.55,2.4,4.7,2.7,57.2,52.9,143
+H0041,Metro Care Center,20.41,16.55,1.4,1.9,4.6,73.0,29.6,848
+H0042,Sacred Heart Hospital,11.79,16.55,1.5,3.6,3.4,72.6,54.2,213
+H0043,Regional Memorial Hospital,5.39,16.55,3.3,3.3,4.5,56.4,32.7,687
+H0044,Community Memorial Hospital,7.41,16.55,1.2,2.7,4.7,97.5,30.2,461
+H0045,Providence Healthcare,7.71,16.55,2.1,2.2,1.3,61.2,39.0,296
+H0046,General Healthcare,22.0,16.55,4.3,4.7,3.1,56.9,43.0,261
+H0047,Valley Hospital,12.01,16.55,4.6,1.7,2.1,71.7,18.2,702
+H0048,Memorial Clinic,12.94,16.55,3.7,1.2,1.1,77.6,22.7,139
+H0049,Memorial Health,9.26,16.55,1.7,1.2,3.6,73.2,14.6,658
+H0050,General Healthcare,5.93,16.55,4.2,4.2,4.5,92.9,21.8,102
+H0051,Community Clinic,20.07,16.55,2.7,2.3,1.3,98.1,50.3,362
+H0052,Mercy Hospital,5.46,16.55,4.9,3.5,4.9,62.7,19.9,701
+H0053,Memorial Health,7.99,16.55,2.1,2.8,2.4,71.8,30.0,122
+H0054,University Hospital,19.75,16.55,3.6,3.3,3.6,68.7,50.4,361
+H0055,St. Memorial Hospital,9.46,16.55,4.5,2.8,4.3,86.9,10.2,527
+H0056,University Healthcare,20.01,16.55,4.5,2.7,4.7,75.8,21.5,433
+H0057,Mercy Healthcare,9.32,16.55,2.6,4.8,3.8,90.9,28.9,834
+H0058,Sacred Heart Health System,23.66,16.55,2.8,1.1,1.2,80.3,51.7,722
+H0059,St. Care Center,24.08,16.55,1.7,3.4,1.9,97.5,27.6,223
+H0060,General Healthcare,8.4,16.55,3.3,3.3,2.9,56.9,17.2,899
+H0061,Regional Health System,6.61,16.55,1.2,3.8,4.1,72.1,29.1,576
+H0062,Regional Hospital,6.42,16.55,2.6,3.1,3.8,73.4,14.0,740
+H0063,County Healthcare,18.04,16.55,2.6,4.4,1.6,95.5,30.1,832
+H0064,Memorial Healthcare,15.83,16.55,3.8,4.9,4.6,73.0,31.9,716
+H0065,Valley Health,13.3,16.55,4.6,4.4,2.6,56.2,52.8,794
+H0066,General Hospital,11.11,16.55,1.6,2.5,2.5,60.2,44.4,281
+H0067,Holy Cross Hospital,18.08,16.55,4.8,2.7,4.1,56.4,44.6,428
+H0068,General Hospital,14.36,16.55,2.6,1.4,3.5,79.6,52.8,712
+H0069,Metro Healthcare,24.76,16.55,1.5,3.3,3.1,91.0,23.8,748
+H0070,Holy Cross Care Center,16.74,16.55,2.9,2.7,2.4,57.8,56.2,106
+H0071,Metro Medical Center,14.15,16.55,4.4,4.0,4.2,91.5,16.8,975
+H0072,University Clinic,20.6,16.55,3.0,1.4,4.8,84.4,51.9,999
+H0073,Holy Cross Clinic,5.02,16.55,5.0,4.0,1.8,73.6,57.7,746
+H0074,Providence Health System,19.01,16.55,2.4,2.9,3.5,64.0,14.5,505
+H0075,Memorial Hospital,15.96,16.55,3.4,1.5,4.5,94.6,26.8,666
+H0076,Mercy Medical Center,20.99,16.55,3.5,2.1,2.9,76.2,43.5,525
+H0077,Community Clinic,9.3,16.55,2.8,4.1,4.8,78.8,14.0,214
+H0078,University Clinic,10.05,16.55,3.5,1.2,3.5,53.4,42.8,960
+H0079,Memorial Health System,16.01,16.55,2.5,1.9,2.8,87.8,28.7,275
+H0080,Metro Hospital,7.12,16.55,1.4,2.2,3.2,55.9,42.2,500
+H0081,St. Hospital,5.6,16.55,2.4,2.3,4.8,92.2,57.5,112
+H0082,Community Memorial Hospital,15.72,16.55,2.8,3.2,2.6,78.4,10.8,646
+H0083,General Healthcare,22.6,16.55,3.0,4.1,2.3,82.0,24.1,180
+H0084,Holy Cross Medical Center,22.67,16.55,4.7,1.9,1.7,85.4,56.9,659
+H0085,Metro Clinic,15.35,16.55,2.0,4.7,4.6,93.9,32.3,765
+H0086,General Memorial Hospital,5.39,16.55,2.2,1.7,4.7,89.0,37.4,272
+H0087,Mercy Memorial Hospital,7.55,16.55,4.8,1.8,1.3,55.6,42.5,216
+H0088,Sacred Heart Health System,13.51,16.55,3.6,1.3,4.4,93.4,11.4,618
+H0089,General Medical Center,20.86,16.55,2.4,3.8,2.2,83.4,36.0,653
+H0090,Holy Cross Care Center,12.48,16.55,2.0,1.6,2.6,86.8,10.3,294
+H0091,Providence Hospital,10.33,16.55,3.4,1.7,2.2,55.0,36.6,327
+H0092,University Memorial Hospital,12.41,16.55,2.7,2.4,3.0,68.5,16.9,215
+H0093,University Care Center,24.41,16.55,4.1,4.8,1.2,78.4,20.1,322
+H0094,General Hospital,20.31,16.55,4.9,2.1,1.5,60.2,12.7,661
+H0095,County Health,7.16,16.55,1.1,1.3,1.1,77.4,54.6,931
+H0096,County Clinic,9.72,16.55,4.5,1.9,5.0,79.7,44.0,909
+H0097,Metro Care Center,12.2,16.55,1.2,3.2,2.1,98.5,47.7,977
+H0098,University Health System,11.83,16.55,1.2,2.9,2.1,86.7,32.3,242
+H0099,Mercy Health,11.55,16.55,2.3,3.4,1.5,84.6,43.2,438
+H0100,General Hospital,22.05,16.55,1.2,2.8,2.0,84.2,55.1,457
+H0101,St. Care Center,24.82,16.55,3.9,2.7,3.1,62.2,45.4,120
+H0102,Regional Health System,9.06,16.55,2.0,3.8,3.4,83.2,44.1,420
+H0103,Metro Health,12.18,16.55,1.9,1.1,3.5,80.6,41.5,487
+H0104,Metro Care Center,18.72,16.55,3.8,1.7,4.4,83.9,38.0,593
+H0105,Community Hospital,9.1,16.55,2.3,3.2,1.2,82.6,39.7,608
+H0106,St. Healthcare,8.22,16.55,4.4,4.0,3.9,60.8,12.1,580
+H0107,Valley Health,6.45,16.55,3.0,3.3,4.1,62.1,36.3,380
+H0108,St. Medical Center,12.95,16.55,4.7,1.6,1.7,74.1,23.6,943
+H0109,University Memorial Hospital,17.59,16.55,1.4,1.9,3.5,70.8,43.1,836
+H0110,Metro Memorial Hospital,19.12,16.55,4.8,3.1,1.4,85.6,33.9,593
+H0111,Regional Memorial Hospital,12.0,16.55,3.7,4.4,2.1,88.5,34.3,763
+H0112,University Medical Center,6.63,16.55,3.8,3.4,1.8,78.2,56.4,135
+H0113,County Hospital,16.82,16.55,3.7,1.7,2.9,62.5,19.9,322
+H0114,Providence Health,12.21,16.55,1.3,4.6,1.0,56.4,58.5,350
+H0115,University Clinic,22.04,16.55,2.4,1.8,1.3,75.5,10.4,837
+H0116,Metro Health System,18.43,16.55,4.7,1.1,4.2,78.2,31.3,185
+H0117,Mercy Medical Center,22.57,16.55,3.8,1.3,2.8,54.6,40.2,524
+H0118,General Healthcare,22.16,16.55,3.5,1.8,1.9,85.8,50.8,882
+H0119,Memorial Hospital,15.36,16.55,4.8,2.7,1.0,50.0,46.0,216
+H0120,Holy Cross Hospital,21.39,16.55,2.4,1.7,2.3,97.7,43.5,798
+H0121,Valley Care Center,16.92,16.55,3.1,1.6,3.4,63.4,48.9,771
+H0122,Memorial Healthcare,24.99,16.55,1.0,3.1,4.2,90.6,54.4,237
+H0123,St. Memorial Hospital,18.5,16.55,1.4,1.4,2.4,84.0,54.4,525
+H0124,Metro Medical Center,6.57,16.55,1.1,1.0,2.2,82.6,19.1,984
+H0125,University Healthcare,6.87,16.55,3.4,1.1,2.1,80.1,58.1,302
+H0126,General Clinic,7.42,16.55,2.0,2.8,3.0,88.1,46.5,855
+H0127,County Healthcare,5.71,16.55,1.7,4.4,3.6,56.8,27.3,746
+H0128,Memorial Medical Center,24.0,16.55,3.5,1.3,2.3,62.9,49.6,506
+H0129,County Healthcare,12.8,16.55,3.6,4.3,2.7,96.7,43.8,840
+H0130,Metro Care Center,20.59,16.55,4.1,3.1,4.3,50.1,59.9,144
+H0131,County Memorial Hospital,13.6,16.55,3.4,3.9,1.3,57.1,17.7,306
+H0132,Holy Cross Hospital,20.2,16.55,2.3,2.4,4.8,87.6,28.9,121
+H0133,Regional Health System,19.34,16.55,5.0,4.5,4.2,78.1,23.9,348
+H0134,Holy Cross Health,17.37,16.55,1.3,4.0,4.2,82.2,49.4,913
+H0135,Valley Clinic,24.98,16.55,4.9,3.6,3.0,94.7,55.0,551
+H0136,General Care Center,7.72,16.55,1.2,4.5,4.0,56.9,53.1,126
+H0137,County Healthcare,19.69,16.55,2.5,1.9,3.7,55.5,46.2,876
+H0138,University Memorial Hospital,15.89,16.55,2.5,1.8,2.3,89.0,48.0,976
+H0139,Community Clinic,23.62,16.55,4.9,2.9,3.0,54.4,19.7,907
+H0140,Valley Hospital,11.21,16.55,4.3,3.7,3.3,75.5,55.2,995
+H0141,University Memorial Hospital,16.82,16.55,2.0,3.4,4.7,90.5,48.1,593
+H0142,Metro Clinic,14.6,16.55,3.8,1.3,1.4,53.9,50.8,887
+H0143,Memorial Care Center,10.96,16.55,4.8,1.1,2.8,82.0,43.8,350
+H0144,County Medical Center,11.69,16.55,3.0,3.3,2.0,84.9,59.2,320
+H0145,Community Medical Center,5.75,16.55,2.6,3.8,1.5,85.8,44.6,648
+H0146,Metro Memorial Hospital,18.32,16.55,2.9,4.2,2.6,66.1,46.7,615
+H0147,County Health,11.06,16.55,1.2,2.3,2.9,68.3,56.8,587
+H0148,Sacred Heart Health System,17.93,16.55,4.3,3.6,2.5,96.1,59.0,587
+H0149,Community Memorial Hospital,18.17,16.55,4.6,4.3,1.7,63.2,34.4,330
+H0150,General Care Center,15.78,16.55,4.9,4.0,2.0,77.8,14.5,221
+H0151,Memorial Medical Center,6.55,16.55,2.5,1.8,1.5,82.9,18.6,623
+H0152,County Health System,20.47,16.55,4.7,2.2,1.5,82.4,10.2,943
+H0153,Providence Care Center,22.09,16.55,4.5,1.6,2.5,51.2,39.5,137
+H0154,Memorial Health,10.69,16.55,1.1,3.0,4.5,77.4,57.3,511
+H0155,General Clinic,11.26,16.55,2.9,1.7,1.3,56.4,32.4,982
+H0156,Memorial Medical Center,17.58,16.55,2.0,1.3,3.2,82.6,44.8,688
+H0157,Memorial Healthcare,23.4,16.55,1.9,2.4,1.2,64.2,29.6,729
+H0158,Valley Healthcare,18.77,16.55,4.3,2.4,2.3,82.2,20.2,224
+H0159,Memorial Memorial Hospital,18.25,16.55,2.7,4.9,2.1,86.9,51.2,255
+H0160,Community Healthcare,22.38,16.55,2.4,1.8,4.5,93.2,43.3,517
+H0161,Sacred Heart Healthcare,14.9,16.55,3.7,3.9,2.8,83.0,17.5,458
+H0162,Sacred Heart Medical Center,7.2,16.55,3.9,3.8,1.2,85.2,27.1,135
+H0163,Mercy Health,13.83,16.55,2.1,2.9,1.7,97.4,55.1,692
+H0164,Providence Clinic,22.76,16.55,4.9,4.4,1.5,62.3,54.0,859
+H0165,Community Clinic,6.53,16.55,2.4,2.8,1.5,67.7,53.9,680
+H0166,Metro Care Center,15.41,16.55,3.8,3.1,3.2,53.9,34.3,744
+H0167,St. Health,14.51,16.55,4.2,3.5,2.8,86.1,35.0,437
+H0168,Metro Health,9.41,16.55,2.5,2.2,3.9,63.9,14.2,358
+H0169,Regional Health System,21.76,16.55,1.1,4.7,4.7,70.3,50.6,415
+H0170,Regional Health,8.25,16.55,2.0,4.9,1.6,61.2,53.3,632
+H0171,Memorial Clinic,20.76,16.55,2.2,4.8,2.6,91.8,14.6,466
+H0172,County Hospital,21.78,16.55,2.1,1.5,3.9,55.9,36.3,388
+H0173,Memorial Health System,8.39,16.55,1.3,4.9,3.5,87.6,34.3,212
+H0174,University Health,19.74,16.55,2.7,4.7,1.1,88.6,13.4,693
+H0175,Valley Memorial Hospital,12.25,16.55,3.9,1.9,3.4,84.8,56.0,749
+H0176,St. Health System,6.77,16.55,4.9,3.1,2.1,70.9,19.1,620
+H0177,University Hospital,24.16,16.55,2.1,1.7,4.8,75.6,37.4,346
+H0178,Regional Clinic,10.35,16.55,2.7,1.4,2.3,75.8,25.9,534
+H0179,Metro Health System,11.75,16.55,2.7,3.9,4.9,59.5,33.6,971
+H0180,Holy Cross Health System,24.74,16.55,2.5,2.1,2.8,76.7,41.8,119
+H0181,General Health,7.81,16.55,4.3,2.2,2.1,78.2,40.4,171
+H0182,Sacred Heart Memorial Hospital,21.95,16.55,3.3,2.7,3.7,95.8,19.1,705
+H0183,Holy Cross Healthcare,22.38,16.55,1.5,3.6,3.5,83.8,33.5,730
+H0184,Mercy Care Center,14.39,16.55,4.7,1.6,3.5,90.6,49.6,738
+H0185,Holy Cross Healthcare,23.1,16.55,3.6,3.4,4.1,67.4,11.9,430
+H0186,Holy Cross Hospital,11.76,16.55,3.2,3.2,4.4,88.3,54.8,640
+H0187,General Health System,19.62,16.55,4.1,1.7,3.1,84.2,17.6,926
+H0188,Community Healthcare,12.74,16.55,2.6,1.9,4.4,70.1,37.9,316
+H0189,Community Hospital,11.64,16.55,3.1,1.8,1.3,88.2,57.7,675
+H0190,Regional Health System,12.48,16.55,2.9,2.9,3.3,57.7,26.1,480
+H0191,University Clinic,10.26,16.55,4.7,1.7,2.0,78.2,28.7,803
+H0192,University Medical Center,17.67,16.55,3.2,3.5,2.5,74.5,49.4,546
+H0193,Regional Health System,13.29,16.55,1.0,3.8,1.3,64.2,49.4,130
+H0194,County Hospital,23.29,16.55,3.8,3.9,2.0,99.9,34.7,590
+H0195,University Care Center,15.27,16.55,1.8,2.0,4.3,57.4,46.2,622
+H0196,Holy Cross Health,10.79,16.55,3.9,2.5,1.0,64.7,13.8,979
+H0197,St. Healthcare,11.41,16.55,1.9,1.4,4.6,94.8,33.5,865
+H0198,County Hospital,16.01,16.55,1.3,1.5,3.9,59.4,57.9,541
+H0199,Providence Hospital,12.84,16.55,3.4,1.2,3.0,66.5,27.9,757
+H0200,University Clinic,11.89,16.55,4.2,1.8,2.4,67.1,42.0,561
+H0201,Holy Cross Care Center,8.12,16.55,1.1,4.5,2.8,87.7,30.0,595
+H0202,University Healthcare,23.37,16.55,4.5,1.5,1.5,59.1,36.0,948
+H0203,Metro Medical Center,8.65,16.55,3.7,1.2,3.7,81.3,16.3,777
+H0204,Mercy Memorial Hospital,24.03,16.55,4.5,3.9,2.7,74.4,28.3,497
+H0205,Sacred Heart Health,9.07,16.55,2.9,3.1,4.9,70.7,44.3,471
+H0206,Regional Medical Center,19.49,16.55,3.4,1.1,1.3,90.1,52.1,203
+H0207,Valley Healthcare,18.16,16.55,4.4,1.9,4.7,70.3,19.4,909
+H0208,Valley Medical Center,16.66,16.55,3.1,3.1,1.5,91.5,29.5,963
+H0209,County Hospital,14.11,16.55,3.2,4.4,4.9,73.7,25.6,714
+H0210,Metro Medical Center,20.14,16.55,1.9,1.4,3.0,87.2,17.6,703
+H0211,County Hospital,6.37,16.55,2.2,2.2,2.1,56.4,57.6,782
+H0212,Holy Cross Hospital,5.21,16.55,3.8,1.6,4.2,96.8,58.4,316
+H0213,Providence Medical Center,9.36,16.55,4.1,1.4,4.8,50.2,25.7,329
+H0214,Valley Health,13.63,16.55,3.1,2.3,4.5,75.8,37.8,144
+H0215,Mercy Healthcare,15.13,16.55,2.3,2.4,2.9,81.6,35.4,608
+H0216,County Health System,16.86,16.55,2.4,4.6,4.1,70.9,10.1,553
+H0217,St. Clinic,19.66,16.55,2.4,3.8,2.5,62.8,45.5,110
+H0218,County Health System,13.3,16.55,1.4,1.1,4.0,55.6,32.4,516
+H0219,County Hospital,18.49,16.55,1.4,1.8,4.4,81.5,42.3,853
+H0220,Community Memorial Hospital,23.01,16.55,4.9,2.0,2.4,55.1,38.9,373
+H0221,Providence Health,17.2,16.55,4.0,4.6,3.8,90.8,30.9,262
+H0222,Community Hospital,6.11,16.55,2.9,2.2,4.3,57.6,27.9,152
+H0223,University Health System,18.03,16.55,1.6,4.3,4.7,51.8,44.3,360
+H0224,Sacred Heart Healthcare,13.64,16.55,4.3,4.6,1.1,58.8,47.5,327
+H0225,General Health System,24.46,16.55,2.0,3.5,1.1,59.8,23.9,276
+H0226,Sacred Heart Hospital,18.92,16.55,4.0,1.5,3.7,85.7,13.9,949
+H0227,Memorial Health,23.23,16.55,2.2,4.1,4.4,91.7,51.6,984
+H0228,County Health System,20.83,16.55,2.6,2.6,1.6,51.6,55.0,955
+H0229,General Healthcare,17.34,16.55,4.8,3.4,2.9,80.3,59.4,837
+H0230,General Health,13.59,16.55,2.1,1.8,2.6,61.3,38.1,248
+H0231,Metro Health System,16.59,16.55,3.5,2.6,2.8,92.3,20.3,479
+H0232,County Medical Center,22.29,16.55,1.3,4.4,2.7,58.1,41.9,540
+H0233,County Memorial Hospital,17.35,16.55,1.5,1.6,3.6,70.6,50.5,498
+H0234,St. Healthcare,14.99,16.55,4.9,2.5,4.3,77.3,25.8,872
+H0235,Providence Healthcare,17.7,16.55,3.5,3.5,3.1,68.4,30.1,978
+H0236,Metro Healthcare,23.93,16.55,4.2,3.7,4.1,83.9,26.3,777
+H0237,Metro Health,5.42,16.55,1.1,3.3,3.1,64.9,17.8,579
+H0238,University Care Center,10.44,16.55,1.2,3.2,1.9,73.0,37.7,673
+H0239,Mercy Health System,8.79,16.55,1.6,4.8,3.8,61.6,52.0,528
+H0240,Memorial Hospital,17.83,16.55,2.5,4.2,1.9,68.7,47.7,489
+H0241,Community Medical Center,8.17,16.55,3.5,1.8,2.1,51.1,55.5,843
+H0242,St. Medical Center,8.92,16.55,4.0,3.9,3.9,88.2,21.3,930
+H0243,County Medical Center,9.56,16.55,2.7,3.9,1.6,60.3,22.2,393
+H0244,Regional Medical Center,8.6,16.55,3.1,1.9,3.4,80.6,10.7,959
+H0245,Regional Hospital,19.46,16.55,3.3,4.2,3.5,51.0,14.4,639
+H0246,Providence Health System,16.43,16.55,3.3,3.8,3.4,60.9,49.2,676
+H0247,General Care Center,7.12,16.55,3.3,4.7,3.7,69.1,14.6,637
+H0248,Providence Health System,12.5,16.55,3.4,2.9,1.5,59.1,31.0,781
+H0249,University Healthcare,12.56,16.55,3.7,4.6,2.8,81.6,30.3,158
+H0250,Metro Health System,20.24,16.55,2.0,2.1,4.9,92.2,31.2,118
+H0251,Community Medical Center,16.36,16.55,2.4,3.2,3.5,89.9,43.5,438
+H0252,Sacred Heart Healthcare,21.03,16.55,1.3,3.8,2.0,57.4,52.1,177
+H0253,Valley Hospital,15.77,16.55,1.5,3.9,2.9,60.9,54.9,660
+H0254,Memorial Medical Center,20.09,16.55,4.3,3.5,1.3,88.9,32.0,495
+H0255,Valley Clinic,13.6,16.55,4.1,4.4,1.7,55.5,50.6,346
+H0256,Mercy Clinic,5.82,16.55,4.6,3.1,3.6,53.6,42.9,901
+H0257,Regional Health System,15.33,16.55,3.9,5.0,1.7,85.0,22.5,387
+H0258,Memorial Hospital,6.43,16.55,3.6,1.1,2.6,50.7,18.4,272
+H0259,General Memorial Hospital,7.23,16.55,3.9,1.0,3.1,88.8,59.7,952
+H0260,St. Medical Center,9.19,16.55,1.2,3.1,2.4,64.7,19.4,334
+H0261,Metro Health System,10.15,16.55,2.4,2.9,3.4,97.5,14.5,490
+H0262,University Clinic,9.04,16.55,1.4,4.1,1.2,72.5,19.4,390
+H0263,Sacred Heart Clinic,7.65,16.55,4.6,3.0,1.6,86.8,32.5,387
+H0264,Community Clinic,12.81,16.55,3.0,3.0,1.6,85.1,43.0,553
+H0265,Metro Memorial Hospital,18.16,16.55,1.8,1.3,5.0,61.4,58.0,270
+H0266,Community Health System,21.26,16.55,4.7,4.6,2.5,88.5,57.1,476
+H0267,Metro Clinic,5.45,16.55,2.0,2.0,3.9,83.8,30.0,767
+H0268,St. Health,13.05,16.55,1.2,1.7,3.0,90.0,49.8,133
+H0269,Mercy Memorial Hospital,17.13,16.55,3.1,4.3,3.7,57.9,19.9,542
+H0270,Regional Care Center,10.74,16.55,3.4,1.1,2.1,66.9,16.2,781
+H0271,Memorial Hospital,23.92,16.55,3.4,1.6,1.9,91.4,31.8,358
+H0272,Memorial Health System,6.33,16.55,4.5,3.2,2.1,68.2,22.3,656
+H0273,Sacred Heart Memorial Hospital,22.01,16.55,1.3,3.9,4.4,68.3,57.5,993
+H0274,University Healthcare,18.51,16.55,1.3,2.1,2.0,87.2,54.4,954
+H0275,Memorial Health System,13.87,16.55,4.2,2.2,3.5,96.4,31.6,215
+H0276,St. Memorial Hospital,23.64,16.55,3.8,1.0,2.4,98.0,49.8,950
+H0277,Holy Cross Healthcare,19.42,16.55,4.7,3.9,2.9,96.1,47.6,808
+H0278,County Medical Center,7.95,16.55,2.8,1.6,4.4,81.5,15.1,231
+H0279,Mercy Healthcare,17.99,16.55,1.5,3.8,1.4,78.4,14.5,905
+H0280,Mercy Hospital,12.23,16.55,2.3,3.8,3.1,50.4,46.6,929
+H0281,Sacred Heart Memorial Hospital,18.56,16.55,3.2,3.3,4.1,53.0,56.3,179
+H0282,Valley Health,19.34,16.55,3.1,1.2,2.6,89.3,15.0,219
+H0283,Memorial Healthcare,20.44,16.55,2.5,2.4,4.3,92.4,25.2,481
+H0284,St. Clinic,24.54,16.55,1.4,3.8,3.2,86.3,24.3,221
+H0285,Metro Health,7.64,16.55,4.5,4.0,4.3,63.4,59.6,456
+H0286,Regional Care Center,18.82,16.55,1.6,3.5,2.0,84.6,37.2,750
+H0287,Holy Cross Care Center,13.26,16.55,2.5,3.2,1.2,76.7,52.4,987
+H0288,Providence Healthcare,14.96,16.55,4.2,2.2,1.6,50.5,39.0,142
+H0289,Memorial Medical Center,21.42,16.55,3.1,2.9,2.8,69.6,57.4,632
+H0290,Regional Medical Center,15.06,16.55,2.2,4.0,3.0,75.3,44.1,313
+H0291,Valley Health System,21.95,16.55,1.3,2.1,3.8,50.9,47.1,358
+H0292,County Medical Center,22.8,16.55,4.2,3.0,2.1,84.5,17.3,767
+H0293,University Health,17.29,16.55,2.7,2.6,1.6,96.8,57.5,540
+H0294,University Medical Center,20.11,16.55,1.8,1.6,1.7,58.6,47.8,806
+H0295,St. Clinic,15.71,16.55,1.4,4.8,4.6,90.8,21.8,613
+H0296,Community Memorial Hospital,23.71,16.55,1.1,4.1,4.5,60.3,23.2,100
+H0297,Sacred Heart Health,18.39,16.55,1.5,2.0,1.3,58.7,38.6,922
+H0298,St. Health System,14.07,16.55,4.9,2.5,2.4,89.3,11.1,416
+H0299,Memorial Care Center,16.5,16.55,4.2,3.9,2.2,52.4,13.2,795
+H0300,Valley Medical Center,15.61,16.55,3.3,1.4,3.7,55.1,60.0,292
+H0301,Mercy Medical Center,7.58,16.55,4.4,2.1,3.8,86.9,55.4,664
+H0302,Community Hospital,10.79,16.55,4.2,4.9,4.3,80.1,57.4,658
+H0303,General Medical Center,20.48,16.55,1.6,1.4,3.7,68.1,18.2,659
+H0304,Providence Care Center,5.68,16.55,4.2,2.2,3.2,72.2,39.4,536
+H0305,Providence Memorial Hospital,12.68,16.55,1.8,2.0,1.4,76.9,48.0,950
+H0306,Memorial Memorial Hospital,10.97,16.55,2.2,2.3,3.7,86.6,36.5,607
+H0307,Community Care Center,7.14,16.55,1.7,3.8,1.5,59.6,27.8,760
+H0308,Metro Care Center,8.29,16.55,2.0,2.9,3.5,98.9,21.7,490
+H0309,Valley Health System,6.9,16.55,1.4,3.7,4.6,57.1,42.4,218
+H0310,County Medical Center,6.14,16.55,2.1,2.3,3.7,59.4,58.9,134
+H0311,Providence Health,9.34,16.55,2.9,1.3,4.5,94.3,11.6,879
+H0312,Providence Health System,16.68,16.55,1.1,3.0,1.8,57.9,24.1,328
+H0313,Memorial Clinic,6.02,16.55,4.3,2.2,4.9,87.9,55.9,153
+H0314,Holy Cross Clinic,8.36,16.55,2.8,1.6,3.9,82.6,57.0,594
+H0315,County Memorial Hospital,16.87,16.55,4.0,4.3,2.6,50.4,26.0,459
+H0316,General Hospital,22.32,16.55,1.7,2.0,3.2,52.5,44.9,843
+H0317,Providence Healthcare,23.13,16.55,3.0,2.7,4.7,88.1,10.1,433
+H0318,Metro Medical Center,10.77,16.55,2.1,2.5,1.4,94.3,27.6,803
+H0319,Sacred Heart Health,8.5,16.55,1.8,2.6,2.1,52.1,13.4,428
+H0320,Sacred Heart Healthcare,17.56,16.55,3.7,3.7,2.9,97.4,46.9,901
+H0321,Valley Health,10.75,16.55,5.0,3.0,3.3,77.2,32.3,602
+H0322,University Memorial Hospital,21.94,16.55,3.4,4.8,3.9,52.4,18.2,159
+H0323,Providence Care Center,17.97,16.55,2.6,3.3,4.8,92.3,33.0,201
+H0324,Holy Cross Healthcare,16.21,16.55,4.7,2.0,3.7,51.1,48.1,726
+H0325,County Clinic,14.47,16.55,4.5,2.7,2.6,73.1,58.2,979
+H0326,Sacred Heart Memorial Hospital,12.0,16.55,2.8,1.1,3.3,76.4,47.8,610
+H0327,Memorial Hospital,7.42,16.55,2.5,4.4,4.9,53.5,17.4,330
+H0328,Memorial Health System,14.74,16.55,3.4,3.8,1.5,96.9,51.5,716
+H0329,Memorial Clinic,11.89,16.55,2.1,2.0,2.4,54.0,25.0,900
+H0330,University Care Center,17.57,16.55,3.9,1.1,1.8,61.9,36.7,640
+H0331,St. Hospital,9.36,16.55,2.3,2.8,2.9,55.3,42.7,203
+H0332,Metro Health,7.49,16.55,2.3,4.9,4.6,71.4,35.3,637
+H0333,Valley Medical Center,7.45,16.55,1.7,2.4,1.7,95.9,59.2,918
+H0334,County Health,7.14,16.55,2.7,1.2,1.7,92.9,57.5,333
+H0335,Valley Medical Center,17.53,16.55,3.1,3.0,2.0,93.6,45.9,396
+H0336,County Health,12.12,16.55,2.1,4.2,1.8,93.6,37.5,595
+H0337,Holy Cross Care Center,16.93,16.55,3.8,4.8,3.2,79.4,18.4,755
+H0338,County Care Center,21.29,16.55,4.9,3.3,4.2,60.9,25.8,336
+H0339,Mercy Health System,20.25,16.55,2.2,3.8,3.0,79.1,53.7,871
+H0340,Valley Memorial Hospital,17.95,16.55,4.6,2.8,4.9,53.3,56.2,563
+H0341,Memorial Clinic,11.78,16.55,4.2,4.5,2.5,94.5,45.8,877
+H0342,Memorial Clinic,24.2,16.55,4.0,2.4,2.1,84.9,30.3,973
+H0343,Holy Cross Clinic,14.16,16.55,3.7,1.2,3.3,91.5,23.4,265
+H0344,Community Healthcare,12.84,16.55,3.3,1.0,4.3,69.1,28.2,438
+H0345,Valley Clinic,23.18,16.55,2.7,3.7,2.9,77.5,18.8,893
+H0346,County Medical Center,20.13,16.55,1.6,2.5,4.8,96.5,39.5,675
+H0347,General Health,19.93,16.55,2.3,4.6,2.2,90.5,38.7,385
+H0348,Metro Health System,11.11,16.55,2.2,3.5,2.8,72.0,36.1,444
+H0349,Valley Health,11.03,16.55,4.4,1.1,2.6,61.5,48.0,777
+H0350,County Medical Center,11.19,16.55,1.0,3.4,4.3,96.0,16.4,703
+H0351,Mercy Health System,15.49,16.55,5.0,3.6,3.4,69.0,20.2,769
+H0352,County Care Center,24.21,16.55,2.2,1.9,2.0,68.6,44.6,765
+H0353,Holy Cross Memorial Hospital,14.34,16.55,4.2,2.4,3.7,55.7,45.5,617
+H0354,Regional Care Center,9.61,16.55,2.2,3.4,4.1,69.9,53.8,659
+H0355,General Care Center,6.39,16.55,2.9,3.1,3.6,86.0,57.6,309
+H0356,Valley Care Center,16.88,16.55,3.2,2.6,4.1,84.2,52.8,345
+H0357,Community Memorial Hospital,24.47,16.55,4.9,3.6,1.9,54.1,46.5,844
+H0358,Holy Cross Hospital,21.0,16.55,2.8,3.9,4.8,96.2,37.6,326
+H0359,Community Health,21.12,16.55,2.1,2.1,3.4,92.0,52.6,698
+H0360,Regional Healthcare,5.44,16.55,4.7,1.9,3.8,67.4,45.9,160
+H0361,Sacred Heart Medical Center,8.29,16.55,2.0,3.8,3.2,82.0,25.3,210
+H0362,University Clinic,8.29,16.55,2.4,1.1,4.7,98.1,32.6,453
+H0363,County Healthcare,17.81,16.55,2.2,3.2,1.8,90.8,32.4,381
+H0364,University Health System,5.51,16.55,2.9,4.2,4.2,79.0,17.2,420
+H0365,County Hospital,15.63,16.55,2.1,1.2,3.0,87.2,10.1,925
+H0366,Regional Memorial Hospital,19.45,16.55,4.1,3.1,2.4,92.4,10.7,868
+H0367,Providence Care Center,15.49,16.55,2.3,4.8,1.1,53.9,45.2,773
+H0368,County Hospital,23.29,16.55,1.1,4.1,4.5,72.2,52.2,328
+H0369,Mercy Clinic,21.57,16.55,3.8,1.5,4.4,67.5,38.5,666
+H0370,Community Medical Center,11.77,16.55,3.6,2.8,3.2,80.4,35.1,782
+H0371,Providence Care Center,11.03,16.55,1.4,4.5,3.1,62.3,31.8,627
+H0372,Holy Cross Healthcare,5.22,16.55,3.4,1.8,1.6,57.9,58.2,175
+H0373,Holy Cross Care Center,18.95,16.55,2.9,1.6,3.1,90.4,38.1,760
+H0374,Community Health,7.22,16.55,4.7,2.9,2.5,53.0,11.2,414
+H0375,Regional Medical Center,9.64,16.55,1.5,4.4,4.4,63.2,56.2,546
+H0376,Mercy Healthcare,12.35,16.55,3.9,3.9,4.0,82.3,53.0,614
+H0377,Sacred Heart Memorial Hospital,19.63,16.55,4.2,3.6,4.9,58.4,21.4,734
+H0378,Providence Medical Center,7.33,16.55,3.2,3.2,1.2,88.2,20.1,181
+H0379,Providence Care Center,23.42,16.55,3.1,3.7,3.7,63.2,47.0,405
+H0380,Metro Hospital,18.13,16.55,3.4,1.8,4.6,87.0,53.3,665
+H0381,St. Healthcare,8.29,16.55,4.7,2.7,2.8,56.5,39.3,804
+H0382,Memorial Memorial Hospital,17.7,16.55,2.3,2.1,1.0,77.7,59.8,781
+H0383,Valley Care Center,11.01,16.55,1.0,3.6,2.4,94.5,53.9,673
+H0384,Community Care Center,19.84,16.55,2.9,1.8,1.4,94.5,18.4,643
+H0385,Holy Cross Memorial Hospital,14.91,16.55,3.3,2.5,1.9,52.9,15.7,740
+H0386,Valley Medical Center,22.7,16.55,3.4,1.2,1.8,98.3,42.5,600
+H0387,Community Healthcare,12.49,16.55,2.6,2.5,3.8,68.4,13.7,367
+H0388,Metro Clinic,13.12,16.55,1.2,3.0,1.9,72.3,45.4,609
+H0389,County Medical Center,18.95,16.55,1.6,2.5,4.6,92.2,27.2,808
+H0390,County Clinic,10.64,16.55,1.7,3.3,2.6,86.6,58.6,829
+H0391,Valley Care Center,21.49,16.55,3.0,2.2,1.1,81.3,30.1,517
+H0392,Valley Clinic,13.75,16.55,2.3,1.6,4.8,73.5,26.3,968
+H0393,General Health,6.01,16.55,4.1,2.6,2.5,96.2,25.7,309
+H0394,Mercy Healthcare,16.04,16.55,4.5,4.3,2.6,92.6,37.2,646
+H0395,Community Health,8.97,16.55,4.1,2.0,3.3,59.0,55.8,118
+H0396,Mercy Medical Center,5.96,16.55,1.7,1.4,4.4,71.9,13.9,112
+H0397,Sacred Heart Care Center,12.48,16.55,3.6,4.5,1.2,67.4,44.1,892
+H0398,Regional Clinic,10.31,16.55,2.8,2.9,1.6,82.2,46.3,248
+H0399,St. Memorial Hospital,13.4,16.55,2.6,2.2,2.4,96.9,31.0,482
+H0400,Memorial Medical Center,8.06,16.55,3.0,3.3,2.5,86.2,10.5,712
+H0401,University Memorial Hospital,15.8,16.55,2.5,2.7,4.2,77.5,18.5,262
+H0402,Memorial Health System,10.8,16.55,3.3,2.1,1.9,84.0,44.8,660
+H0403,Valley Clinic,8.05,16.55,1.8,2.4,1.1,78.5,49.4,908
+H0404,Sacred Heart Hospital,18.89,16.55,1.7,3.5,1.0,62.0,55.6,291
+H0405,County Care Center,23.19,16.55,1.7,1.8,1.3,93.7,24.1,480
+H0406,Holy Cross Hospital,10.89,16.55,4.8,2.1,2.5,65.3,45.7,745
+H0407,Regional Health System,18.47,16.55,2.7,3.7,4.2,67.3,39.6,750
+H0408,Valley Care Center,16.35,16.55,3.6,2.7,1.4,79.1,30.3,812
+H0409,Mercy Hospital,21.82,16.55,3.3,1.8,3.0,99.1,14.4,597
+H0410,St. Health System,5.78,16.55,1.7,1.6,2.8,93.9,32.3,830
+H0411,St. Health,5.78,16.55,3.5,1.6,4.8,55.3,21.4,567
+H0412,Regional Care Center,7.26,16.55,1.4,4.7,4.9,99.1,59.6,438
+H0413,Holy Cross Medical Center,18.51,16.55,2.2,2.3,1.2,56.9,44.0,277
+H0414,Holy Cross Health System,21.75,16.55,2.9,3.2,4.1,54.3,37.8,246
+H0415,Holy Cross Hospital,8.58,16.55,2.1,4.5,1.3,93.1,15.6,829
+H0416,Providence Health,22.9,16.55,3.4,1.4,3.2,65.9,51.4,222
+H0417,Community Health System,17.43,16.55,2.5,4.4,4.1,79.4,41.3,377
+H0418,Community Clinic,14.82,16.55,1.5,3.7,4.5,62.9,52.2,905
+H0419,Providence Health,6.0,16.55,1.8,1.6,3.6,73.5,21.6,745
+H0420,University Medical Center,20.48,16.55,4.0,1.7,2.0,95.7,21.4,301
+H0421,Memorial Medical Center,15.34,16.55,2.4,1.4,4.1,60.8,34.3,615
+H0422,Regional Medical Center,10.2,16.55,1.7,1.0,4.8,85.1,31.4,929
+H0423,Holy Cross Care Center,7.3,16.55,3.0,4.9,1.9,85.0,51.8,946
+H0424,St. Clinic,23.84,16.55,2.6,4.6,2.4,76.1,11.0,708
+H0425,Metro Medical Center,10.55,16.55,4.6,4.3,4.9,62.1,38.7,211
+H0426,Mercy Memorial Hospital,11.98,16.55,3.0,1.0,3.5,83.9,57.0,153
+H0427,St. Memorial Hospital,19.37,16.55,3.0,4.8,1.9,75.8,22.7,881
+H0428,Providence Clinic,19.99,16.55,1.9,3.6,1.6,79.8,31.9,957
+H0429,General Medical Center,17.56,16.55,2.9,1.9,1.3,56.8,55.7,310
+H0430,Valley Health System,9.76,16.55,2.1,3.9,5.0,71.2,11.6,854
+H0431,Sacred Heart Clinic,16.2,16.55,3.3,4.2,3.9,99.8,19.2,534
+H0432,Providence Memorial Hospital,11.94,16.55,1.4,4.2,1.4,56.9,11.6,935
+H0433,Providence Memorial Hospital,11.96,16.55,2.7,2.5,4.9,52.0,53.4,364
+H0434,Holy Cross Clinic,15.66,16.55,1.4,4.2,2.1,70.5,43.5,796
+H0435,General Medical Center,9.41,16.55,2.5,3.4,4.4,69.6,26.4,951
+H0436,Memorial Hospital,6.18,16.55,4.0,4.5,4.1,69.8,28.6,370
+H0437,General Clinic,15.12,16.55,2.9,4.7,3.1,54.7,32.9,333
+H0438,Regional Care Center,16.57,16.55,2.1,2.9,4.1,85.4,26.3,811
+H0439,General Clinic,5.03,16.55,4.4,1.9,2.2,54.4,58.5,428
+H0440,General Memorial Hospital,17.69,16.55,1.5,1.0,1.3,71.7,43.0,239
+H0441,Community Healthcare,15.07,16.55,4.7,2.0,1.4,73.5,22.3,790
+H0442,Metro Hospital,7.06,16.55,2.6,3.7,4.5,92.2,39.8,619
+H0443,County Healthcare,19.41,16.55,3.9,4.1,1.9,97.3,19.9,913
+H0444,Metro Clinic,23.18,16.55,4.2,4.6,3.0,90.8,11.2,197
+H0445,Regional Hospital,22.22,16.55,2.5,1.7,2.2,72.0,58.5,149
+H0446,University Health System,9.05,16.55,3.0,3.6,2.6,88.3,36.4,867
+H0447,Memorial Healthcare,11.68,16.55,2.7,4.0,4.0,94.8,20.1,822
+H0448,County Healthcare,14.22,16.55,4.3,2.8,4.7,62.4,15.1,217
+H0449,Mercy Health System,9.37,16.55,1.1,2.5,4.2,65.8,42.5,196
+H0450,Metro Health,5.94,16.55,2.8,3.8,4.8,69.2,51.7,813
+H0451,Memorial Healthcare,16.9,16.55,3.9,1.4,2.8,89.9,40.0,220
+H0452,Mercy Hospital,22.73,16.55,3.0,3.5,1.0,78.1,51.7,212
+H0453,Providence Health System,23.5,16.55,4.4,1.1,3.2,62.5,10.4,381
+H0454,Sacred Heart Healthcare,17.4,16.55,4.7,3.7,2.0,51.1,56.9,357
+H0455,Mercy Healthcare,10.99,16.55,1.7,2.8,5.0,67.4,32.7,812
+H0456,County Hospital,11.36,16.55,4.4,2.6,4.6,95.2,56.6,416
+H0457,Metro Health,11.39,16.55,1.9,4.3,4.5,89.9,29.9,948
+H0458,Sacred Heart Memorial Hospital,13.2,16.55,3.1,1.1,1.9,71.3,52.6,587
+H0459,Holy Cross Clinic,13.4,16.55,1.6,4.3,3.3,95.5,10.3,390
+H0460,Memorial Health System,12.97,16.55,3.1,2.9,2.1,91.2,38.6,709
+H0461,University Memorial Hospital,20.8,16.55,2.8,2.1,1.7,57.8,39.0,691
+H0462,University Memorial Hospital,11.13,16.55,2.7,3.2,2.0,79.5,29.0,750
+H0463,Providence Care Center,22.12,16.55,2.1,4.5,1.6,52.1,57.9,226
+H0464,Metro Care Center,5.34,16.55,2.7,4.5,4.3,70.4,54.0,829
+H0465,Regional Memorial Hospital,5.88,16.55,4.0,4.3,2.6,66.6,32.9,269
+H0466,County Medical Center,16.81,16.55,3.2,4.3,3.8,83.9,38.5,250
+H0467,Regional Health,23.79,16.55,4.8,3.7,1.9,87.0,18.3,285
+H0468,St. Clinic,20.87,16.55,3.5,4.0,1.9,60.5,17.1,382
+H0469,Mercy Care Center,18.78,16.55,4.2,3.5,3.6,88.4,49.4,242
+H0470,Memorial Hospital,10.52,16.55,1.5,3.8,1.5,52.0,58.9,130
+H0471,University Memorial Hospital,17.0,16.55,4.6,2.6,2.4,55.0,40.0,779
+H0472,Providence Health System,19.64,16.55,4.7,1.5,1.7,90.5,17.1,519
+H0473,Valley Medical Center,5.63,16.55,2.0,3.3,3.9,55.1,29.4,422
+H0474,University Hospital,6.27,16.55,3.7,1.4,1.2,58.4,45.1,773
+H0475,Memorial Memorial Hospital,8.64,16.55,2.0,3.1,3.6,79.8,18.7,666
+H0476,Community Care Center,19.02,16.55,4.4,4.4,4.1,74.5,16.6,101
+H0477,Regional Medical Center,23.7,16.55,4.7,2.0,2.2,71.4,56.4,108
+H0478,Memorial Medical Center,15.96,16.55,2.9,1.7,4.2,74.7,25.3,869
+H0479,Valley Health System,16.97,16.55,2.6,3.1,4.9,62.1,22.9,711
+H0480,Valley Health System,10.16,16.55,1.3,1.5,3.0,90.0,29.7,878
+H0481,Metro Health System,10.6,16.55,4.9,2.2,3.9,85.9,12.6,290
+H0482,Sacred Heart Memorial Hospital,23.98,16.55,1.6,1.1,2.1,78.6,54.4,287
+H0483,Mercy Care Center,12.63,16.55,5.0,3.4,2.1,58.2,43.6,520
+H0484,Sacred Heart Clinic,13.61,16.55,1.3,2.1,2.7,66.7,33.9,377
+H0485,Memorial Medical Center,14.12,16.55,4.8,4.7,4.5,67.2,33.8,292
+H0486,Holy Cross Health,21.79,16.55,4.4,1.8,1.2,51.9,44.2,706
+H0487,University Health,17.67,16.55,3.6,3.2,2.8,94.9,11.2,534
+H0488,St. Memorial Hospital,24.06,16.55,4.2,1.4,1.7,60.8,54.1,100
+H0489,General Health System,5.43,16.55,2.7,1.4,2.8,94.9,46.6,196
+H0490,Regional Health,19.18,16.55,3.3,4.4,3.9,65.5,47.9,847
+H0491,Metro Medical Center,22.66,16.55,3.9,3.2,1.7,62.3,57.5,422
+H0492,Metro Medical Center,21.69,16.55,4.5,1.5,3.0,89.1,20.4,973
+H0493,University Clinic,5.3,16.55,1.7,2.3,1.1,94.7,38.2,242
+H0494,Community Health System,13.23,16.55,1.2,4.2,1.8,50.6,51.7,762
+H0495,General Care Center,15.08,16.55,1.9,4.2,2.8,64.2,17.9,239
+H0496,University Healthcare,8.08,16.55,1.6,1.6,1.7,56.3,57.8,268
+H0497,County Healthcare,13.64,16.55,1.3,3.8,1.5,94.7,44.2,585
+H0498,University Medical Center,20.12,16.55,3.0,4.7,3.9,80.7,45.4,738
+H0499,St. Health System,7.54,16.55,2.7,3.4,4.8,59.1,51.6,858
+H0500,St. Healthcare,9.97,16.55,5.0,3.2,4.4,82.3,53.7,981

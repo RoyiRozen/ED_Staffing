@@ -1,0 +1,64 @@
+Summary for hospital_compare.csv
+
+Shape: (500, 11)
+
+Column info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 11 columns):
+ #   Column              Non-Null Count  Dtype 
+---  ------              --------------  ----- 
+ 0   provider_id         500 non-null    object
+ 1   hospital_name       500 non-null    object
+ 2   address             500 non-null    object
+ 3   city                500 non-null    object
+ 4   state               500 non-null    object
+ 5   zip_code            500 non-null    int64 
+ 6   hospital_type       500 non-null    object
+ 7   hospital_ownership  500 non-null    object
+ 8   emergency_services  500 non-null    object
+ 9   beds                500 non-null    int64 
+ 10  accreditation       392 non-null    object
+dtypes: int64(2), object(9)
+memory usage: 43.1+ KB
+
+
+Missing values per column:
+provider_id             0
+hospital_name           0
+address                 0
+city                    0
+state                   0
+zip_code                0
+hospital_type           0
+hospital_ownership      0
+emergency_services      0
+beds                    0
+accreditation         108
+dtype: int64
+
+Sample rows:
+  provider_id            hospital_name               address  ... emergency_services beds     accreditation
+0       H0001  Community Health System         7033 Park Ave  ...                 No  859              CIHQ
+1       H0002          County Hospital  9232 Washington Blvd  ...                 No  864  Joint Commission
+2       H0003    Holy Cross Healthcare         3850 Cedar Ln  ...                Yes  941            DNV GL
+3       H0004   Memorial Health System           576 Lake Dr  ...                 No  363            DNV GL
+4       H0005     Community Healthcare  2799 Washington Blvd  ...                Yes  975              CIHQ
+
+[5 rows x 11 columns]
+
+Basic stats (numeric columns):
+       provider_id    hospital_name      address  ... emergency_services        beds     accreditation
+count          500              500          500  ...                500  500.000000               392
+unique         500              103          498  ...                  2         NaN                 3
+top          H0001  County Hospital  8792 Elm St  ...                Yes         NaN  Joint Commission
+freq             1               12            2  ...                265         NaN               134
+mean           NaN              NaN          NaN  ...                NaN  488.788000               NaN
+std            NaN              NaN          NaN  ...                NaN  281.674244               NaN
+min            NaN              NaN          NaN  ...                NaN   13.000000               NaN
+25%            NaN              NaN          NaN  ...                NaN  238.750000               NaN
+50%            NaN              NaN          NaN  ...                NaN  474.000000               NaN
+75%            NaN              NaN          NaN  ...                NaN  738.500000               NaN
+max            NaN              NaN          NaN  ...                NaN  995.000000               NaN
+
+[11 rows x 11 columns]

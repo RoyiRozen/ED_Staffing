@@ -1,0 +1,501 @@
+provider_id,hospital_name,total_hac_score,hai_score,psi_score,payment_reduction,reduction_percentage,reporting_period,worse_than_national
+H0001,Valley Care Center,2.01,3.34,5.26,No,3,2022-2023,No
+H0002,University Health,5.26,4.8,3.0,No,2,2022-2023,Yes
+H0003,Community Hospital,6.62,2.19,2.15,Yes,0,2021-2022,No
+H0004,General Memorial Hospital,1.29,9.68,7.4,Yes,3,2022-2023,Same
+H0005,County Hospital,2.27,2.93,2.82,Yes,2,2021-2022,Yes
+H0006,Mercy Memorial Hospital,1.15,2.4,6.29,Yes,1,2022-2023,Yes
+H0007,Sacred Heart Healthcare,9.37,3.27,9.5,No,1,2022-2023,Yes
+H0008,Valley Clinic,2.91,3.63,4.28,Yes,2,2022-2023,Yes
+H0009,County Health,8.24,2.19,9.63,No,2,2021-2022,Yes
+H0010,Providence Health,4.39,2.59,3.14,Yes,1,2022-2023,Yes
+H0011,Metro Memorial Hospital,8.69,2.49,7.95,No,1,2022-2023,Yes
+H0012,St. Memorial Hospital,6.27,6.8,8.88,Yes,3,2022-2023,No
+H0013,University Memorial Hospital,1.58,2.34,8.66,No,3,2022-2023,Same
+H0014,Regional Memorial Hospital,5.93,1.13,9.6,No,0,2021-2022,Same
+H0015,General Memorial Hospital,5.5,9.88,1.67,No,0,2021-2022,Same
+H0016,Memorial Hospital,8.6,8.78,2.59,Yes,1,2022-2023,No
+H0017,Holy Cross Healthcare,2.15,3.67,2.9,Yes,2,2021-2022,Yes
+H0018,Providence Memorial Hospital,1.43,8.35,3.34,No,1,2022-2023,Same
+H0019,Providence Care Center,8.11,5.07,6.47,No,1,2022-2023,No
+H0020,University Health,1.51,1.08,3.89,Yes,0,2022-2023,Same
+H0021,Memorial Health,8.54,5.55,1.46,Yes,0,2021-2022,Same
+H0022,General Health,5.67,9.71,5.62,No,1,2022-2023,Same
+H0023,County Health System,6.73,3.99,3.47,No,2,2022-2023,Same
+H0024,Metro Clinic,8.2,8.5,2.65,Yes,3,2022-2023,No
+H0025,County Care Center,6.57,5.61,1.04,Yes,1,2022-2023,No
+H0026,Metro Care Center,4.49,1.19,1.51,No,0,2022-2023,Same
+H0027,Regional Clinic,7.39,6.13,7.74,No,1,2022-2023,No
+H0028,Regional Health System,4.75,6.53,6.42,Yes,1,2021-2022,Same
+H0029,St. Memorial Hospital,8.3,9.89,8.54,No,3,2022-2023,Same
+H0030,Memorial Health System,3.01,3.98,1.5,No,1,2022-2023,Yes
+H0031,University Health System,3.58,8.92,3.87,No,3,2021-2022,Yes
+H0032,University Memorial Hospital,9.56,3.01,4.9,Yes,1,2021-2022,Same
+H0033,Providence Clinic,1.63,2.51,2.33,Yes,2,2021-2022,No
+H0034,County Care Center,4.05,5.46,1.14,No,2,2022-2023,No
+H0035,Community Health System,4.75,2.15,9.9,Yes,0,2022-2023,Yes
+H0036,Valley Health System,9.97,7.14,8.22,Yes,2,2021-2022,Yes
+H0037,Regional Healthcare,2.02,7.28,2.81,Yes,0,2021-2022,No
+H0038,St. Hospital,1.6,6.66,7.4,Yes,1,2022-2023,No
+H0039,Metro Health System,3.27,1.36,2.5,No,1,2022-2023,No
+H0040,Sacred Heart Clinic,4.72,5.39,5.65,Yes,2,2021-2022,Yes
+H0041,County Clinic,5.61,4.62,4.59,No,2,2022-2023,Same
+H0042,Holy Cross Memorial Hospital,1.6,1.75,1.15,No,1,2022-2023,Same
+H0043,St. Care Center,6.86,9.82,5.92,Yes,1,2022-2023,Same
+H0044,County Health,1.18,6.62,9.14,No,2,2022-2023,No
+H0045,Mercy Care Center,4.05,7.03,8.29,Yes,3,2022-2023,Yes
+H0046,St. Medical Center,1.07,3.55,5.3,No,3,2021-2022,Same
+H0047,Memorial Care Center,2.27,8.91,5.73,No,1,2022-2023,Yes
+H0048,Mercy Clinic,7.12,4.98,2.28,Yes,0,2022-2023,Same
+H0049,County Care Center,3.56,5.88,2.61,Yes,0,2022-2023,Same
+H0050,St. Healthcare,2.94,6.6,7.17,Yes,3,2021-2022,Yes
+H0051,University Care Center,8.61,3.34,4.94,No,2,2022-2023,Yes
+H0052,General Health,4.26,2.07,2.61,No,1,2022-2023,No
+H0053,County Health,6.74,5.63,3.57,Yes,2,2022-2023,No
+H0054,Community Health,7.83,4.91,1.41,Yes,0,2021-2022,Same
+H0055,St. Medical Center,7.28,7.47,2.95,Yes,0,2021-2022,Same
+H0056,Valley Health System,9.45,6.73,5.66,Yes,3,2021-2022,Same
+H0057,Sacred Heart Hospital,1.7,8.25,9.89,Yes,2,2022-2023,Same
+H0058,Sacred Heart Memorial Hospital,9.27,7.34,2.93,Yes,0,2021-2022,Yes
+H0059,St. Memorial Hospital,9.96,9.05,9.56,Yes,0,2021-2022,Yes
+H0060,St. Care Center,5.5,8.07,3.29,No,3,2022-2023,No
+H0061,Valley Clinic,3.24,6.46,5.87,Yes,3,2022-2023,Same
+H0062,Regional Care Center,6.17,3.42,5.36,No,1,2021-2022,Yes
+H0063,Community Health,8.08,1.83,5.68,Yes,0,2022-2023,No
+H0064,St. Health System,3.15,2.67,7.01,No,0,2021-2022,No
+H0065,Providence Care Center,8.07,1.37,8.82,No,2,2022-2023,Same
+H0066,Valley Health System,7.7,4.82,9.59,Yes,2,2021-2022,Same
+H0067,Metro Memorial Hospital,2.56,1.82,8.59,No,0,2021-2022,Same
+H0068,Holy Cross Care Center,9.74,4.22,1.0,No,2,2021-2022,Yes
+H0069,Memorial Memorial Hospital,7.73,6.24,1.2,Yes,1,2022-2023,No
+H0070,Regional Memorial Hospital,4.29,5.61,1.27,No,0,2021-2022,Yes
+H0071,Mercy Hospital,3.91,9.12,9.13,Yes,3,2021-2022,Yes
+H0072,University Memorial Hospital,7.48,4.58,9.42,No,1,2022-2023,Yes
+H0073,Memorial Health,7.55,1.83,3.09,No,3,2022-2023,Same
+H0074,Sacred Heart Health System,9.88,5.99,1.53,Yes,3,2022-2023,Yes
+H0075,Regional Medical Center,5.46,3.01,3.6,Yes,2,2021-2022,Same
+H0076,General Healthcare,5.89,9.83,8.18,Yes,0,2022-2023,Same
+H0077,Mercy Healthcare,2.03,4.71,4.27,Yes,1,2021-2022,Same
+H0078,Mercy Memorial Hospital,1.93,3.66,6.83,No,2,2022-2023,No
+H0079,County Healthcare,8.7,3.95,6.99,No,1,2022-2023,Same
+H0080,Holy Cross Health,3.95,7.38,2.9,No,1,2022-2023,No
+H0081,St. Health,8.37,1.76,1.19,No,3,2021-2022,Yes
+H0082,University Clinic,2.46,4.07,6.32,No,3,2022-2023,No
+H0083,Regional Medical Center,8.42,5.11,2.34,Yes,3,2021-2022,No
+H0084,Metro Care Center,7.34,7.95,1.18,Yes,1,2021-2022,Same
+H0085,St. Hospital,8.74,8.19,9.46,Yes,1,2021-2022,No
+H0086,Sacred Heart Hospital,7.69,1.97,4.79,Yes,3,2022-2023,No
+H0087,Mercy Healthcare,3.05,6.51,6.14,No,0,2021-2022,Yes
+H0088,Metro Hospital,6.63,7.77,6.37,No,3,2021-2022,No
+H0089,General Medical Center,6.67,3.87,6.41,Yes,0,2022-2023,Same
+H0090,Valley Health,2.26,9.55,1.82,Yes,0,2021-2022,Yes
+H0091,Regional Health System,8.26,9.29,9.68,Yes,2,2022-2023,Yes
+H0092,Providence Health,8.37,9.48,1.08,No,0,2022-2023,Same
+H0093,County Hospital,4.6,9.17,6.33,No,3,2022-2023,Yes
+H0094,Sacred Heart Health System,1.99,3.53,3.69,Yes,1,2022-2023,Same
+H0095,Metro Memorial Hospital,3.82,9.73,6.87,Yes,1,2021-2022,Yes
+H0096,Memorial Care Center,4.43,8.18,6.22,Yes,1,2021-2022,No
+H0097,St. Medical Center,5.66,6.55,3.56,No,2,2021-2022,Same
+H0098,Mercy Healthcare,7.88,9.19,2.41,No,0,2022-2023,No
+H0099,Metro Memorial Hospital,1.29,4.22,4.56,Yes,3,2021-2022,Same
+H0100,Valley Clinic,6.72,3.73,2.0,No,3,2021-2022,No
+H0101,Holy Cross Health,7.72,7.71,1.08,Yes,1,2021-2022,Yes
+H0102,Community Hospital,6.81,9.72,9.43,Yes,2,2021-2022,Yes
+H0103,University Clinic,7.87,1.93,1.59,Yes,2,2021-2022,No
+H0104,Regional Care Center,9.88,5.01,7.02,No,2,2021-2022,Yes
+H0105,Sacred Heart Clinic,4.51,5.48,5.21,Yes,3,2021-2022,Yes
+H0106,University Clinic,9.53,7.07,9.32,No,2,2022-2023,Yes
+H0107,Valley Health System,6.21,7.49,6.27,Yes,1,2021-2022,No
+H0108,Mercy Medical Center,5.25,3.36,7.4,Yes,0,2021-2022,Yes
+H0109,Providence Clinic,3.1,8.98,9.84,No,1,2022-2023,Yes
+H0110,County Hospital,3.87,3.94,7.09,Yes,3,2021-2022,Same
+H0111,Valley Healthcare,4.57,1.9,7.59,Yes,0,2022-2023,No
+H0112,Community Medical Center,3.42,4.76,5.76,No,3,2021-2022,Yes
+H0113,Providence Memorial Hospital,4.03,9.22,2.25,No,0,2022-2023,Yes
+H0114,County Medical Center,7.44,9.47,5.47,Yes,0,2022-2023,No
+H0115,Mercy Hospital,1.1,6.84,4.25,Yes,2,2022-2023,Yes
+H0116,Valley Hospital,5.41,7.22,9.7,Yes,3,2022-2023,Yes
+H0117,Regional Medical Center,2.21,7.8,9.1,No,3,2021-2022,Same
+H0118,Memorial Clinic,5.54,4.26,9.72,Yes,0,2022-2023,No
+H0119,Valley Medical Center,1.96,9.61,8.31,No,0,2022-2023,Same
+H0120,University Clinic,5.88,6.72,6.01,No,2,2022-2023,Yes
+H0121,General Clinic,5.78,5.72,5.47,Yes,0,2022-2023,Same
+H0122,County Medical Center,8.6,9.78,3.11,Yes,1,2022-2023,Same
+H0123,St. Health System,1.17,2.11,5.01,No,0,2022-2023,Yes
+H0124,Providence Memorial Hospital,8.34,8.94,9.19,Yes,2,2021-2022,Same
+H0125,General Healthcare,6.65,2.67,6.29,No,2,2021-2022,Yes
+H0126,County Health System,4.54,3.57,2.13,No,2,2022-2023,Yes
+H0127,Mercy Medical Center,3.33,4.02,8.9,Yes,2,2021-2022,No
+H0128,Regional Healthcare,6.88,4.04,4.08,Yes,0,2021-2022,Yes
+H0129,County Care Center,8.04,9.22,4.95,No,0,2021-2022,Same
+H0130,St. Medical Center,8.18,5.52,4.96,No,0,2022-2023,Same
+H0131,Holy Cross Clinic,8.33,6.53,6.05,Yes,0,2022-2023,No
+H0132,Holy Cross Clinic,4.97,2.2,6.0,Yes,1,2021-2022,Yes
+H0133,University Health,2.06,2.91,7.1,No,3,2021-2022,No
+H0134,Memorial Medical Center,4.33,6.44,4.81,No,3,2022-2023,Same
+H0135,Sacred Heart Health,1.57,1.55,9.02,No,2,2021-2022,Yes
+H0136,University Medical Center,2.09,4.9,5.22,Yes,0,2021-2022,No
+H0137,Memorial Hospital,2.97,1.47,2.87,Yes,0,2021-2022,No
+H0138,General Medical Center,8.26,1.44,8.9,Yes,2,2022-2023,Yes
+H0139,Metro Clinic,7.02,9.26,2.19,No,1,2021-2022,Yes
+H0140,University Care Center,7.73,2.42,8.46,Yes,2,2021-2022,Same
+H0141,Providence Health,6.71,5.9,2.5,No,1,2021-2022,Yes
+H0142,Metro Care Center,3.09,2.05,1.24,No,2,2021-2022,Same
+H0143,Memorial Healthcare,4.15,6.11,7.63,Yes,2,2022-2023,No
+H0144,Mercy Healthcare,2.46,9.65,8.08,No,3,2022-2023,No
+H0145,Providence Hospital,2.43,4.5,6.91,No,2,2022-2023,No
+H0146,General Health System,8.04,8.3,2.68,Yes,2,2021-2022,No
+H0147,Community Care Center,7.18,8.41,2.28,Yes,2,2021-2022,Yes
+H0148,General Health System,4.28,1.85,4.62,No,1,2021-2022,No
+H0149,Valley Care Center,5.44,3.16,2.37,No,3,2022-2023,Same
+H0150,Memorial Memorial Hospital,9.01,2.03,2.4,No,0,2021-2022,Yes
+H0151,University Memorial Hospital,7.14,5.36,3.91,Yes,3,2022-2023,Same
+H0152,Sacred Heart Memorial Hospital,6.07,8.46,6.4,No,2,2021-2022,No
+H0153,Regional Hospital,9.39,7.93,9.23,No,0,2022-2023,Same
+H0154,County Health System,6.61,3.41,9.66,No,1,2021-2022,Yes
+H0155,St. Hospital,2.5,3.73,3.51,Yes,3,2021-2022,Yes
+H0156,Providence Medical Center,2.11,5.09,3.42,No,2,2021-2022,Yes
+H0157,Memorial Health System,4.11,3.27,8.52,No,0,2022-2023,Same
+H0158,Memorial Medical Center,5.48,8.62,9.32,Yes,3,2022-2023,No
+H0159,Regional Memorial Hospital,5.3,4.43,7.65,No,2,2021-2022,Same
+H0160,Regional Healthcare,9.71,6.83,4.91,Yes,3,2022-2023,No
+H0161,Mercy Health,2.44,8.15,8.35,Yes,3,2021-2022,No
+H0162,Mercy Medical Center,6.31,6.47,7.03,Yes,1,2022-2023,Same
+H0163,St. Memorial Hospital,1.31,9.74,6.2,No,2,2021-2022,Yes
+H0164,County Clinic,7.12,3.66,4.28,No,0,2021-2022,No
+H0165,General Medical Center,7.83,6.1,7.41,No,2,2021-2022,No
+H0166,Mercy Health,8.29,7.41,5.94,Yes,3,2021-2022,Yes
+H0167,St. Hospital,4.04,4.94,6.05,Yes,0,2022-2023,Same
+H0168,Memorial Medical Center,6.08,4.66,7.2,No,3,2022-2023,No
+H0169,County Healthcare,3.74,8.51,5.51,No,0,2021-2022,No
+H0170,Regional Clinic,6.4,7.36,2.16,Yes,3,2022-2023,Yes
+H0171,Regional Health System,6.45,8.46,9.82,Yes,0,2022-2023,No
+H0172,Regional Care Center,8.74,5.78,9.57,No,3,2022-2023,Yes
+H0173,St. Clinic,8.26,9.59,6.31,Yes,0,2022-2023,Same
+H0174,Community Health,7.08,1.47,9.72,No,0,2022-2023,No
+H0175,Memorial Health System,8.94,1.71,8.08,No,2,2021-2022,No
+H0176,County Clinic,6.23,8.98,8.25,Yes,2,2022-2023,Same
+H0177,General Care Center,5.09,2.59,9.33,Yes,1,2022-2023,No
+H0178,Regional Hospital,8.18,3.51,3.01,No,1,2021-2022,No
+H0179,Community Care Center,7.01,2.47,1.38,Yes,2,2021-2022,Same
+H0180,Holy Cross Hospital,6.43,3.91,1.02,No,0,2022-2023,No
+H0181,Valley Clinic,9.16,9.59,8.16,Yes,3,2022-2023,No
+H0182,Community Health,8.99,5.47,6.42,No,3,2022-2023,Same
+H0183,St. Health System,8.24,9.67,1.63,Yes,3,2022-2023,Same
+H0184,University Memorial Hospital,3.92,6.4,9.6,Yes,0,2021-2022,Yes
+H0185,General Hospital,3.57,6.12,9.27,Yes,1,2021-2022,No
+H0186,Memorial Medical Center,2.57,2.43,6.47,No,0,2021-2022,Same
+H0187,Valley Health System,6.27,5.82,8.1,Yes,2,2021-2022,Same
+H0188,County Health System,2.51,5.34,1.56,Yes,2,2022-2023,No
+H0189,County Health System,3.25,2.97,2.16,No,0,2021-2022,Yes
+H0190,Sacred Heart Healthcare,1.27,1.56,9.29,Yes,3,2021-2022,Same
+H0191,County Clinic,3.2,2.04,2.72,No,3,2022-2023,Yes
+H0192,General Care Center,6.32,4.04,7.16,No,2,2022-2023,Same
+H0193,Sacred Heart Health System,5.84,8.79,1.44,Yes,2,2022-2023,No
+H0194,University Memorial Hospital,1.44,8.69,2.29,Yes,1,2022-2023,Same
+H0195,Sacred Heart Clinic,7.86,1.68,5.07,Yes,2,2022-2023,Yes
+H0196,Memorial Health System,3.83,5.78,3.98,No,1,2022-2023,No
+H0197,County Healthcare,5.39,8.35,6.07,No,1,2022-2023,Same
+H0198,Mercy Memorial Hospital,8.22,3.33,7.24,Yes,2,2022-2023,No
+H0199,University Healthcare,2.5,4.49,6.81,No,1,2021-2022,Same
+H0200,Mercy Health System,1.98,1.02,3.83,Yes,0,2021-2022,Yes
+H0201,Mercy Health,4.89,3.48,8.5,No,0,2022-2023,No
+H0202,General Care Center,5.73,5.77,8.4,Yes,2,2022-2023,No
+H0203,Metro Health,3.44,2.25,3.82,Yes,3,2021-2022,No
+H0204,County Health System,3.39,6.21,4.99,No,0,2021-2022,No
+H0205,University Health System,4.04,5.4,2.03,No,1,2022-2023,Same
+H0206,County Health,3.43,2.56,8.07,No,0,2021-2022,No
+H0207,Sacred Heart Memorial Hospital,4.78,7.07,2.92,No,1,2022-2023,Same
+H0208,Holy Cross Hospital,6.0,3.03,9.23,No,2,2021-2022,Yes
+H0209,Mercy Health,9.64,7.58,3.03,No,1,2022-2023,No
+H0210,Metro Medical Center,9.44,8.17,1.03,No,3,2021-2022,No
+H0211,Memorial Care Center,7.85,4.44,2.28,Yes,2,2021-2022,Same
+H0212,Metro Hospital,4.2,4.19,9.78,Yes,1,2021-2022,Yes
+H0213,County Care Center,6.14,2.57,2.39,Yes,1,2022-2023,No
+H0214,General Clinic,1.35,2.76,1.08,No,3,2021-2022,Yes
+H0215,Mercy Care Center,8.42,8.02,4.96,Yes,3,2022-2023,No
+H0216,Community Care Center,8.1,9.85,2.28,Yes,3,2022-2023,No
+H0217,Holy Cross Health,1.3,7.37,2.53,No,2,2022-2023,No
+H0218,Holy Cross Health,1.85,9.81,1.25,Yes,0,2021-2022,Same
+H0219,Holy Cross Health,2.01,3.42,5.31,No,1,2021-2022,No
+H0220,Metro Care Center,1.3,6.63,9.02,Yes,0,2021-2022,Same
+H0221,Mercy Memorial Hospital,2.22,3.63,3.28,No,3,2022-2023,Yes
+H0222,Sacred Heart Health System,7.24,9.73,3.9,Yes,2,2021-2022,Yes
+H0223,Valley Clinic,6.93,5.63,6.99,Yes,0,2022-2023,Same
+H0224,Holy Cross Clinic,6.82,6.63,1.25,No,3,2022-2023,No
+H0225,Mercy Healthcare,3.62,5.01,1.55,No,2,2021-2022,Same
+H0226,Sacred Heart Memorial Hospital,7.0,7.37,2.85,Yes,1,2021-2022,Same
+H0227,Sacred Heart Health,1.17,4.95,4.43,Yes,3,2021-2022,No
+H0228,County Care Center,2.23,4.55,5.3,No,0,2022-2023,No
+H0229,University Care Center,3.88,7.67,5.63,Yes,1,2022-2023,Same
+H0230,Providence Healthcare,9.98,7.59,2.56,Yes,2,2021-2022,Same
+H0231,Memorial Medical Center,2.85,7.94,5.31,Yes,2,2021-2022,Yes
+H0232,Mercy Health,2.41,1.51,7.35,Yes,3,2021-2022,No
+H0233,University Health System,3.78,1.48,1.34,No,2,2022-2023,Same
+H0234,Sacred Heart Hospital,6.15,9.05,9.08,Yes,2,2022-2023,Yes
+H0235,Providence Clinic,1.02,1.34,2.36,No,0,2022-2023,Yes
+H0236,Valley Healthcare,5.7,3.58,9.94,Yes,1,2021-2022,Yes
+H0237,University Medical Center,8.55,3.28,3.89,Yes,2,2022-2023,No
+H0238,Providence Clinic,5.99,2.58,8.84,No,2,2022-2023,Same
+H0239,Mercy Memorial Hospital,3.44,4.98,5.7,No,1,2021-2022,No
+H0240,Providence Medical Center,4.24,2.11,4.48,Yes,2,2022-2023,No
+H0241,Providence Clinic,1.33,8.85,2.41,No,0,2021-2022,No
+H0242,Regional Health,8.29,4.31,4.74,Yes,3,2022-2023,Yes
+H0243,University Memorial Hospital,5.51,2.31,6.89,Yes,3,2021-2022,Yes
+H0244,Mercy Healthcare,6.73,5.05,6.19,Yes,1,2021-2022,Same
+H0245,Memorial Memorial Hospital,4.38,9.53,7.19,No,0,2022-2023,No
+H0246,University Hospital,8.35,7.19,9.46,Yes,3,2021-2022,No
+H0247,St. Medical Center,9.7,5.75,8.19,No,2,2022-2023,No
+H0248,General Hospital,2.91,7.99,2.96,No,2,2021-2022,Yes
+H0249,Valley Care Center,8.65,3.94,8.04,Yes,1,2021-2022,No
+H0250,Mercy Hospital,3.98,5.82,1.38,No,2,2022-2023,Same
+H0251,St. Healthcare,1.13,1.95,4.98,No,2,2022-2023,Yes
+H0252,Community Healthcare,1.49,1.58,6.79,No,1,2022-2023,Same
+H0253,University Clinic,6.23,3.73,4.09,Yes,0,2021-2022,Same
+H0254,General Health System,8.74,8.12,1.65,Yes,2,2021-2022,No
+H0255,General Medical Center,2.56,6.35,1.43,No,1,2022-2023,No
+H0256,St. Memorial Hospital,5.51,7.05,4.79,No,0,2021-2022,Yes
+H0257,University Care Center,7.58,6.35,5.6,No,2,2021-2022,No
+H0258,Metro Medical Center,3.26,2.01,6.16,Yes,2,2022-2023,Same
+H0259,General Care Center,4.3,2.41,1.95,Yes,1,2022-2023,Yes
+H0260,Regional Memorial Hospital,7.92,3.82,1.38,Yes,0,2021-2022,Yes
+H0261,General Health,5.05,2.54,9.41,Yes,1,2022-2023,No
+H0262,Community Health System,3.38,4.84,7.4,Yes,0,2022-2023,Yes
+H0263,General Care Center,1.52,8.39,4.08,No,0,2021-2022,Yes
+H0264,Metro Care Center,7.47,7.91,5.03,Yes,3,2022-2023,Same
+H0265,Mercy Clinic,6.75,6.46,6.43,No,1,2022-2023,Same
+H0266,St. Healthcare,7.24,8.51,7.97,No,3,2022-2023,No
+H0267,Memorial Health System,5.95,9.73,7.4,Yes,0,2022-2023,Same
+H0268,Regional Medical Center,3.8,2.6,4.21,No,0,2022-2023,Same
+H0269,Valley Memorial Hospital,4.08,1.34,1.66,Yes,2,2022-2023,Same
+H0270,Valley Health System,5.16,5.67,2.88,No,0,2022-2023,No
+H0271,Regional Hospital,5.3,2.11,3.8,Yes,1,2021-2022,Same
+H0272,Sacred Heart Healthcare,4.96,2.62,8.95,Yes,1,2021-2022,Yes
+H0273,Providence Healthcare,5.56,6.94,6.79,Yes,0,2021-2022,Same
+H0274,Providence Health,5.25,2.23,5.74,No,3,2022-2023,No
+H0275,Mercy Healthcare,5.56,2.35,8.6,Yes,3,2021-2022,No
+H0276,Valley Care Center,1.64,1.9,7.73,Yes,2,2022-2023,No
+H0277,Holy Cross Clinic,9.01,5.45,4.98,Yes,1,2021-2022,No
+H0278,University Healthcare,8.07,9.56,6.12,Yes,0,2022-2023,No
+H0279,Mercy Clinic,8.64,6.31,9.27,Yes,0,2022-2023,Same
+H0280,St. Health System,3.43,2.88,8.92,Yes,0,2021-2022,Yes
+H0281,Sacred Heart Hospital,3.0,3.12,3.15,Yes,0,2022-2023,Yes
+H0282,Memorial Memorial Hospital,1.74,3.65,9.48,No,1,2021-2022,No
+H0283,Holy Cross Health System,2.06,1.61,3.98,Yes,3,2021-2022,Yes
+H0284,Providence Medical Center,4.4,8.49,2.13,No,3,2022-2023,Same
+H0285,Sacred Heart Health System,4.23,8.88,6.87,Yes,2,2022-2023,No
+H0286,County Health,9.15,7.84,5.12,Yes,2,2021-2022,Same
+H0287,Sacred Heart Hospital,8.23,7.5,5.26,No,3,2021-2022,Yes
+H0288,General Health System,6.23,3.69,6.47,No,0,2022-2023,Yes
+H0289,Valley Health System,6.16,6.31,3.65,No,2,2022-2023,No
+H0290,County Hospital,7.28,3.55,1.7,No,3,2022-2023,Same
+H0291,Mercy Memorial Hospital,4.89,4.39,1.29,Yes,3,2021-2022,Yes
+H0292,Mercy Clinic,6.93,3.1,5.63,No,0,2022-2023,No
+H0293,General Health,7.84,9.02,2.4,Yes,3,2022-2023,Yes
+H0294,General Memorial Hospital,9.05,9.72,7.07,Yes,3,2022-2023,Yes
+H0295,Mercy Hospital,8.99,2.67,6.24,No,3,2022-2023,No
+H0296,Community Health System,3.91,7.15,4.95,Yes,1,2022-2023,Same
+H0297,Holy Cross Health System,2.67,3.02,2.28,No,2,2021-2022,Yes
+H0298,Holy Cross Health System,5.77,4.75,7.61,Yes,3,2022-2023,Yes
+H0299,Sacred Heart Clinic,1.66,5.79,2.94,Yes,0,2022-2023,Same
+H0300,Metro Healthcare,1.79,5.15,3.15,No,2,2022-2023,Yes
+H0301,Holy Cross Health,8.1,3.04,8.94,No,2,2021-2022,Same
+H0302,Sacred Heart Hospital,8.6,5.64,3.82,Yes,0,2022-2023,No
+H0303,University Memorial Hospital,7.18,5.02,9.26,No,1,2022-2023,Yes
+H0304,Sacred Heart Hospital,9.8,9.08,4.89,Yes,1,2022-2023,Same
+H0305,Community Medical Center,5.69,6.74,6.67,No,0,2022-2023,Yes
+H0306,Memorial Health,1.33,3.77,4.36,Yes,2,2022-2023,No
+H0307,Community Care Center,6.78,6.88,3.9,No,0,2022-2023,Yes
+H0308,County Medical Center,9.28,9.35,7.83,Yes,0,2021-2022,Same
+H0309,County Memorial Hospital,3.26,3.72,7.56,No,2,2022-2023,No
+H0310,Valley Health,1.05,6.34,1.53,Yes,3,2021-2022,No
+H0311,Sacred Heart Hospital,1.38,2.9,7.63,Yes,0,2022-2023,Yes
+H0312,Sacred Heart Health,4.04,6.63,8.04,No,2,2021-2022,Same
+H0313,County Health System,6.6,2.19,8.5,No,2,2022-2023,No
+H0314,County Clinic,4.42,2.03,8.78,No,1,2022-2023,Yes
+H0315,Holy Cross Medical Center,8.07,1.1,6.73,No,0,2021-2022,Yes
+H0316,Sacred Heart Clinic,9.88,7.03,4.51,No,3,2021-2022,No
+H0317,Regional Clinic,3.59,7.51,4.26,Yes,1,2022-2023,Yes
+H0318,Memorial Health System,4.57,4.99,6.18,Yes,1,2021-2022,No
+H0319,St. Healthcare,6.6,4.63,1.23,Yes,3,2022-2023,No
+H0320,County Healthcare,1.9,6.07,5.04,Yes,1,2021-2022,Yes
+H0321,University Medical Center,9.53,5.62,5.15,Yes,1,2022-2023,No
+H0322,Providence Health System,4.35,7.19,1.45,Yes,3,2022-2023,No
+H0323,St. Clinic,7.89,7.44,4.0,No,3,2022-2023,Same
+H0324,Holy Cross Health,3.18,8.24,5.41,Yes,0,2022-2023,Same
+H0325,St. Medical Center,5.83,9.7,1.46,No,1,2021-2022,Same
+H0326,University Hospital,5.29,7.05,9.82,No,2,2022-2023,Yes
+H0327,Regional Hospital,9.1,1.53,9.54,Yes,0,2022-2023,Yes
+H0328,General Medical Center,1.53,6.17,9.55,Yes,3,2021-2022,No
+H0329,St. Health,4.06,2.12,5.65,No,1,2022-2023,No
+H0330,University Hospital,6.8,8.66,3.16,No,1,2022-2023,Yes
+H0331,St. Care Center,5.02,7.77,7.19,Yes,1,2021-2022,Same
+H0332,Sacred Heart Medical Center,9.28,8.03,9.58,No,2,2022-2023,Same
+H0333,Regional Hospital,4.96,1.31,4.21,No,2,2022-2023,No
+H0334,Sacred Heart Memorial Hospital,5.45,7.75,4.62,No,3,2022-2023,Yes
+H0335,General Clinic,1.63,4.54,9.14,No,0,2022-2023,Yes
+H0336,Community Healthcare,7.87,3.93,1.6,Yes,0,2021-2022,Yes
+H0337,Metro Health,3.96,2.61,5.88,Yes,3,2021-2022,Yes
+H0338,Valley Memorial Hospital,8.55,6.39,9.68,Yes,3,2021-2022,Same
+H0339,County Health System,8.09,8.41,6.02,Yes,2,2022-2023,Same
+H0340,Community Hospital,4.02,5.0,7.45,No,1,2022-2023,Yes
+H0341,Regional Health,3.58,7.69,8.84,No,3,2021-2022,No
+H0342,General Hospital,7.11,4.41,3.2,Yes,0,2021-2022,Same
+H0343,Valley Memorial Hospital,2.75,3.98,1.43,Yes,3,2021-2022,Same
+H0344,Sacred Heart Clinic,4.71,4.63,4.07,Yes,0,2022-2023,Same
+H0345,Community Health System,9.23,7.25,5.19,No,2,2022-2023,Same
+H0346,Mercy Healthcare,8.69,4.98,1.98,No,3,2022-2023,Same
+H0347,Regional Health,5.34,4.41,2.7,No,0,2022-2023,Same
+H0348,General Memorial Hospital,7.01,7.31,2.86,Yes,0,2022-2023,No
+H0349,Mercy Care Center,3.5,9.78,9.16,No,3,2021-2022,Yes
+H0350,Sacred Heart Hospital,5.64,7.77,3.33,No,0,2021-2022,Same
+H0351,Sacred Heart Medical Center,4.55,1.13,2.95,Yes,1,2022-2023,No
+H0352,University Care Center,7.61,1.24,6.74,No,0,2022-2023,Same
+H0353,Metro Medical Center,5.33,6.62,4.25,No,2,2021-2022,No
+H0354,Valley Hospital,5.04,2.99,2.14,Yes,0,2021-2022,Same
+H0355,Memorial Health System,1.75,2.3,5.02,No,2,2022-2023,Same
+H0356,Sacred Heart Hospital,2.18,8.85,3.84,Yes,3,2022-2023,Yes
+H0357,General Medical Center,8.19,3.41,8.26,No,3,2021-2022,Yes
+H0358,St. Healthcare,8.48,2.17,4.95,Yes,1,2021-2022,Same
+H0359,Memorial Care Center,4.72,6.82,1.53,No,0,2022-2023,Same
+H0360,General Medical Center,7.87,5.29,6.63,No,3,2021-2022,Yes
+H0361,Sacred Heart Health,9.79,1.0,6.02,No,2,2022-2023,No
+H0362,Regional Clinic,8.72,7.02,4.3,Yes,1,2021-2022,Same
+H0363,Holy Cross Health,3.09,3.17,5.39,Yes,2,2021-2022,Same
+H0364,Sacred Heart Memorial Hospital,5.12,8.28,2.58,Yes,3,2022-2023,Same
+H0365,Valley Clinic,8.57,5.48,5.14,Yes,2,2022-2023,Yes
+H0366,Holy Cross Memorial Hospital,9.11,4.98,4.82,Yes,1,2022-2023,No
+H0367,Mercy Medical Center,7.46,9.07,7.28,No,0,2022-2023,No
+H0368,St. Clinic,1.87,4.5,7.1,Yes,1,2021-2022,No
+H0369,University Health,2.9,9.29,9.83,Yes,0,2022-2023,No
+H0370,Providence Care Center,1.02,7.2,3.56,No,3,2022-2023,No
+H0371,Community Memorial Hospital,4.9,4.05,2.93,No,3,2021-2022,Yes
+H0372,Providence Healthcare,5.4,2.59,6.78,No,1,2022-2023,Yes
+H0373,Providence Care Center,4.82,3.56,1.86,Yes,3,2021-2022,No
+H0374,St. Hospital,3.06,7.54,9.33,No,0,2022-2023,No
+H0375,Memorial Health,2.55,3.69,1.95,Yes,1,2022-2023,No
+H0376,Sacred Heart Healthcare,4.57,3.99,1.97,No,0,2022-2023,Same
+H0377,Sacred Heart Memorial Hospital,5.75,5.16,4.27,Yes,1,2021-2022,Yes
+H0378,St. Medical Center,2.94,1.17,8.7,Yes,0,2022-2023,Same
+H0379,Regional Care Center,7.49,4.91,3.95,No,2,2022-2023,Same
+H0380,Sacred Heart Healthcare,3.85,9.11,1.84,No,1,2022-2023,No
+H0381,St. Care Center,6.37,2.09,6.43,No,1,2021-2022,No
+H0382,Memorial Care Center,3.64,5.25,6.23,No,2,2022-2023,Same
+H0383,St. Hospital,6.68,1.08,3.46,Yes,3,2022-2023,Same
+H0384,St. Healthcare,7.85,8.11,4.93,Yes,0,2021-2022,Yes
+H0385,Regional Health,8.58,2.03,4.65,No,0,2021-2022,Same
+H0386,General Care Center,9.3,8.96,3.28,Yes,2,2021-2022,Same
+H0387,Mercy Memorial Hospital,5.34,5.08,9.19,No,0,2021-2022,Same
+H0388,University Care Center,7.71,3.94,6.3,Yes,3,2021-2022,Yes
+H0389,Mercy Healthcare,7.92,9.57,7.93,Yes,0,2021-2022,No
+H0390,Valley Health System,9.14,3.13,1.2,Yes,0,2022-2023,Yes
+H0391,Regional Health,9.61,8.07,8.42,No,0,2022-2023,No
+H0392,Sacred Heart Healthcare,9.48,5.36,5.65,Yes,3,2022-2023,Same
+H0393,Sacred Heart Clinic,9.18,8.13,6.57,Yes,0,2022-2023,Yes
+H0394,Memorial Care Center,6.74,8.5,3.99,Yes,0,2021-2022,Yes
+H0395,County Clinic,5.94,1.15,8.52,Yes,0,2022-2023,Yes
+H0396,County Care Center,9.31,6.45,7.01,No,3,2021-2022,No
+H0397,County Care Center,7.46,3.99,5.95,No,2,2022-2023,No
+H0398,Holy Cross Health,9.09,2.69,7.29,No,3,2022-2023,No
+H0399,Providence Health System,6.59,5.22,2.47,Yes,1,2022-2023,No
+H0400,St. Care Center,6.27,3.75,3.21,Yes,3,2022-2023,Same
+H0401,General Clinic,3.17,2.43,2.32,No,2,2021-2022,Yes
+H0402,County Memorial Hospital,9.99,5.98,6.05,Yes,3,2021-2022,Yes
+H0403,Holy Cross Clinic,7.3,7.51,8.53,No,0,2021-2022,Same
+H0404,Memorial Health System,3.13,2.7,9.84,Yes,3,2021-2022,Yes
+H0405,Metro Medical Center,4.22,4.64,2.42,Yes,3,2022-2023,Yes
+H0406,St. Care Center,2.73,3.12,2.35,Yes,0,2021-2022,Yes
+H0407,General Health System,3.94,1.71,8.12,Yes,0,2021-2022,Yes
+H0408,Metro Care Center,2.21,7.01,5.15,No,2,2022-2023,Yes
+H0409,General Medical Center,9.13,7.44,6.1,No,1,2021-2022,No
+H0410,Metro Hospital,1.25,7.27,3.96,Yes,0,2021-2022,No
+H0411,Metro Memorial Hospital,7.95,9.09,9.27,No,0,2022-2023,Yes
+H0412,Community Healthcare,5.34,6.19,6.45,No,1,2022-2023,No
+H0413,University Medical Center,8.66,5.51,6.31,Yes,3,2022-2023,Same
+H0414,Metro Memorial Hospital,1.31,2.93,9.91,Yes,2,2021-2022,No
+H0415,Sacred Heart Health,3.65,9.08,7.91,Yes,0,2021-2022,Same
+H0416,Mercy Care Center,6.1,9.35,6.02,No,0,2021-2022,No
+H0417,University Memorial Hospital,8.77,5.5,5.87,Yes,3,2021-2022,Same
+H0418,General Health System,9.23,4.23,2.75,Yes,3,2022-2023,No
+H0419,Memorial Clinic,5.82,4.7,6.03,Yes,1,2022-2023,No
+H0420,Mercy Memorial Hospital,2.43,1.18,9.43,No,3,2022-2023,No
+H0421,Mercy Hospital,4.9,7.74,4.36,No,3,2022-2023,No
+H0422,Mercy Hospital,9.73,3.58,7.25,Yes,2,2021-2022,Same
+H0423,Regional Healthcare,8.07,3.48,4.62,Yes,1,2022-2023,No
+H0424,St. Memorial Hospital,4.18,7.02,1.5,Yes,0,2021-2022,No
+H0425,County Healthcare,5.75,6.96,3.72,No,2,2021-2022,Yes
+H0426,Mercy Hospital,7.41,9.31,5.46,Yes,0,2021-2022,Same
+H0427,General Medical Center,4.73,2.0,8.38,No,1,2021-2022,Same
+H0428,Community Hospital,3.47,6.67,3.71,Yes,3,2022-2023,Same
+H0429,Sacred Heart Hospital,3.29,9.45,6.46,Yes,0,2022-2023,No
+H0430,Valley Hospital,8.14,9.71,7.93,Yes,3,2021-2022,No
+H0431,County Medical Center,5.58,3.76,7.53,Yes,3,2022-2023,Same
+H0432,General Care Center,6.06,4.36,5.94,Yes,2,2021-2022,Same
+H0433,County Healthcare,3.57,1.11,6.99,Yes,0,2022-2023,Same
+H0434,General Hospital,6.87,3.44,5.96,Yes,1,2022-2023,Same
+H0435,County Health System,2.61,5.74,3.95,Yes,1,2021-2022,No
+H0436,County Clinic,3.85,4.53,8.79,Yes,2,2022-2023,Yes
+H0437,County Memorial Hospital,4.02,4.34,7.79,Yes,2,2021-2022,No
+H0438,University Health System,2.6,7.79,1.46,No,0,2022-2023,Same
+H0439,University Healthcare,9.95,9.6,4.39,No,2,2021-2022,Same
+H0440,General Medical Center,1.63,2.72,9.63,Yes,0,2022-2023,Yes
+H0441,County Hospital,8.68,5.37,8.67,No,3,2021-2022,Same
+H0442,Mercy Medical Center,5.34,8.09,7.64,No,2,2022-2023,Same
+H0443,Holy Cross Health System,1.94,5.41,9.75,Yes,1,2021-2022,No
+H0444,Regional Medical Center,6.15,4.4,1.3,No,1,2022-2023,Yes
+H0445,Regional Health System,9.51,7.25,1.8,No,2,2022-2023,Yes
+H0446,Holy Cross Hospital,5.74,9.11,9.84,Yes,3,2022-2023,Yes
+H0447,University Hospital,9.55,1.86,4.66,No,2,2021-2022,Same
+H0448,Sacred Heart Health System,6.29,2.07,1.21,No,3,2022-2023,Yes
+H0449,Community Health System,3.35,1.2,2.24,Yes,2,2021-2022,Yes
+H0450,Holy Cross Healthcare,3.43,2.35,6.57,No,1,2021-2022,Same
+H0451,Memorial Medical Center,9.28,9.12,1.82,Yes,3,2022-2023,Same
+H0452,Mercy Healthcare,4.84,1.66,9.96,No,2,2022-2023,No
+H0453,University Medical Center,9.97,3.95,9.72,Yes,1,2021-2022,Same
+H0454,Memorial Health,5.45,1.2,2.84,No,1,2021-2022,No
+H0455,Mercy Hospital,7.87,4.28,2.64,No,3,2021-2022,Yes
+H0456,St. Care Center,7.81,4.8,3.73,No,1,2021-2022,No
+H0457,Mercy Memorial Hospital,6.73,4.28,6.57,No,1,2021-2022,Same
+H0458,Memorial Healthcare,9.1,9.26,4.31,Yes,2,2022-2023,Yes
+H0459,Providence Care Center,9.82,1.23,4.17,Yes,2,2021-2022,Same
+H0460,Metro Memorial Hospital,5.26,3.16,9.06,No,2,2022-2023,No
+H0461,Mercy Medical Center,6.85,7.95,9.25,No,0,2022-2023,No
+H0462,St. Memorial Hospital,7.94,4.96,1.38,Yes,2,2021-2022,Yes
+H0463,St. Health System,8.49,5.51,7.65,Yes,2,2022-2023,Yes
+H0464,Mercy Memorial Hospital,5.16,8.5,9.63,No,0,2021-2022,Same
+H0465,Holy Cross Care Center,1.11,7.22,5.6,Yes,3,2022-2023,Yes
+H0466,Community Hospital,8.35,3.77,4.55,No,2,2022-2023,Yes
+H0467,St. Hospital,9.97,8.68,8.3,Yes,1,2022-2023,Yes
+H0468,University Health System,7.62,6.44,6.45,No,0,2021-2022,No
+H0469,St. Memorial Hospital,1.95,1.56,7.55,Yes,3,2022-2023,Same
+H0470,General Memorial Hospital,6.26,5.31,7.87,Yes,1,2022-2023,Same
+H0471,Providence Memorial Hospital,2.27,4.76,4.25,Yes,3,2022-2023,Same
+H0472,County Clinic,6.14,4.25,4.76,No,1,2022-2023,Same
+H0473,Valley Clinic,3.59,7.48,4.43,No,3,2022-2023,Same
+H0474,Community Health System,3.13,7.42,6.99,No,2,2021-2022,No
+H0475,Valley Memorial Hospital,7.4,2.52,8.72,Yes,2,2022-2023,Same
+H0476,Community Health,8.49,3.96,9.17,No,0,2022-2023,No
+H0477,Sacred Heart Care Center,8.54,8.45,4.11,No,2,2021-2022,Same
+H0478,St. Health,5.69,3.85,8.12,Yes,1,2022-2023,Yes
+H0479,Sacred Heart Health,5.21,6.94,3.7,Yes,2,2021-2022,Yes
+H0480,Sacred Heart Hospital,9.83,2.54,3.0,Yes,1,2022-2023,Yes
+H0481,Memorial Health System,9.1,8.7,8.34,No,2,2022-2023,Yes
+H0482,Regional Clinic,5.63,1.21,3.73,Yes,0,2022-2023,No
+H0483,Sacred Heart Health,2.16,5.43,4.61,Yes,2,2021-2022,No
+H0484,Sacred Heart Medical Center,9.6,9.84,4.53,Yes,3,2021-2022,Yes
+H0485,General Clinic,3.6,3.73,6.71,Yes,3,2022-2023,Yes
+H0486,Mercy Medical Center,2.66,6.91,4.09,Yes,0,2022-2023,Yes
+H0487,Valley Care Center,9.18,9.58,5.68,Yes,2,2021-2022,No
+H0488,University Memorial Hospital,1.17,6.28,9.74,No,1,2021-2022,Yes
+H0489,Holy Cross Medical Center,9.08,7.24,9.71,Yes,3,2021-2022,Yes
+H0490,Metro Medical Center,7.64,6.31,5.82,Yes,3,2022-2023,Yes
+H0491,General Clinic,9.12,4.4,6.09,Yes,1,2021-2022,Same
+H0492,Providence Hospital,3.71,9.68,2.59,Yes,3,2021-2022,Same
+H0493,General Clinic,8.48,9.92,2.16,No,2,2022-2023,Same
+H0494,Valley Health,1.66,6.11,9.96,Yes,0,2022-2023,No
+H0495,Sacred Heart Health,6.21,3.04,7.01,Yes,2,2021-2022,Same
+H0496,Memorial Clinic,7.02,9.9,4.65,No,3,2021-2022,Same
+H0497,Memorial Clinic,4.97,6.03,5.36,Yes,0,2022-2023,Yes
+H0498,Valley Care Center,2.74,6.28,1.49,Yes,1,2022-2023,Yes
+H0499,Valley Care Center,3.8,3.12,8.25,Yes,3,2022-2023,Same
+H0500,Mercy Care Center,5.58,2.2,9.7,Yes,3,2022-2023,Same

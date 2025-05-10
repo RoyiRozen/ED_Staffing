@@ -1,0 +1,62 @@
+Summary for readmission_patient_experience.csv
+
+Shape: (500, 10)
+
+Column info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 10 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   provider_id               500 non-null    object 
+ 1   hospital_name             500 non-null    object 
+ 2   readmission_rate          500 non-null    float64
+ 3   national_readmission_avg  500 non-null    float64
+ 4   patient_experience_score  500 non-null    float64
+ 5   communication_score       500 non-null    float64
+ 6   cleanliness_score         500 non-null    float64
+ 7   recommend_hospital        500 non-null    float64
+ 8   survey_response_rate      500 non-null    float64
+ 9   survey_sample_size        500 non-null    int64  
+dtypes: float64(7), int64(1), object(2)
+memory usage: 39.2+ KB
+
+
+Missing values per column:
+provider_id                 0
+hospital_name               0
+readmission_rate            0
+national_readmission_avg    0
+patient_experience_score    0
+communication_score         0
+cleanliness_score           0
+recommend_hospital          0
+survey_response_rate        0
+survey_sample_size          0
+dtype: int64
+
+Sample rows:
+  provider_id              hospital_name  ...  survey_response_rate  survey_sample_size
+0       H0001  Holy Cross Medical Center  ...                  13.4                 358
+1       H0002          Providence Health  ...                  43.2                 327
+2       H0003         General Healthcare  ...                  36.1                 158
+3       H0004               Metro Health  ...                  36.7                 523
+4       H0005      Holy Cross Healthcare  ...                  54.9                 166
+
+[5 rows x 10 columns]
+
+Basic stats (numeric columns):
+       provider_id       hospital_name  ...  survey_response_rate  survey_sample_size
+count          500                 500  ...            500.000000          500.000000
+unique         500                 104  ...                   NaN                 NaN
+top          H0001  General Healthcare  ...                   NaN                 NaN
+freq             1                  10  ...                   NaN                 NaN
+mean           NaN                 NaN  ...             36.076600          550.566000
+std            NaN                 NaN  ...             14.906295          263.370077
+min            NaN                 NaN  ...             10.100000          100.000000
+25%            NaN                 NaN  ...             22.700000          321.500000
+50%            NaN                 NaN  ...             36.650000          562.000000
+75%            NaN                 NaN  ...             49.400000          773.000000
+max            NaN                 NaN  ...             60.000000          999.000000
+
+[11 rows x 10 columns]
