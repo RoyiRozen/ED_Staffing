@@ -2,6 +2,6 @@ dash
 dash-bootstrap-components
 plotly
 pandas
-numpy
+numpy 
 joblib
 scikit-learn 

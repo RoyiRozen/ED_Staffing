@@ -24,6 +24,125 @@ ROBOTO_FONT = "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&disp
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.FONT_AWESOME, UNBOUNDED_FONT, LATO_FONT, ROBOTO_FONT])
 app.title = "ShiftSmart: AI for Smarter Hospital Staffing"
 
+# --- Define Layout Builder Functions ---
+def build_main_dashboard_layout():
+    # This returns the existing main layout Div (controls + KPIs/recommendation)
+    # Need to get the original options etc. defined globally for controls
+    global day_map, hospital_type_options # Make sure necessary global vars are accessible
+    
+    return html.Div([ 
+            dbc.Row([
+                # Left Panel: Scenario Inputs & Controls
+                dbc.Col([
+                    html.H4("Scenario & Staffing Controls", className="mt-3 mb-3"),
+                html.Div([
+                    html.Div([html.I(className="fas fa-users me-2"), html.Span("Patients Arrived (Current Hour)")], className="mb-1"),
+                    # Remove Slider for Patients Arrived
+                    dbc.InputGroup([
+                        dbc.Button("-", id="minus-patients-arrived-button", n_clicks=0, color="danger", outline=True),
+                        dbc.Input(id="display-patients-arrived", value=10, type="number", disabled=True, style={'textAlign': 'center'}),
+                        dbc.Button("+", id="plus-patients-arrived-button", n_clicks=0, color="success", outline=True)
+                    ]),
+                    dcc.Input(id="main-patients-arrived", value=10, type="number", style={'display': 'none'}),
+                ], className="mb-3"),
+                html.Div([
+                    html.Div([html.I(className="fas fa-stethoscope me-2"), html.Span("Average Acuity Level (1-5)")], className="mb-1"),
+                     # Remove Slider for Average Acuity
+                    dbc.InputGroup([
+                        dbc.Button("-", id="minus-avg-acuity-button", n_clicks=0, color="danger", outline=True),
+                        dbc.Input(id="display-avg-acuity", value=3.5, type="number", disabled=True, style={'textAlign': 'center'}, step=0.1),
+                        dbc.Button("+", id="plus-avg-acuity-button", n_clicks=0, color="success", outline=True)
+                    ]),
+                    dcc.Input(id="main-avg-acuity", value=3.5, type="number", step=0.1, style={'display': 'none'}),
+                ], className="mb-3"),
+                html.Div([
+                    html.Div([html.I(className="fas fa-user-md me-2"), html.Span("Current Doctors on Shift")], className="mb-1"),
+                    # Remove Slider for Doctors
+                    dbc.InputGroup([
+                        dbc.Button("-", id="minus-doctors-on-shift-button", n_clicks=0, color="danger", outline=True),
+                        dbc.Input(id="display-doctors-on-shift", value=3, type="number", disabled=True, style={'textAlign': 'center'}),
+                        dbc.Button("+", id="plus-doctors-on-shift-button", n_clicks=0, color="success", outline=True)
+                    ]),
+                    dcc.Input(id="main-doctors-on-shift", value=3, type="number", min=1, style={'display': 'none'}),
+                ], className="mb-3"),
+                html.Div([
+                    html.Div([html.I(className="fas fa-user-nurse me-2"), html.Span("Current Nurses on Shift")], className="mb-1"),
+                    # Remove Slider for Nurses
+                    dbc.InputGroup([
+                        dbc.Button("-", id="minus-nurses-on-shift-button", n_clicks=0, color="danger", outline=True),
+                        dbc.Input(id="display-nurses-on-shift", value=6, type="number", disabled=True, style={'textAlign': 'center'}),
+                        dbc.Button("+", id="plus-nurses-on-shift-button", n_clicks=0, color="success", outline=True)
+                    ]),
+                    dcc.Input(id="main-nurses-on-shift", value=6, type="number", min=1, style={'display': 'none'}),
+                ], className="mb-3"),
+                    dbc.Label("Day of Week:"),
+                dbc.Select(
+                        id='main-day-of-week-selector',
+                        options=[{'label': name, 'value': num} for num, name in day_map.items()],
+                    value='0', 
+                        className="mb-3"
+                    ),
+                    dbc.Label("Hour of Day (0-23):"),
+                    dcc.Slider(id='main-hour-of-day-slider', min=0, max=23, step=1, marks={i: str(i) for i in range(0, 24, 3)}, value=10, tooltip={"placement": "bottom", "always_visible": True}, className="mb-4"),
+                dbc.Button('Get Staffing Recommendation', id='main-recommend-staffing-button', 
+                           style={'backgroundColor': '#A3E4D7', 'color': '#212529', 'borderColor': '#A3E4D7'},
+                           className="w-100 mt-3 mb-0 rounded-pill shadow-sm")
+            ], md=3, style={'backgroundColor': '#f8f9fa', 'padding': '20px', 'height': 'calc(100vh)', 'overflowY': 'auto'}),
+            
+                dbc.Col([
+                    html.H4("Live KPI Overview", className="mt-3 mb-3 text-center"),
+                dbc.Row(id='main-kpi-overview-cards', className="mb-3 justify-content-center"),
+                    html.Hr(),
+                html.Div(id='main-scenario-recommendation-output', className="mt-3 border p-3 shadow-sm", style={'minHeight': '150px'})
+            ], md=9, style={'padding': '20px', 'height': 'calc(100vh - 110px)', 'overflowY': 'auto'}) # Adjusted height to match left panel - needs verification
+        ], className="g-0")
+    ])
+
+def build_hospital_data_layout():
+    # Access global config for options
+    global PRED_KPI_MAP_CONFIG 
+    kpi_options = [{'label': config['name'], 'value': kpi_key} 
+                   for kpi_key, config in PRED_KPI_MAP_CONFIG.items()] if PRED_KPI_MAP_CONFIG else []
+    default_kpi = 'ed_length_of_stay_min' if kpi_options else None
+
+    return html.Div([
+        html.H3('My Hospital Data', className='mt-3'),
+        dcc.Link([
+            html.I(className='fas fa-arrow-left me-1'), 'Return to Dashboard'
+        ], 
+        href='/', 
+        className='btn btn-outline-primary mt-3 mb-3 me-3', 
+        style={'textDecoration': 'none'}),
+        dbc.Button([html.I(className="fas fa-cog me-1"), 'Hospital Settings'], 
+                   id='hospital-settings-button', 
+                   className='mt-3 mb-3', 
+                   color='secondary'),
+        dcc.Store(id='hospital-settings-store'),
+        html.Hr(), # Add a separator
+        dbc.Label("Select KPI Trend:", html_for='hospital-kpi-selector'), # Added Label
+        dbc.Select( # Added Select dropdown
+            id='hospital-kpi-selector',
+            options=kpi_options,
+            value=default_kpi, 
+            className='mb-3'
+        ),
+        dbc.Row([
+            dbc.Col([ 
+                dcc.Graph(id='hospital-kpi-trend-graph', config={'displayModeBar': False})
+            ], md=12),
+        ]),
+        # Add section for new plots
+        html.Hr(),
+        dbc.Row([
+            dbc.Col([ 
+                dcc.Graph(id='hospital-kpi-boxplot', config={'displayModeBar': False})
+            ], md=8),
+            dbc.Col([ 
+                html.Div(id='hospital-kpi-stats', className='mt-2')
+            ], md=4)
+        ])
+    ], style={'padding': '20px'})
+
 # 2. Load the dataset and basic feature engineering
 DATA_FILE_PATH = 'Emergency_Department_Staffing_Optimization_Dataset_Augmented_V3.csv'
 df = pd.DataFrame() # Initialize df as an empty DataFrame
@@ -186,26 +305,26 @@ if not df.empty:
         initial_start_date = min_date_allowed
         initial_end_date = max_date_allowed
 
-    # Populate distribution_kpi_options if df is not empty
-    # These are typically the target variables we might want to see distributions of.
-    # Use keys from kpi_configs that are also present in df.columns and are numeric.
-    if 'kpi_configs' in globals() and isinstance(kpi_configs, dict):
-        potential_kpis_for_dist = list(kpi_configs.keys())
-        distribution_kpi_options = [
-            kpi for kpi in potential_kpis_for_dist 
-            if kpi in df.columns and pd.api.types.is_numeric_dtype(df[kpi])
-        ]
-        if not distribution_kpi_options and potential_kpis_for_dist:
-            print(f"Warning: None of the configured KPIs ({potential_kpis_for_dist}) found as suitable numeric columns in the DataFrame for distribution plots.")
-        elif not potential_kpis_for_dist: # This case implies kpi_configs was empty
-             print("Warning: kpi_configs is empty. Cannot populate distribution KPI options from it.")
-    else:
-        print("Warning: kpi_configs not found or not a dictionary. Distribution KPI options may be based on all numeric columns or be empty.")
-        # Fallback: if kpi_configs isn't available/useful, could populate with other numeric columns, e.g.
-        # distribution_kpi_options = [col for col in df.select_dtypes(include=np.number).columns if col not in ['hospital_id', 'day_of_week_num', 'hour_of_day', 'avg_acuity_level', 'patients_arrived']]
-else:
+    # Check if dataframe is empty FIRST
+    if not df.empty:
+        # Then check for kpi_configs
+        if 'kpi_configs' in globals() and isinstance(kpi_configs, dict):
+            potential_kpis_for_dist = list(kpi_configs.keys())
+            distribution_kpi_options = [
+                kpi for kpi in potential_kpis_for_dist
+                if kpi in df.columns and pd.api.types.is_numeric_dtype(df[kpi])
+            ]
+            if not distribution_kpi_options and potential_kpis_for_dist:
+                print(f"Warning: None of the configured KPIs ({potential_kpis_for_dist}) found as suitable numeric columns in the DataFrame for distribution plots.")
+            elif not potential_kpis_for_dist: # This case implies kpi_configs was empty
+                print("Warning: kpi_configs is empty. Cannot populate distribution KPI options from it.")
+        else: # Corresponds to 'if kpi_configs in globals...'
+            print("Warning: kpi_configs not found or not a dictionary. Distribution KPI options may be based on all numeric columns or be empty.")
+            # Fallback example (remains commented out)
+            # distribution_kpi_options = [col for col in df.select_dtypes(include=np.number).columns if col not in ['hospital_id', 'day_of_week_num', 'hour_of_day', 'avg_acuity_level', 'patients_arrived']]
+    else: # Corresponds to 'if not df.empty:'
         print("DataFrame is empty. Filters will have default/empty options, and distribution KPI selector will be empty.")
-    # distribution_kpi_options remains [] as initialized above
+        # distribution_kpi_options remains [] as initialized above
 
 # --- KPI list for Distribution Analysis Selector ---
 # (The options are now defined above based on df.empty, kpi_configs and DataFrame columns)
@@ -356,115 +475,64 @@ def recommend_optimal_staffing(
 
 # 3. App Layout
 app.layout = dbc.Container([
+    dcc.Location(id='url', refresh=False), # Added URL Location
     # Header Row
     dbc.Row([
-        dbc.Col(html.Img(src=app.get_asset_url('shift-smart.png'), height="60px"),
+        dbc.Col(html.Img(src=app.get_asset_url('shift-smart.png'), height="90px"),
                 width="auto", className="ps-3 align-self-center"),
         dbc.Col(html.H2("ShiftSmart: AI for Smarter Hospital Staffing",
                         style={'color': '#34495E', 'fontFamily': 'Unbounded, sans-serif'}), 
                 className="pt-2 align-self-center"),
         dbc.Col([
             dbc.ButtonGroup([
-                dbc.Button([html.I(className="fas fa-hospital me-1"), "My Hospital"], id='my-hospital-button', color="light", className="me-2"),
-                dbc.Button([html.I(className="fas fa-info-circle me-1"), "About"], id='about-button', color="light", className="me-2"),
-                dbc.Button([html.I(className="fas fa-user-circle me-1"), "Profile"], id='user-profile-button', color="light"),
+                # Changed Button to Link for navigation
+                dcc.Link([
+                     html.I(className="fas fa-hospital me-1"), "My Hospital"
+                 ], 
+                 href='/hospital-data', 
+                 className="btn rounded-pill me-2 shadow-sm", # Applied btn styles
+                 style={'backgroundColor': '#A3E4D7', 'color': '#212529', 'borderColor': '#A3E4D7', 'textDecoration': 'none'}), # Added style and removed underline
+                dbc.Button([html.I(className="fas fa-info-circle me-1"), "About"], id='about-button', 
+                           style={'backgroundColor': '#A3E4D7', 'color': '#212529', 'borderColor': '#A3E4D7'}, 
+                           className="rounded-pill me-2 shadow-sm"),
+                dbc.Button([html.I(className="fas fa-user-circle me-1"), "Profile"], id='user-profile-button', 
+                           style={'backgroundColor': '#A3E4D7', 'color': '#212529', 'borderColor': '#A3E4D7'}, 
+                           className="rounded-pill shadow-sm"),
             ])
         ], width="auto", className="ms-auto align-self-center")
-    ], align="center", className="mb-4 mt-2 p-2", style={'backgroundColor': '#EAECEE', 'minHeight': '90px'}),
+    ], align="center", className="mb-4 py-3", style={'backgroundColor': '#EAECEE', 'minHeight': '110px'}),
     
-    # Main Content Area (formerly Operations Dashboard tab content)
-    html.Div([ 
-        dbc.Row([
-            # Left Panel: Scenario Inputs & Controls
-            dbc.Col([
-                html.H4("Scenario & Staffing Controls", className="mt-3 mb-3"),
-                html.Div([
-                    html.Div([html.I(className="fas fa-users me-2"), html.Span("Patients Arrived (Current Hour)")], className="mb-1"),
-                    dbc.InputGroup([
-                        dbc.Button("-", id="minus-patients-arrived-button", n_clicks=0, color="danger", outline=True),
-                        dbc.Input(id="display-patients-arrived", value=10, type="number", disabled=True, style={'textAlign': 'center'}),
-                        dbc.Button("+", id="plus-patients-arrived-button", n_clicks=0, color="success", outline=True)
-                    ]),
-                    dcc.Input(id="main-patients-arrived", value=10, type="number", style={'display': 'none'}),
-                ], className="mb-3"),
-                html.Div([
-                    html.Div([html.I(className="fas fa-stethoscope me-2"), html.Span("Average Acuity Level (1-5)")], className="mb-1"),
-                    dbc.InputGroup([
-                        dbc.Button("-", id="minus-avg-acuity-button", n_clicks=0, color="danger", outline=True),
-                        dbc.Input(id="display-avg-acuity", value=3.5, type="number", disabled=True, style={'textAlign': 'center'}, step=0.1),
-                        dbc.Button("+", id="plus-avg-acuity-button", n_clicks=0, color="success", outline=True)
-                    ]),
-                    dcc.Input(id="main-avg-acuity", value=3.5, type="number", step=0.1, style={'display': 'none'}),
-                ], className="mb-3"),
-                html.Div([
-                    html.Div([html.I(className="fas fa-user-md me-2"), html.Span("Current Doctors on Shift")], className="mb-1"),
-                    dbc.InputGroup([
-                        dbc.Button("-", id="minus-doctors-on-shift-button", n_clicks=0, color="danger", outline=True),
-                        dbc.Input(id="display-doctors-on-shift", value=3, type="number", disabled=True, style={'textAlign': 'center'}),
-                        dbc.Button("+", id="plus-doctors-on-shift-button", n_clicks=0, color="success", outline=True)
-                    ]),
-                    dcc.Input(id="main-doctors-on-shift", value=3, type="number", min=1, style={'display': 'none'}),
-                ], className="mb-3"),
-                html.Div([
-                    html.Div([html.I(className="fas fa-user-nurse me-2"), html.Span("Current Nurses on Shift")], className="mb-1"),
-                    dbc.InputGroup([
-                        dbc.Button("-", id="minus-nurses-on-shift-button", n_clicks=0, color="danger", outline=True),
-                        dbc.Input(id="display-nurses-on-shift", value=6, type="number", disabled=True, style={'textAlign': 'center'}),
-                        dbc.Button("+", id="plus-nurses-on-shift-button", n_clicks=0, color="success", outline=True)
-                    ]),
-                    dcc.Input(id="main-nurses-on-shift", value=6, type="number", min=1, style={'display': 'none'}),
-                ], className="mb-3"),
-                dbc.Label("Day of Week:"),
-                dbc.Select(
-                    id='main-day-of-week-selector',
-                    options=[{'label': name, 'value': num} for num, name in day_map.items()],
-                    value='0', 
-                    className="mb-3"
-                ),
-                dbc.Label("Hour of Day (0-23):"),
-                dcc.Slider(id='main-hour-of-day-slider', min=0, max=23, step=1, marks={i: str(i) for i in range(0, 24, 3)}, value=10, tooltip={"placement": "bottom", "always_visible": True}, className="mb-4"),
-                dbc.Button('Get Staffing Recommendation', id='main-recommend-staffing-button', 
-                           style={'backgroundColor': '#A3E4D7', 'color': '#212529', 'borderColor': '#A3E4D7'},
-                           className="w-100 mb-3")
-            ], md=3, style={'backgroundColor': '#f8f9fa', 'padding': '20px', 'height': 'calc(100vh - 90px - 1rem)', 'overflowY': 'auto'}),
-            
-            dbc.Col([
-                html.H5("Live KPI Overview", className="mt-3 mb-3 text-center"),
-                dbc.Row(id='main-kpi-overview-cards', className="mb-3 justify-content-center"),
-                html.Hr(),
-                html.Div(id='main-scenario-recommendation-output', className="mt-3 border p-3", style={'minHeight': '150px'})
-            ], md=9, style={'padding': '20px', 'height': 'calc(100vh - 90px - 1rem)', 'overflowY': 'auto'})
-        ], className="g-0")
-    ]), 
+    # Main Content Area - Now rendered by callback
+    html.Div(id='page-content'), 
 
-    # "My Hospital" Modal
+    # "My Hospital" Modal (remains defined here, but toggled differently)
     dbc.Modal(
         [
             dbc.ModalHeader(dbc.ModalTitle("My Hospital Settings")),
             dbc.ModalBody([
-                dbc.Row([
-                    dbc.Col([
-                        html.H4("Hospital Configuration", className="mt-3 mb-3"),
-                        dbc.Label("Hospital Type:"),
+            dbc.Row([
+                dbc.Col([
+                    html.H4("Hospital Configuration", className="mt-3 mb-3"),
+                    dbc.Label("Hospital Type:"),
                         dbc.Select(
-                            id='my-hospital-type-dropdown',
-                            options=[{'label': ht, 'value': ht} for ht in hospital_type_options],
-                            value=hospital_type_options[0] if hospital_type_options else None,
-                            className="mb-3"
-                        ),
-                        dbc.Label("Total ICU Beds:"),
-                        dbc.Input(id='my-hospital-icu-beds-input', type='number', value=20, min=0, step=1, className="mb-3"),
-                    ], md=6),
-                    dbc.Col([
-                        html.H4("Operational Defaults", className="mt-3 mb-3"),
-                        dbc.Label("Default ICU Occupancy (%):"),
-                        dbc.Input(id='my-hospital-icu-occupancy-input', type='number', value=75, min=0, max=100, step=1, className="mb-3"),
-                        dbc.Label("Default Critical Equipment Down Time (%):"),
-                        dbc.Input(id='my-hospital-equip-down-input', type='number', value=2, min=0, max=100, step=1, className="mb-3"),
-                        html.Br(),
-                        dbc.Button("Manage Hospital Data (Future)", id='manage-hospital-data-button', disabled=True, color="secondary", className="mt-4")
-                    ], md=6)
-                ], className="p-3")
+                        id='my-hospital-type-dropdown',
+                        options=[{'label': ht, 'value': ht} for ht in hospital_type_options],
+                        value=hospital_type_options[0] if hospital_type_options else None,
+                        className="mb-3"
+                    ),
+                    dbc.Label("Total ICU Beds:"),
+                    dbc.Input(id='my-hospital-icu-beds-input', type='number', value=20, min=0, step=1, className="mb-3"),
+                ], md=6),
+                dbc.Col([
+                    html.H4("Operational Defaults", className="mt-3 mb-3"),
+                    dbc.Label("Default ICU Occupancy (%):"),
+                    dbc.Input(id='my-hospital-icu-occupancy-input', type='number', value=75, min=0, max=100, step=1, className="mb-3"),
+                    dbc.Label("Default Critical Equipment Down Time (%):"),
+                    dbc.Input(id='my-hospital-equip-down-input', type='number', value=2, min=0, max=100, step=1, className="mb-3"),
+                    html.Br(),
+                    dbc.Button("Manage Hospital Data (Future)", id='manage-hospital-data-button', disabled=True, color="secondary", className="mt-4")
+                ], md=6)
+            ], className="p-3")
             ]),
         ],
         id="my-hospital-modal",
@@ -574,27 +642,49 @@ def update_operations_dashboard(patients_arrived, avg_acuity, doctors_on_shift, 
         # pred_kpi_map is now globally defined as PRED_KPI_MAP_CONFIG
         
         for kpi_internal_name, config in PRED_KPI_MAP_CONFIG.items(): # Use global config
+            # Default value fetch
             value = predicted_kpi_values.get(kpi_internal_name)
             val_str = "Error"
             pie_value_for_graph = None
+
+            # --- Start Override/Calculation Section ---
+            if kpi_internal_name == 'patient_satisfaction_score':
+                # Override the model prediction with a hardcoded calculation
+                try:
+                    # Ensure inputs are not None before calculation
+                    docs = doctors_on_shift if doctors_on_shift is not None else 3
+                    nurses = nurses_on_shift if nurses_on_shift is not None else 6
+                    patients = patients_arrived if patients_arrived is not None else 10
+                    acuity = avg_acuity if avg_acuity is not None else 3.5
+                    
+                    calculated_satisfaction = 60 + (docs * 2) + nurses - (patients / 4) - (acuity * 5)
+                    value = max(0, min(calculated_satisfaction, 100)) # Clamp between 0 and 100
+                    print(f"Calculated patient_satisfaction_score: {value}") # Optional: for debugging
+                except Exception as calc_e:
+                    print(f"Error calculating patient satisfaction: {calc_e}")
+                    value = None # Set to None on calculation error
+            # --- End Override Section ---
 
             if value is not None:
                 f_str = config["format"]
                 current_value_display = value 
 
                 if kpi_internal_name == 'readmissions_within_30_days': 
-                    current_value_display *= 100
+                    current_value_display *= 100 # Scale probability to percentage
                     pie_value_for_graph = current_value_display 
                 elif kpi_internal_name == 'patient_satisfaction_score': 
-                    current_value_display = max(0, min((value / 50.0) * 100, 100))
-                    pie_value_for_graph = current_value_display
+                    # Value is now already calculated 0-100, no extra scaling needed.
+                    # OLD scaling: current_value_display = max(0, min((value / 50.0) * 100, 100))
+                    pie_value_for_graph = current_value_display # Use the calculated 0-100 value directly
                 elif 'pct' in kpi_internal_name: 
-                    pie_value_for_graph = value # Assumed to be 0-100
-                    current_value_display = value # No change needed for display if already %
-                else: # Time based
+                    # Assumed to be 0-100 from model (except readmissions handled above)
+                    pie_value_for_graph = value 
+                    current_value_display = value 
+                else: # Time based KPIs
                      pie_value_for_graph = value
                      current_value_display = value
                 
+                # Format the string for display in the box
                 val_str = f"{current_value_display:{f_str}}{config['unit']}"
             
             # The color passed to create_gauge_pie is the NEUTRAL color from config
@@ -613,7 +703,7 @@ def update_operations_dashboard(patients_arrived, avg_acuity, doctors_on_shift, 
                           ),
                           config={'displayModeBar': False}, style={'height': '120px'}),
                 html.P(val_str, className="text-center fw-bold mt-1", style={'fontSize': '1.1em'})
-            ], style={'border': '1px solid #ddd', 'borderRadius': '8px', 'padding': '15px', 'backgroundColor': '#fdfdfd'})
+            ], style={'border': '1px solid #ddd', 'borderRadius': '8px', 'padding': '15px', 'backgroundColor': '#fdfdfd'}, className="shadow-sm")
             kpi_boxes_display.append(dbc.Col(box_content, md=4, className="mb-3"))
 
         if not kpi_boxes_display: 
@@ -700,8 +790,8 @@ def create_gauge_pie(value, title, unit="", max_val=100, color='#34495E', lower_
 @app.callback(
     [Output('main-patients-arrived', 'value'),
      Output('display-patients-arrived', 'value')],
-    [Input('plus-patients-arrived-button', 'n_clicks'),
-     Input('minus-patients-arrived-button', 'n_clicks')],
+    Input('plus-patients-arrived-button', 'n_clicks'),
+    Input('minus-patients-arrived-button', 'n_clicks'),
     [State('main-patients-arrived', 'value')],
     prevent_initial_call=True
 )
@@ -718,8 +808,8 @@ def update_patients_arrived_stepper(plus_clicks, minus_clicks, current_value):
     elif button_id == 'minus-patients-arrived-button':
         new_value -= 1
     
-    if new_value < 0:
-        new_value = 0
+    # Apply constraints (min=0, max=50 from slider)
+    new_value = max(0, min(new_value, 50)) 
         
     return new_value, new_value
 
@@ -727,8 +817,8 @@ def update_patients_arrived_stepper(plus_clicks, minus_clicks, current_value):
 @app.callback(
     [Output('main-avg-acuity', 'value'),
      Output('display-avg-acuity', 'value')],
-    [Input('plus-avg-acuity-button', 'n_clicks'),
-     Input('minus-avg-acuity-button', 'n_clicks')],
+    Input('plus-avg-acuity-button', 'n_clicks'),
+    Input('minus-avg-acuity-button', 'n_clicks'),
     [State('main-avg-acuity', 'value')],
     prevent_initial_call=True
 )
@@ -746,20 +836,19 @@ def update_avg_acuity_stepper(plus_clicks, minus_clicks, current_value):
     elif button_id == 'minus-avg-acuity-button':
         new_value -= step
     
-    if new_value < 1:
-        new_value = 1.0
-    elif new_value > 5:
-        new_value = 5.0
+    # Apply constraints (min=1.0, max=5.0 from slider)
+    new_value = max(1.0, min(new_value, 5.0))
         
     # Ensure new_value is rounded to one decimal place due to potential float inaccuracies
-    return round(new_value, 1), round(new_value, 1)
+    new_value_rounded = round(new_value, 1)
+    return new_value_rounded, new_value_rounded
 
 # Doctors on Shift Stepper Callback
 @app.callback(
     [Output('main-doctors-on-shift', 'value'),
      Output('display-doctors-on-shift', 'value')],
-    [Input('plus-doctors-on-shift-button', 'n_clicks'),
-     Input('minus-doctors-on-shift-button', 'n_clicks')],
+    Input('plus-doctors-on-shift-button', 'n_clicks'),
+    Input('minus-doctors-on-shift-button', 'n_clicks'),
     [State('main-doctors-on-shift', 'value')],
     prevent_initial_call=True
 )
@@ -776,8 +865,8 @@ def update_doctors_on_shift_stepper(plus_clicks, minus_clicks, current_value):
     elif button_id == 'minus-doctors-on-shift-button':
         new_value -= 1
     
-    if new_value < 1:
-        new_value = 1
+    # Apply constraints (min=1, max=15 from slider)
+    new_value = max(1, min(new_value, 15))
         
     return new_value, new_value
 
@@ -785,8 +874,8 @@ def update_doctors_on_shift_stepper(plus_clicks, minus_clicks, current_value):
 @app.callback(
     [Output('main-nurses-on-shift', 'value'),
      Output('display-nurses-on-shift', 'value')],
-    [Input('plus-nurses-on-shift-button', 'n_clicks'),
-     Input('minus-nurses-on-shift-button', 'n_clicks')],
+    Input('plus-nurses-on-shift-button', 'n_clicks'),
+    Input('minus-nurses-on-shift-button', 'n_clicks'),
     [State('main-nurses-on-shift', 'value')],
     prevent_initial_call=True
 )
@@ -803,24 +892,12 @@ def update_nurses_on_shift_stepper(plus_clicks, minus_clicks, current_value):
     elif button_id == 'minus-nurses-on-shift-button':
         new_value -= 1
     
-    if new_value < 1:
-        new_value = 1
+    # Apply constraints (min=1, max=30 from slider)
+    new_value = max(1, min(new_value, 30))
         
     return new_value, new_value
 
 # --- Callbacks for Modals ---
-
-# Callback for "My Hospital" Modal
-@app.callback(
-    Output("my-hospital-modal", "is_open"),
-    [Input("my-hospital-button", "n_clicks")],
-    [State("my-hospital-modal", "is_open")],
-    prevent_initial_call=True,
-)
-def toggle_my_hospital_modal(n_clicks, is_open):
-    if n_clicks:
-        return not is_open
-    return is_open
 
 # Callback for "About" Modal
 @app.callback(
@@ -830,6 +907,18 @@ def toggle_my_hospital_modal(n_clicks, is_open):
     prevent_initial_call=True,
 )
 def toggle_about_modal(n_clicks, is_open):
+    if n_clicks:
+        return not is_open
+    return is_open
+
+# --- NEW Callback to toggle hospital settings modal from data page ---
+@app.callback(
+    Output("my-hospital-modal", "is_open", allow_duplicate=True), # Allow duplicate as it's now conditionally rendered
+    Input("hospital-settings-button", "n_clicks"),
+    State("my-hospital-modal", "is_open"),
+    prevent_initial_call=True
+)
+def toggle_hospital_settings_modal(n_clicks, is_open):
     if n_clicks:
         return not is_open
     return is_open
@@ -852,7 +941,13 @@ def toggle_about_modal(n_clicks, is_open):
 def update_recommendation(n_clicks, patients, acuity, doctors, nurses, hosp_type, 
                           icu_beds, icu_occ, equip_down_pct, hour, day_num):
     if n_clicks is None or n_clicks == 0: 
-        return dbc.Alert("Click 'Get Staffing Recommendation' to see suggestions.", color="info", className="mt-3")
+        # Use style for custom color, using a darker text color for better contrast on teal
+        alert_style = {
+            'backgroundColor': '#A3E4D7', 
+            'color': '#1A5276', # Darker blue text
+            'borderColor': '#A3E4D7'
+        }
+        return dbc.Alert("Click 'Get Staffing Recommendation' to see suggestions.", style=alert_style, className="mt-3 shadow-sm") # Added shadow like other box
         
     if not models_loaded_successfully:
          return dbc.Alert("Error: Models could not be loaded. Cannot perform recommendation.", color="danger", className="mt-3")
@@ -950,7 +1045,7 @@ def update_recommendation(n_clicks, patients, acuity, doctors, nurses, hosp_type
                 kpi_list_items.append(dbc.ListGroupItem(kpi_text, style=current_style))
             else:
                  kpi_list_items.append(dbc.ListGroupItem(f"{kpi_internal_name.replace('_', ' ').title()}: Error or N/A"))
-        
+
         output_elements.append(html.P("Predicted KPIs for Recommendation:", className="fw-bold mt-3"))
         output_elements.append(dbc.ListGroup(kpi_list_items, flush=True))
 
@@ -960,7 +1055,60 @@ def update_recommendation(n_clicks, patients, acuity, doctors, nurses, hosp_type
         print(f"Error during recommendation: {e}")
         return dbc.Alert(f"An error occurred generating the recommendation: {str(e)}", color="danger", className="mt-3")
 
+# --- NEW Page Routing Callback ---
+@app.callback(
+    Output('page-content', 'children'),
+    Input('url', 'pathname')
+)
+def display_page(pathname):
+    if pathname == '/hospital-data':
+        return build_hospital_data_layout()
+    else: # Default to main dashboard
+        return build_main_dashboard_layout()
+
+# --- NEW Callback for Hospital Data Page Graph ---
+@app.callback(
+    Output('hospital-kpi-trend-graph', 'figure'),
+    Input('url', 'pathname'), # Trigger when page loads
+    Input('hospital-kpi-selector', 'value'), # Added Input for KPI selector
+    State('my-hospital-type-dropdown', 'value') # Get currently selected type from modal
+)
+def update_hospital_data_page(pathname, selected_kpi_key, selected_hospital_type):
+    global df, PRED_KPI_MAP_CONFIG # Need access to globals
+    if pathname == '/hospital-data':
+        # Check if selection is valid
+        if selected_kpi_key is None or selected_kpi_key not in PRED_KPI_MAP_CONFIG:
+             return create_empty_figure('Please select a valid KPI.')
+        if df.empty or selected_hospital_type is None:
+            return create_empty_figure('Select hospital type in settings or load data.')
+        
+        try:
+            # Filter the main DataFrame for hospital type
+            filtered_df = df[df['hospital_type'] == selected_hospital_type].copy()
+            
+            if filtered_df.empty:
+                return create_empty_figure(f'No data found for {selected_hospital_type}')
+                
+            # Check if selected KPI column exists in the filtered data
+            if selected_kpi_key not in filtered_df.columns:
+                return create_empty_figure(f'KPI \'{PRED_KPI_MAP_CONFIG[selected_kpi_key]["name"]}\' not available in data for {selected_hospital_type}')
+
+            # Create the line chart using selected KPI
+            kpi_display_name = PRED_KPI_MAP_CONFIG[selected_kpi_key]["name"]
+            fig = px.line(filtered_df.sort_values('date'), 
+                          x='date', 
+                          y=selected_kpi_key, # Use selected KPI for y-axis
+                          title=f'{kpi_display_name} Trend for {selected_hospital_type}') # Dynamic title
+            fig.update_layout(margin=dict(l=20, r=20, t=40, b=20))
+            return fig
+        except Exception as e:
+            print(f"Error creating hospital graph: {e}")
+            return create_empty_figure('Error generating graph.')
+    
+    # Return an empty figure if not on the correct page
+    return create_empty_figure(None) 
+
 # 5. Run the Dash app
 if __name__ == '__main__':
     print(f"Dash app running on http://127.0.0.1:8050/")
-    app.run(debug=True) 
+    app.run(debug=False) 
